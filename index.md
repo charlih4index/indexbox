@@ -39,6 +39,38 @@ a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | 
 
 ᄀ | ᄂ | ᄃ | ᄅ | ᄆ | ᄇ | ᄉ | ᄋ | ᄌ | ᄎ | ᄏ | ᄐ | ᄑ | ᄒ |ᅡ |ᅢ |ᅣ |ᅤ |ᅥ |ᅦ |ᅧ |ᅨ | ᅩ | ᅪ | ᅫ | ᅬ | ᅭ | ᅮ | ᅯ	| ᅰ | ᅱ | ᅲ | ᅳ | ᅴ |ᅵ
 
+## Sub-Bookmarks
+
+Top5 | Top10 | Top50 | Top100
+
+AI : Agent | Model | Others
+
+Conference: Web | Events
+
+Car: EV | Tesla | Naviation | Waze | CyberTaxi | Waymo
+
+Deals: Slickdeals | 1Sale | Coupon
+
+Fast-food: Burger King | In&Out
+
+Instant: LINE | Facetimes | QQ
+
+Offers: Insurance | Health
+
+Radio: iHeart | TuneIn | myTuner
+
+Re-phrase: scribbr.com
+
+Serve: Uber | Lyft | Doordash | CyberTaxi | Waymo
+
+Social media: Facebook | Instangram | YouTube | TikTok | Telgram | Reddit | Spotify | X | QQ | Discord | LINE
+
+Surrounding: Nextdoor
+
+Tips: Tech | Yoga
+
+Translate: Google | immersive
+
 
 ## Featured Projects
 
