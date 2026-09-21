@@ -23,7 +23,7 @@ This website contains all the URL featured in the page(s).
 
 ---
 
-## Bookmarks
+## Bookmarks AKA. Indexer
 
 \- | +
 
@@ -33,6 +33,7 @@ A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | 
 
 a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
 
+ㄅ | ㄆ | ㄇ | ㄈ | ㄉ | ㄊ | ㄋ | ㄌ | ㄍ | ㄎ | ㄏ | ㄐ | ㄑ | ㄒ | ㄓ | ㄔ | ㄕ | ㄖ | ㄗ | ㄘ | ㄙ | ㄚ | ㄛ | ㄜ | ㄝ | ㄞ | ㄟ | ㄠ | ㄡ | ㄢ | ㄣ | ㄤ | ㄥ | ㄦ
 
 ## Featured Projects
 
