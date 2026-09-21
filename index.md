@@ -9,6 +9,15 @@ Welcome to the indexbox.com for _**IndexBox**_. This website contains all the UR
 
 ---
 
+- indexbox.com will be your index portal to everything.
+- index of indexing become self indexing.
+- draw of drawing become self drawing.
+- wiki of wikiing become self wikiing.
+- database of databases become 4D.
+
+<img width="476" height="114" alt="image" src="https://github.com/user-attachments/assets/9a55a951-6f7c-443d-ab05-4f6a01d6885c" />
+
+---
 ## Featured Projects
 
 ::::{grid} 2 2 4 4
