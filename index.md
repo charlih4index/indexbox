@@ -5,7 +5,7 @@ subtitle: Indexing everything for everyone
 
 ## Introduction
 
-Welcome to the indexbox.com for _**IndexBox**_. 
+Welcome to the indexbox.com for _**Indexing**_. 
 
 This website contains all the URL featured in the page(s).
 
