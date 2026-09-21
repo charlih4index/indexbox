@@ -1,9 +1,9 @@
 version: 1
 project:
-  title: Website Title
+  title: indexbox.com
   # authors:
   #   - name: Author Name
-  copyright: '2026'
+  copyright: '©2026 Indexbox. All rights reserved.'
   exclude:
     - _build
     - Thumbs.db
