@@ -22,6 +22,18 @@ This website contains all the URL featured in the page(s).
 <img width="476" height="114" alt="image" src="https://github.com/user-attachments/assets/9a55a951-6f7c-443d-ab05-4f6a01d6885c" />
 
 ---
+
+## Bookmarks
+
+'-' | +
+
+'-'9 | -8 | -7 | -6 | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+
+a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
+
+
 ## Featured Projects
 
 ::::{grid} 2 2 4 4
