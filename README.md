@@ -11,6 +11,6 @@ A website [indexbox.com](https://indexbox.com/) is making useful bookmarks for e
 
 ## Data
 
-1. By using **folder**
-2. By using **SQL**
+1. By using **folders**
+2. By using **SQL database**
 3. Other
