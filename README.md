@@ -14,3 +14,8 @@ A website [indexbox.com](https://indexbox.com/) is making useful bookmarks for e
 1. By using **folders**
 2. By using **SQL database**
 3. Other
+
+## Become comparable to
+
+- **Google**
+- **Facebook**
