@@ -37,6 +37,18 @@ project:
     - title: Examples
       children:
         - file: pages/part02/first-example.md
+    - title: English
+      children:
+        - file: english/english.md
+    - title: Chinese
+      children:
+        - file: chinese/chinese.md
+    - title: Japanese
+      children:
+        - file: japanese/japanese.md
+    - title: Korean
+      children:
+        - file: korean/korean.md    
     - file: blog.md
       children:
         - file: tags/myst-markdown.md
