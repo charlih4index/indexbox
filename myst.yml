@@ -40,6 +40,9 @@ project:
     - title: English
       children:
         - file: english/english.md
+        - file: english/A.md
+        - file: english/B.md
+        - file: english/C.md
     - title: Chinese
       children:
         - file: chinese/chinese.md
