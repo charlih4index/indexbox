@@ -33,3 +33,25 @@ Each chapter builds on the previous one. Start from the beginning and work your 
 ## Acknowledgements
 
 Thank you to everyone who contributed to this book.
+
+## Folder structure
+
+root\pages
+root\English
+    |
+    \Uppercase
+    |
+    \Lowercase
+root\Chinese
+    |
+    \Zhuyin AKA. BoPoMoFo
+    |
+    \Pinyin AKA. romanization
+root\Japanese
+    |
+    \Hiragana AKA. Japanese Alphabet
+    |
+    \Katakana AKA. Japanese Alphabet
+root\Korean
+    |
+    \Hangul AKA. Korean Alphabet
