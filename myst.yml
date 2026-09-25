@@ -43,6 +43,7 @@ project:
     - title: Chinese
       children:
         - file: chinese/chinese.md
+        - file: chinese/ㄅ.md
     - title: Japanese
       children:
         - file: japanese/japanese.md
