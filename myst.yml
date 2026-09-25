@@ -46,6 +46,10 @@ project:
     - title: Chinese
       children:
         - file: chinese/chinese.md
+        - file: chinese/ㄅ.md
+        - file: chinese/ㄆ.md
+        - file: chinese/ㄇ.md
+        - file: chinese/ㄈ.md
         - title: Zhuyin
           children:
             - file: chinese/ㄅ.md <!-- Sub-children or grand children -->
