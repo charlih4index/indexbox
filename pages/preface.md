@@ -34,8 +34,9 @@ Each chapter builds on the previous one. Start from the beginning and work your 
 
 Thank you to everyone who contributed to this book.
 
-## Folder structure
+## Folders structure
 
+```text
 root\pages
 root\English
     |
@@ -55,3 +56,4 @@ root\Japanese
 root\Korean
     |
     \Hangul AKA. Korean Alphabet
+```
