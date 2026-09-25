@@ -43,12 +43,12 @@ project:
     - title: Chinese
       children:
         - file: chinese/chinese.md
-        - title: Zhuyin
-          children
-            - file: chinese/ㄅ.md
-            - file: chinese/ㄆ.md
-            - file: chinese/ㄇ.md
-            - file: chinese/ㄈ.md
+        - title: Zhuyin <!-- Sub-children or grand children -->
+          children: <!-- Sub-children or grand children -->
+            - file: chinese/ㄅ.md <!-- Sub-children or grand children -->
+            - file: chinese/ㄆ.md <!-- Sub-children or grand children -->
+            - file: chinese/ㄇ.md <!-- Sub-children or grand children -->
+            - file: chinese/ㄈ.md <!-- Sub-children or grand children -->
     - title: Japanese
       children:
         - file: japanese/japanese.md
