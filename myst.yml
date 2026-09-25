@@ -50,7 +50,7 @@ project:
         - file: chinese/ㄆ.md
         - file: chinese/ㄇ.md
         - file: chinese/ㄈ.md
-        - title: Zhuyin
+        # - title: Zhuyin
           #children:
           #  - file: chinese/ㄅ.md <!-- Sub-children or grand children -->
           #  - file: chinese/ㄆ.md <!-- Sub-children or grand children -->
