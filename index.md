@@ -118,7 +118,7 @@ Translate: Google | immersive
 :link: https://github.com/charlih4index/indexbox/blog.md
 ![Blog](pages/images/blog.png)
 +++
-**Index Category**
+**Index Category AKA. Sub-Bookmark**
 :::
 
 :::{card}
