@@ -98,31 +98,31 @@ Translate: Google | immersive
 ::::{grid} 2 2 4 4
 
 :::{card}
-:link: https://mystmd.org
-![mystmd](pages/images/myst.webp)
+:link: https://github.com/charlih4index/indexdatabase
+![indexdatabase](pages/images/SQL.jpg)
 +++
-**MyST Markdown**
+**IndexDatabase**
 :::
 
 :::{card}
-:link: https://jupyterbook.org
-![jupyter-book](pages/images/jupyter-book.webp)
+:link: https://github.com/charlih4index/indexdatabase
+![indexdatabase](pages/images/SQL.jpg)
 +++
-**Jupyter Book**
+**Index Blog**
 :::
 
 :::{card}
-:link: https://jupyter.org
-![jupyter](pages/images/jupyter.webp)
+:link: https://github.com/charlih4index/indexbox/blog.md
+![Blog](pages/images/blog.jpg)
 +++
-**Jupyter**
+**Index Category**
 :::
 
 :::{card}
-:link: https://python.org
-![python](pages/images/python.webp)
+:link: https://github.com/charlih4index/indexbox/category.md
+![Index Category](pages/images/category.jpg)
 +++
-**Python**
+**Others**
 :::
 
 ::::
