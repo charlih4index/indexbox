@@ -113,14 +113,14 @@ Translate: Google | immersive
 
 :::{card}
 :link: https://github.com/charlih4index/indexbox/blog.md
-![Blog](pages/images/blog.jpg)
+![Blog](pages/images/blog.png)
 +++
 **Index Category**
 :::
 
 :::{card}
 :link: https://github.com/charlih4index/indexbox/category.md
-![Index Category](pages/images/category.jpg)
+![Index Category](pages/images/category.png)
 +++
 **Others**
 :::
