@@ -15,6 +15,7 @@ This website contains all the URL featured in the page(s).
 - index of indexing become self indexing.
 - draw of drawing become self drawing.
 - wiki of wikiing become self wikiing.
+- md of mding become self mding.
 - database of databases become 4D.
 
 <img width="1262" height="482" alt="image" src="https://github.com/user-attachments/assets/23d02fa1-6b36-41d3-b54c-d6c1c5c02a6c" />
@@ -29,7 +30,9 @@ This website contains all the URL featured in the page(s).
 
 [-9](numbers/minus-9.md) | [-8](numbers/minus-8.md) | [-7](numbers/minus-7.md) | [-6](numbers/minus-6.md) | [-5](numbers/minus-5.md) | [-4](numbers/minus-4.md) | [-3](numbers/minus-3.md) | [-2](numbers/minus-2.md) | [-1](numbers/minus-1.md) | [0](numbers/0.md) | [1](numbers/1.md) | [2](numbers/2.md) | [3](numbers/3.md) | [4](numbers/4.md) | [5](numbers/5.md) | [6](numbers/6.md) | [7](numbers/7.md) | [8](numbers/8.md) | [9](numbers/9.md)
 
-[A](english/A.md) | [B](english/B.md) | [C](english/C.md) | [D](english/D.md) | [E](english/E.md) | [F](english/F.md) | [G](english/G.md) | [H](english/H.md) | [I](english/I.md) | [J](english/J.md) | [K](english/K.md) | [L](english/L.md) | [M](english/M.md) | [N](english/N.md) | [O](english/O.md) | [P](english/P.md) | [Q](english/Q.md) | [R](english/R.md) | [S](english/S.md) | [T](english/T.md) | [U](english/U.md) | [V](english/V.md) | [W](english/W.md) | [X](english/X.md) | [Y](english/Y.md) | [Z](english/Z.md)
+| English uppercase letter |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 
+| [A](english/A.md) | [B](english/B.md) | [C](english/C.md) | [D](english/D.md) | [E](english/E.md) | [F](english/F.md) | [G](english/G.md) | [H](english/H.md) | [I](english/I.md) | [J](english/J.md) | [K](english/K.md) | [L](english/L.md) | [M](english/M.md) | [N](english/N.md) | [O](english/O.md) | [P](english/P.md) | [Q](english/Q.md) | [R](english/R.md) | [S](english/S.md) | [T](english/T.md) | [U](english/U.md) | [V](english/V.md) | [W](english/W.md) | [X](english/X.md) | [Y](english/Y.md) | [Z](english/Z.md) |
 
 [a](english/lowercase/a.md) | [b](english/lowercase/b.md) | [c](english/lowercase/c.md) | [d](english/lowercase/d.md) | [e](english/lowercase/e.md) | [f](english/lowercase/f.md) | [g](english/lowercase/g.md) | [h](english/lowercase/h.md) | [i](english/lowercase/i.md) | [j](english/lowercase/j.md) | [k](english/lowercase/k.md) | [l](english/lowercase/l.md) | [m](english/lowercase/m.md) | [n](english/lowercase/n.md) | [o](english/lowercase/o.md) | [p](english/lowercase/p.md) | [q](english/lowercase/q.md) | [r](english/lowercase/r.md) | [s](english/lowercase/s.md) | [t](english/lowercase/t.md) | [u](english/lowercase/u.md) | [v](english/lowercase/v.md) | [w](english/lowercase/w.md) | [x](english/lowercase/x.md) | [y](english/lowercase/y.md) | [z](english/lowercase/z.md)
 
