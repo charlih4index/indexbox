@@ -41,27 +41,1053 @@ project:
       children:
         - file: english/english.md
         - file: english/A.md
+          hidden: true
         - file: english/B.md
+          hidden: true
         - file: english/C.md
+          hidden: true
+        - file: english/D.md
+          hidden: true
+        - file: english/E.md
+          hidden: true
+        - file: english/F.md
+          hidden: true
+        - file: english/G.md
+          hidden: true
+        - file: english/H.md
+          hidden: true
+        - file: english/I.md
+          hidden: true
+        - file: english/J.md
+          hidden: true
+        - file: english/K.md
+          hidden: true
+        - file: english/L.md
+          hidden: true
+        - file: english/M.md
+          hidden: true
+        - file: english/N.md
+          hidden: true
+        - file: english/O.md
+          hidden: true
+        - file: english/P.md
+          hidden: true
+        - file: english/Q.md
+          hidden: true
+        - file: english/R.md
+          hidden: true
+        - file: english/S.md
+          hidden: true
+        - file: english/T.md
+          hidden: true
+        - file: english/U.md
+          hidden: true
+        - file: english/V.md
+          hidden: true
+        - file: english/W.md
+          hidden: true
+        - file: english/X.md
+          hidden: true
+        - file: english/Y.md
+          hidden: true
+        - file: english/Z.md
+          hidden: true
+        - file: english/lowercase/a.md
+          hidden: true
+        - file: english/lowercase/b.md
+          hidden: true
+        - file: english/lowercase/c.md
+          hidden: true
+        - file: english/lowercase/d.md
+          hidden: true
+        - file: english/lowercase/e.md
+          hidden: true
+        - file: english/lowercase/f.md
+          hidden: true
+        - file: english/lowercase/g.md
+          hidden: true
+        - file: english/lowercase/h.md
+          hidden: true
+        - file: english/lowercase/i.md
+          hidden: true
+        - file: english/lowercase/j.md
+          hidden: true
+        - file: english/lowercase/k.md
+          hidden: true
+        - file: english/lowercase/l.md
+          hidden: true
+        - file: english/lowercase/m.md
+          hidden: true
+        - file: english/lowercase/n.md
+          hidden: true
+        - file: english/lowercase/o.md
+          hidden: true
+        - file: english/lowercase/p.md
+          hidden: true
+        - file: english/lowercase/q.md
+          hidden: true
+        - file: english/lowercase/r.md
+          hidden: true
+        - file: english/lowercase/s.md
+          hidden: true
+        - file: english/lowercase/t.md
+          hidden: true
+        - file: english/lowercase/u.md
+          hidden: true
+        - file: english/lowercase/v.md
+          hidden: true
+        - file: english/lowercase/w.md
+          hidden: true
+        - file: english/lowercase/x.md
+          hidden: true
+        - file: english/lowercase/y.md
+          hidden: true
+        - file: english/lowercase/z.md
+          hidden: true
+    - title: Numbers
+      children:
+        - file: numbers/numbers.md
+        - file: numbers/0.md
+          hidden: true
+        - file: numbers/1.md
+          hidden: true
+        - file: numbers/2.md
+          hidden: true
+        - file: numbers/3.md
+          hidden: true
+        - file: numbers/4.md
+          hidden: true
+        - file: numbers/5.md
+          hidden: true
+        - file: numbers/6.md
+          hidden: true
+        - file: numbers/7.md
+          hidden: true
+        - file: numbers/8.md
+          hidden: true
+        - file: numbers/9.md
+          hidden: true
+        - file: numbers/minus-1.md
+          hidden: true
+        - file: numbers/minus-2.md
+          hidden: true
+        - file: numbers/minus-3.md
+          hidden: true
+        - file: numbers/minus-4.md
+          hidden: true
+        - file: numbers/minus-5.md
+          hidden: true
+        - file: numbers/minus-6.md
+          hidden: true
+        - file: numbers/minus-7.md
+          hidden: true
+        - file: numbers/minus-8.md
+          hidden: true
+        - file: numbers/minus-9.md
+          hidden: true
     - title: Chinese
       children:
         - file: chinese/chinese.md
-        - file: chinese/ㄅ.md
-        - file: chinese/ㄆ.md
-        - file: chinese/ㄇ.md
-        - file: chinese/ㄈ.md
-        # - title: Zhuyin
-          #children:
-          #  - file: chinese/ㄅ.md <!-- Sub-children or grand children -->
-          #  - file: chinese/ㄆ.md <!-- Sub-children or grand children -->
-          #  - file: chinese/ㄇ.md <!-- Sub-children or grand children -->
-          #  - file: chinese/ㄈ.md <!-- Sub-children or grand children -->
+        - file: chinese/chinese.md
+          hidden: true
+        - file: chinese/u3105.md
+          hidden: true
+        - file: chinese/u3106.md
+          hidden: true
+        - file: chinese/u3107.md
+          hidden: true
+        - file: chinese/u3108.md
+          hidden: true
+        - file: chinese/u3109.md
+          hidden: true
+        - file: chinese/u310a.md
+          hidden: true
+        - file: chinese/u310b.md
+          hidden: true
+        - file: chinese/u310c.md
+          hidden: true
+        - file: chinese/u310d.md
+          hidden: true
+        - file: chinese/u310e.md
+          hidden: true
+        - file: chinese/u310f.md
+          hidden: true
+        - file: chinese/u3110.md
+          hidden: true
+        - file: chinese/u3111.md
+          hidden: true
+        - file: chinese/u3112.md
+          hidden: true
+        - file: chinese/u3113.md
+          hidden: true
+        - file: chinese/u3114.md
+          hidden: true
+        - file: chinese/u3115.md
+          hidden: true
+        - file: chinese/u3116.md
+          hidden: true
+        - file: chinese/u3117.md
+          hidden: true
+        - file: chinese/u3118.md
+          hidden: true
+        - file: chinese/u3119.md
+          hidden: true
+        - file: chinese/u311a.md
+          hidden: true
+        - file: chinese/u311b.md
+          hidden: true
+        - file: chinese/u311c.md
+          hidden: true
+        - file: chinese/u311d.md
+          hidden: true
+        - file: chinese/u311e.md
+          hidden: true
+        - file: chinese/u311f.md
+          hidden: true
+        - file: chinese/u3120.md
+          hidden: true
+        - file: chinese/u3121.md
+          hidden: true
+        - file: chinese/u3122.md
+          hidden: true
+        - file: chinese/u3123.md
+          hidden: true
+        - file: chinese/u3124.md
+          hidden: true
+        - file: chinese/u3125.md
+          hidden: true
+        - file: chinese/u3126.md
+          hidden: true
+        - file: chinese/u3127.md
+          hidden: true
+        - file: chinese/u3128.md
+          hidden: true
+        - file: chinese/u3129.md
+          hidden: true
     - title: Japanese
       children:
         - file: japanese/japanese.md
+        - file: japanese/japanese.md
+          hidden: true
+        - file: japanese/u3042.md
+          hidden: true
+        - file: japanese/u3044.md
+          hidden: true
+        - file: japanese/u3046.md
+          hidden: true
+        - file: japanese/u3048.md
+          hidden: true
+        - file: japanese/u304a.md
+          hidden: true
+        - file: japanese/u304b.md
+          hidden: true
+        - file: japanese/u304d.md
+          hidden: true
+        - file: japanese/u304f.md
+          hidden: true
+        - file: japanese/u3051.md
+          hidden: true
+        - file: japanese/u3053.md
+          hidden: true
+        - file: japanese/u3055.md
+          hidden: true
+        - file: japanese/u3057.md
+          hidden: true
+        - file: japanese/u3059.md
+          hidden: true
+        - file: japanese/u305b.md
+          hidden: true
+        - file: japanese/u305d.md
+          hidden: true
+        - file: japanese/u305f.md
+          hidden: true
+        - file: japanese/u3061.md
+          hidden: true
+        - file: japanese/u3064.md
+          hidden: true
+        - file: japanese/u3066.md
+          hidden: true
+        - file: japanese/u3068.md
+          hidden: true
+        - file: japanese/u306a.md
+          hidden: true
+        - file: japanese/u306b.md
+          hidden: true
+        - file: japanese/u306c.md
+          hidden: true
+        - file: japanese/u306d.md
+          hidden: true
+        - file: japanese/u306e.md
+          hidden: true
+        - file: japanese/u306f.md
+          hidden: true
+        - file: japanese/u3072.md
+          hidden: true
+        - file: japanese/u3075.md
+          hidden: true
+        - file: japanese/u3078.md
+          hidden: true
+        - file: japanese/u307b.md
+          hidden: true
+        - file: japanese/u307e.md
+          hidden: true
+        - file: japanese/u307f.md
+          hidden: true
+        - file: japanese/u3080.md
+          hidden: true
+        - file: japanese/u3081.md
+          hidden: true
+        - file: japanese/u3082.md
+          hidden: true
+        - file: japanese/u3084.md
+          hidden: true
+        - file: japanese/u3086.md
+          hidden: true
+        - file: japanese/u3088.md
+          hidden: true
+        - file: japanese/u3089.md
+          hidden: true
+        - file: japanese/u308a.md
+          hidden: true
+        - file: japanese/u308b.md
+          hidden: true
+        - file: japanese/u308c.md
+          hidden: true
+        - file: japanese/u308d.md
+          hidden: true
+        - file: japanese/u308f.md
+          hidden: true
+        - file: japanese/u3092.md
+          hidden: true
+        - file: japanese/u3093.md
+          hidden: true
+        - file: japanese/u30a2.md
+          hidden: true
+        - file: japanese/u30a4.md
+          hidden: true
+        - file: japanese/u30a6.md
+          hidden: true
+        - file: japanese/u30a8.md
+          hidden: true
+        - file: japanese/u30aa.md
+          hidden: true
+        - file: japanese/u30ab.md
+          hidden: true
+        - file: japanese/u30ad.md
+          hidden: true
+        - file: japanese/u30af.md
+          hidden: true
+        - file: japanese/u30b1.md
+          hidden: true
+        - file: japanese/u30b3.md
+          hidden: true
+        - file: japanese/u30b5.md
+          hidden: true
+        - file: japanese/u30b7.md
+          hidden: true
+        - file: japanese/u30b9.md
+          hidden: true
+        - file: japanese/u30bb.md
+          hidden: true
+        - file: japanese/u30bd.md
+          hidden: true
+        - file: japanese/u30bf.md
+          hidden: true
+        - file: japanese/u30c1.md
+          hidden: true
+        - file: japanese/u30c4.md
+          hidden: true
+        - file: japanese/u30c6.md
+          hidden: true
+        - file: japanese/u30c8.md
+          hidden: true
+        - file: japanese/u30ca.md
+          hidden: true
+        - file: japanese/u30cb.md
+          hidden: true
+        - file: japanese/u30cc.md
+          hidden: true
+        - file: japanese/u30cd.md
+          hidden: true
+        - file: japanese/u30ce.md
+          hidden: true
+        - file: japanese/u30cf.md
+          hidden: true
+        - file: japanese/u30d2.md
+          hidden: true
+        - file: japanese/u30d5.md
+          hidden: true
+        - file: japanese/u30d8.md
+          hidden: true
+        - file: japanese/u30db.md
+          hidden: true
+        - file: japanese/u30de.md
+          hidden: true
+        - file: japanese/u30df.md
+          hidden: true
+        - file: japanese/u30e0.md
+          hidden: true
+        - file: japanese/u30e1.md
+          hidden: true
+        - file: japanese/u30e2.md
+          hidden: true
+        - file: japanese/u30e4.md
+          hidden: true
+        - file: japanese/u30e6.md
+          hidden: true
+        - file: japanese/u30e8.md
+          hidden: true
+        - file: japanese/u30e9.md
+          hidden: true
+        - file: japanese/u30ea.md
+          hidden: true
+        - file: japanese/u30eb.md
+          hidden: true
+        - file: japanese/u30ec.md
+          hidden: true
+        - file: japanese/u30ed.md
+          hidden: true
+        - file: japanese/u30ef.md
+          hidden: true
+        - file: japanese/u30f2.md
+          hidden: true
+        - file: japanese/u30f3.md
+          hidden: true
     - title: Korean
       children:
-        - file: korean/korean.md    
+        - file: korean/korean.md
+        - file: korean/korean.md
+          hidden: true
+        - file: korean/u3131.md
+          hidden: true
+        - file: korean/u3132.md
+          hidden: true
+        - file: korean/u3134.md
+          hidden: true
+        - file: korean/u3137.md
+          hidden: true
+        - file: korean/u3138.md
+          hidden: true
+        - file: korean/u3139.md
+          hidden: true
+        - file: korean/u3141.md
+          hidden: true
+        - file: korean/u3142.md
+          hidden: true
+        - file: korean/u3143.md
+          hidden: true
+        - file: korean/u3145.md
+          hidden: true
+        - file: korean/u3146.md
+          hidden: true
+        - file: korean/u3147.md
+          hidden: true
+        - file: korean/u3148.md
+          hidden: true
+        - file: korean/u3149.md
+          hidden: true
+        - file: korean/u314a.md
+          hidden: true
+        - file: korean/u314b.md
+          hidden: true
+        - file: korean/u314c.md
+          hidden: true
+        - file: korean/u314d.md
+          hidden: true
+        - file: korean/u314e.md
+          hidden: true
+        - file: korean/u314f.md
+          hidden: true
+        - file: korean/u3150.md
+          hidden: true
+        - file: korean/u3151.md
+          hidden: true
+        - file: korean/u3152.md
+          hidden: true
+        - file: korean/u3153.md
+          hidden: true
+        - file: korean/u3154.md
+          hidden: true
+        - file: korean/u3155.md
+          hidden: true
+        - file: korean/u3156.md
+          hidden: true
+        - file: korean/u3157.md
+          hidden: true
+        - file: korean/u3158.md
+          hidden: true
+        - file: korean/u3159.md
+          hidden: true
+        - file: korean/u315a.md
+          hidden: true
+        - file: korean/u315b.md
+          hidden: true
+        - file: korean/u315c.md
+          hidden: true
+        - file: korean/u315d.md
+          hidden: true
+        - file: korean/u315e.md
+          hidden: true
+        - file: korean/u315f.md
+          hidden: true
+        - file: korean/u3160.md
+          hidden: true
+        - file: korean/u3161.md
+          hidden: true
+        - file: korean/u3162.md
+          hidden: true
+        - file: korean/u3163.md
+          hidden: true
+    - title: Spanish
+      children:
+        - file: spanish/spanish.md
+        - file: spanish/A.md
+          hidden: true
+        - file: spanish/B.md
+          hidden: true
+        - file: spanish/C.md
+          hidden: true
+        - file: spanish/D.md
+          hidden: true
+        - file: spanish/E.md
+          hidden: true
+        - file: spanish/F.md
+          hidden: true
+        - file: spanish/G.md
+          hidden: true
+        - file: spanish/H.md
+          hidden: true
+        - file: spanish/I.md
+          hidden: true
+        - file: spanish/J.md
+          hidden: true
+        - file: spanish/K.md
+          hidden: true
+        - file: spanish/L.md
+          hidden: true
+        - file: spanish/M.md
+          hidden: true
+        - file: spanish/N.md
+          hidden: true
+        - file: spanish/O.md
+          hidden: true
+        - file: spanish/P.md
+          hidden: true
+        - file: spanish/Q.md
+          hidden: true
+        - file: spanish/R.md
+          hidden: true
+        - file: spanish/S.md
+          hidden: true
+        - file: spanish/T.md
+          hidden: true
+        - file: spanish/U.md
+          hidden: true
+        - file: spanish/V.md
+          hidden: true
+        - file: spanish/W.md
+          hidden: true
+        - file: spanish/X.md
+          hidden: true
+        - file: spanish/Y.md
+          hidden: true
+        - file: spanish/Z.md
+          hidden: true
+        - file: spanish/u00d1.md
+          hidden: true
+    - title: French
+      children:
+        - file: french/french.md
+        - file: french/A.md
+          hidden: true
+        - file: french/B.md
+          hidden: true
+        - file: french/C.md
+          hidden: true
+        - file: french/D.md
+          hidden: true
+        - file: french/E.md
+          hidden: true
+        - file: french/F.md
+          hidden: true
+        - file: french/G.md
+          hidden: true
+        - file: french/H.md
+          hidden: true
+        - file: french/I.md
+          hidden: true
+        - file: french/J.md
+          hidden: true
+        - file: french/K.md
+          hidden: true
+        - file: french/L.md
+          hidden: true
+        - file: french/M.md
+          hidden: true
+        - file: french/N.md
+          hidden: true
+        - file: french/O.md
+          hidden: true
+        - file: french/P.md
+          hidden: true
+        - file: french/Q.md
+          hidden: true
+        - file: french/R.md
+          hidden: true
+        - file: french/S.md
+          hidden: true
+        - file: french/T.md
+          hidden: true
+        - file: french/U.md
+          hidden: true
+        - file: french/V.md
+          hidden: true
+        - file: french/W.md
+          hidden: true
+        - file: french/X.md
+          hidden: true
+        - file: french/Y.md
+          hidden: true
+        - file: french/Z.md
+          hidden: true
+    - title: German
+      children:
+        - file: german/german.md
+        - file: german/A.md
+          hidden: true
+        - file: german/B.md
+          hidden: true
+        - file: german/C.md
+          hidden: true
+        - file: german/D.md
+          hidden: true
+        - file: german/E.md
+          hidden: true
+        - file: german/F.md
+          hidden: true
+        - file: german/G.md
+          hidden: true
+        - file: german/H.md
+          hidden: true
+        - file: german/I.md
+          hidden: true
+        - file: german/J.md
+          hidden: true
+        - file: german/K.md
+          hidden: true
+        - file: german/L.md
+          hidden: true
+        - file: german/M.md
+          hidden: true
+        - file: german/N.md
+          hidden: true
+        - file: german/O.md
+          hidden: true
+        - file: german/P.md
+          hidden: true
+        - file: german/Q.md
+          hidden: true
+        - file: german/R.md
+          hidden: true
+        - file: german/S.md
+          hidden: true
+        - file: german/T.md
+          hidden: true
+        - file: german/U.md
+          hidden: true
+        - file: german/V.md
+          hidden: true
+        - file: german/W.md
+          hidden: true
+        - file: german/X.md
+          hidden: true
+        - file: german/Y.md
+          hidden: true
+        - file: german/Z.md
+          hidden: true
+        - file: german/u00c4.md
+          hidden: true
+        - file: german/u00d6.md
+          hidden: true
+        - file: german/u00dc.md
+          hidden: true
+        - file: german/u1e9e.md
+          hidden: true
+    - title: Russian
+      children:
+        - file: russian/russian.md
+        - file: russian/russian.md
+          hidden: true
+        - file: russian/u0401.md
+          hidden: true
+        - file: russian/u0410.md
+          hidden: true
+        - file: russian/u0411.md
+          hidden: true
+        - file: russian/u0412.md
+          hidden: true
+        - file: russian/u0413.md
+          hidden: true
+        - file: russian/u0414.md
+          hidden: true
+        - file: russian/u0415.md
+          hidden: true
+        - file: russian/u0416.md
+          hidden: true
+        - file: russian/u0417.md
+          hidden: true
+        - file: russian/u0418.md
+          hidden: true
+        - file: russian/u0419.md
+          hidden: true
+        - file: russian/u041a.md
+          hidden: true
+        - file: russian/u041b.md
+          hidden: true
+        - file: russian/u041c.md
+          hidden: true
+        - file: russian/u041d.md
+          hidden: true
+        - file: russian/u041e.md
+          hidden: true
+        - file: russian/u041f.md
+          hidden: true
+        - file: russian/u0420.md
+          hidden: true
+        - file: russian/u0421.md
+          hidden: true
+        - file: russian/u0422.md
+          hidden: true
+        - file: russian/u0423.md
+          hidden: true
+        - file: russian/u0424.md
+          hidden: true
+        - file: russian/u0425.md
+          hidden: true
+        - file: russian/u0426.md
+          hidden: true
+        - file: russian/u0427.md
+          hidden: true
+        - file: russian/u0428.md
+          hidden: true
+        - file: russian/u0429.md
+          hidden: true
+        - file: russian/u042a.md
+          hidden: true
+        - file: russian/u042b.md
+          hidden: true
+        - file: russian/u042c.md
+          hidden: true
+        - file: russian/u042d.md
+          hidden: true
+        - file: russian/u042e.md
+          hidden: true
+        - file: russian/u042f.md
+          hidden: true
+    - title: Arabic
+      children:
+        - file: arabic/arabic.md
+        - file: arabic/arabic.md
+          hidden: true
+        - file: arabic/u0627.md
+          hidden: true
+        - file: arabic/u0628.md
+          hidden: true
+        - file: arabic/u062a.md
+          hidden: true
+        - file: arabic/u062b.md
+          hidden: true
+        - file: arabic/u062c.md
+          hidden: true
+        - file: arabic/u062d.md
+          hidden: true
+        - file: arabic/u062e.md
+          hidden: true
+        - file: arabic/u062f.md
+          hidden: true
+        - file: arabic/u0630.md
+          hidden: true
+        - file: arabic/u0631.md
+          hidden: true
+        - file: arabic/u0632.md
+          hidden: true
+        - file: arabic/u0633.md
+          hidden: true
+        - file: arabic/u0634.md
+          hidden: true
+        - file: arabic/u0635.md
+          hidden: true
+        - file: arabic/u0636.md
+          hidden: true
+        - file: arabic/u0637.md
+          hidden: true
+        - file: arabic/u0638.md
+          hidden: true
+        - file: arabic/u0639.md
+          hidden: true
+        - file: arabic/u063a.md
+          hidden: true
+        - file: arabic/u0641.md
+          hidden: true
+        - file: arabic/u0642.md
+          hidden: true
+        - file: arabic/u0643.md
+          hidden: true
+        - file: arabic/u0644.md
+          hidden: true
+        - file: arabic/u0645.md
+          hidden: true
+        - file: arabic/u0646.md
+          hidden: true
+        - file: arabic/u0647.md
+          hidden: true
+        - file: arabic/u0648.md
+          hidden: true
+        - file: arabic/u064a.md
+          hidden: true
+    - title: Hindi
+      children:
+        - file: hindi/hindi.md
+        - file: hindi/hindi.md
+          hidden: true
+        - file: hindi/u0905.md
+          hidden: true
+        - file: hindi/u09050902.md
+          hidden: true
+        - file: hindi/u09050903.md
+          hidden: true
+        - file: hindi/u0906.md
+          hidden: true
+        - file: hindi/u0907.md
+          hidden: true
+        - file: hindi/u0908.md
+          hidden: true
+        - file: hindi/u0909.md
+          hidden: true
+        - file: hindi/u090a.md
+          hidden: true
+        - file: hindi/u090b.md
+          hidden: true
+        - file: hindi/u090f.md
+          hidden: true
+        - file: hindi/u0910.md
+          hidden: true
+        - file: hindi/u0913.md
+          hidden: true
+        - file: hindi/u0914.md
+          hidden: true
+        - file: hindi/u0915.md
+          hidden: true
+        - file: hindi/u0916.md
+          hidden: true
+        - file: hindi/u0917.md
+          hidden: true
+        - file: hindi/u0918.md
+          hidden: true
+        - file: hindi/u0919.md
+          hidden: true
+        - file: hindi/u091a.md
+          hidden: true
+        - file: hindi/u091b.md
+          hidden: true
+        - file: hindi/u091c.md
+          hidden: true
+        - file: hindi/u091d.md
+          hidden: true
+        - file: hindi/u091e.md
+          hidden: true
+        - file: hindi/u091f.md
+          hidden: true
+        - file: hindi/u0920.md
+          hidden: true
+        - file: hindi/u0921.md
+          hidden: true
+        - file: hindi/u0922.md
+          hidden: true
+        - file: hindi/u0923.md
+          hidden: true
+        - file: hindi/u0924.md
+          hidden: true
+        - file: hindi/u0925.md
+          hidden: true
+        - file: hindi/u0926.md
+          hidden: true
+        - file: hindi/u0927.md
+          hidden: true
+        - file: hindi/u0928.md
+          hidden: true
+        - file: hindi/u092a.md
+          hidden: true
+        - file: hindi/u092b.md
+          hidden: true
+        - file: hindi/u092c.md
+          hidden: true
+        - file: hindi/u092d.md
+          hidden: true
+        - file: hindi/u092e.md
+          hidden: true
+        - file: hindi/u092f.md
+          hidden: true
+        - file: hindi/u0930.md
+          hidden: true
+        - file: hindi/u0932.md
+          hidden: true
+        - file: hindi/u0935.md
+          hidden: true
+        - file: hindi/u0936.md
+          hidden: true
+        - file: hindi/u0937.md
+          hidden: true
+        - file: hindi/u0938.md
+          hidden: true
+        - file: hindi/u0939.md
+          hidden: true
+    - title: Thai
+      children:
+        - file: thai/thai.md
+        - file: thai/thai.md
+          hidden: true
+        - file: thai/u0e01.md
+          hidden: true
+        - file: thai/u0e02.md
+          hidden: true
+        - file: thai/u0e03.md
+          hidden: true
+        - file: thai/u0e04.md
+          hidden: true
+        - file: thai/u0e05.md
+          hidden: true
+        - file: thai/u0e06.md
+          hidden: true
+        - file: thai/u0e07.md
+          hidden: true
+        - file: thai/u0e08.md
+          hidden: true
+        - file: thai/u0e09.md
+          hidden: true
+        - file: thai/u0e0a.md
+          hidden: true
+        - file: thai/u0e0b.md
+          hidden: true
+        - file: thai/u0e0c.md
+          hidden: true
+        - file: thai/u0e0d.md
+          hidden: true
+        - file: thai/u0e0e.md
+          hidden: true
+        - file: thai/u0e0f.md
+          hidden: true
+        - file: thai/u0e10.md
+          hidden: true
+        - file: thai/u0e11.md
+          hidden: true
+        - file: thai/u0e12.md
+          hidden: true
+        - file: thai/u0e13.md
+          hidden: true
+        - file: thai/u0e14.md
+          hidden: true
+        - file: thai/u0e15.md
+          hidden: true
+        - file: thai/u0e16.md
+          hidden: true
+        - file: thai/u0e17.md
+          hidden: true
+        - file: thai/u0e18.md
+          hidden: true
+        - file: thai/u0e19.md
+          hidden: true
+        - file: thai/u0e1a.md
+          hidden: true
+        - file: thai/u0e1b.md
+          hidden: true
+        - file: thai/u0e1c.md
+          hidden: true
+        - file: thai/u0e1d.md
+          hidden: true
+        - file: thai/u0e1e.md
+          hidden: true
+        - file: thai/u0e1f.md
+          hidden: true
+        - file: thai/u0e20.md
+          hidden: true
+        - file: thai/u0e21.md
+          hidden: true
+        - file: thai/u0e22.md
+          hidden: true
+        - file: thai/u0e23.md
+          hidden: true
+        - file: thai/u0e25.md
+          hidden: true
+        - file: thai/u0e27.md
+          hidden: true
+        - file: thai/u0e28.md
+          hidden: true
+        - file: thai/u0e29.md
+          hidden: true
+        - file: thai/u0e2a.md
+          hidden: true
+        - file: thai/u0e2b.md
+          hidden: true
+        - file: thai/u0e2c.md
+          hidden: true
+        - file: thai/u0e2d.md
+          hidden: true
+        - file: thai/u0e2e.md
+          hidden: true
+    - title: Greek
+      children:
+        - file: greek/greek.md
+        - file: greek/greek.md
+          hidden: true
+        - file: greek/u0391.md
+          hidden: true
+        - file: greek/u0392.md
+          hidden: true
+        - file: greek/u0393.md
+          hidden: true
+        - file: greek/u0394.md
+          hidden: true
+        - file: greek/u0395.md
+          hidden: true
+        - file: greek/u0396.md
+          hidden: true
+        - file: greek/u0397.md
+          hidden: true
+        - file: greek/u0398.md
+          hidden: true
+        - file: greek/u0399.md
+          hidden: true
+        - file: greek/u039a.md
+          hidden: true
+        - file: greek/u039b.md
+          hidden: true
+        - file: greek/u039c.md
+          hidden: true
+        - file: greek/u039d.md
+          hidden: true
+        - file: greek/u039e.md
+          hidden: true
+        - file: greek/u039f.md
+          hidden: true
+        - file: greek/u03a0.md
+          hidden: true
+        - file: greek/u03a1.md
+          hidden: true
+        - file: greek/u03a3.md
+          hidden: true
+        - file: greek/u03a4.md
+          hidden: true
+        - file: greek/u03a5.md
+          hidden: true
+        - file: greek/u03a6.md
+          hidden: true
+        - file: greek/u03a7.md
+          hidden: true
+        - file: greek/u03a8.md
+          hidden: true
+        - file: greek/u03a9.md
+          hidden: true
     - file: blog.md
       children:
         - file: tags/myst-markdown.md

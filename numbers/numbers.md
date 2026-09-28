@@ -26,5 +26,5 @@ exports:
 
 ## Negative numbers
 
-| [-1](-1.md) | [-2](-2.md) | [-3](-3.md) | [-4](-4.md) | [-5](-5.md) | [-6](-6.md) | [-7](-7.md) | [-8](-8.md) | [-9](-9.md) |
+| [-1](minus-1.md) | [-2](minus-2.md) | [-3](minus-3.md) | [-4](minus-4.md) | [-5](minus-5.md) | [-6](minus-6.md) | [-7](minus-7.md) | [-8](minus-8.md) | [-9](minus-9.md) |
 

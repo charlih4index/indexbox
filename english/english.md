@@ -26,7 +26,7 @@ exports:
 
 ## Lowercase
 
-| [a](a.md) | [b](b.md) | [c](c.md) | [d](d.md) | [e](e.md) | [f](f.md) | [g](g.md) | [h](h.md) | [i](i.md) | [j](j.md) | [k](k.md) | [l](l.md) | [m](m.md) | [n](n.md) | [o](o.md) | [p](p.md) | [q](q.md) | [r](r.md) | [s](s.md) | [t](t.md) | [u](u.md) | [v](v.md) | [w](w.md) | [x](x.md) | [y](y.md) | [z](z.md) |
+| [a](lowercase/a.md) | [b](lowercase/b.md) | [c](lowercase/c.md) | [d](lowercase/d.md) | [e](lowercase/e.md) | [f](lowercase/f.md) | [g](lowercase/g.md) | [h](lowercase/h.md) | [i](lowercase/i.md) | [j](lowercase/j.md) | [k](lowercase/k.md) | [l](lowercase/l.md) | [m](lowercase/m.md) | [n](lowercase/n.md) | [o](lowercase/o.md) | [p](lowercase/p.md) | [q](lowercase/q.md) | [r](lowercase/r.md) | [s](lowercase/s.md) | [t](lowercase/t.md) | [u](lowercase/u.md) | [v](lowercase/v.md) | [w](lowercase/w.md) | [x](lowercase/x.md) | [y](lowercase/y.md) | [z](lowercase/z.md) |
 
 
 

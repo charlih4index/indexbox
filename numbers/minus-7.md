@@ -8,7 +8,7 @@ kernelspec:
   display_name: Python 3
   language: python
   name: python3
-title: -5
+title: "-7"
 abstract: ""
 authors:
   - name: Author Name
@@ -18,6 +18,6 @@ exports:
     output: _build/exports/typst/
 ---
 
-# -5
+# -7
 
-## minus five / menos cinco / moins cinq / minus fünf / минус пять / سالب خمسة / माइनस पाँच / ลบห้า / μείον πέντε / 负五 / マイナスご / 마이너스 오
+## minus seven / menos siete / moins sept / minus sieben / минус семь / سالب سبعة / माइनस सात / ลบเจ็ด / μείον επτά / 负七 / マイナスなな / 마이너스 칠
