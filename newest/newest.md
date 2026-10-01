@@ -19,6 +19,17 @@
 | **Replika**| Proprietary  | Freemium      | Web, Mobile           | No              | Emotional support, customizable personality       |
 | **Character.AI** | Proprietary | Freemium  | Web, Mobile           | No              | Role-play agents, multi-character conversations   |
 
+vs.
+
+| AI Agent       | Type         | Pricing Model          | Platform Availability | Offline Support | Free Tier / Personal Usage | Key Strengths                                      |
+|----------------|--------------|------------------------|-----------------------|-----------------|----------------------------|----------------------------------------------------|
+| **Muse**       | Proprietary  | Free for personal use (API tokens) | Web, Mobile           | No              | ✅ Generous API tokens for individuals | Personalized creative assistance, context memory  |
+| **Grok Bot**   | Proprietary  | Freemium               | Web, Mobile, Chat Apps| No              | ✅ Limited free tier        | Humor-driven responses, social media integration  |
+| **Dots**       | Proprietary  | Paid (Business API tokens) | Mobile (iOS/Android)  | Partial         | ❌ Business-focused only    | Task automation, habit tracking, minimal UI       |
+| **Pi AI**      | Proprietary  | Free / Premium         | Web, Mobile           | No              | ✅ Free basic version       | Empathetic conversation, personal coaching        |
+| **Replika**    | Proprietary  | Freemium               | Web, Mobile           | No              | ✅ Free core features       | Emotional support, customizable personality       |
+| **Character.AI** | Proprietary | Freemium               | Web, Mobile           | No              | ✅ Free with optional perks | Role-play agents, multi-character conversations   |
+
 #### AI Coding Agent
 
 | AI Coding Agent | Type         | Pricing Model       | Offline Support | MCP Support | Key Strengths                                      |
