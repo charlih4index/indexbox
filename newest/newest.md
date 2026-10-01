@@ -10,6 +10,22 @@
 
 #### AI Agents
 
+Always-On AI Agent:
+
+Cloud based agent.
+
+Dots vs Grok Bot vs Muse
+
+| Name | Company | Launched |
+|------+---------+----------|
+| Dots | OpenAI | 29SEP2026 |
+| Grok Bot | X | 11AUG2026 |
+| Muse | Meta | 08SEP2026 |
+
+OpenAI Dots vs Grok Bot vs Meta Muse
+
+[Source](https://www.betterclaw.io/blog/openai-dots-vs-meta-muse-vs-grok-bot)
+
 | AI Agent   | Type         | Pricing Model | Platform Availability | Offline Support | Key Strengths                                      |
 |------------|--------------|---------------|-----------------------|-----------------|----------------------------------------------------|
 | **Muse**   | Proprietary  | Subscription  | Web, Mobile           | No              | Personalized creative assistance, context memory  |
