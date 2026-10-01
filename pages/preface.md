@@ -20,15 +20,15 @@ exports:
 
 # Preface
 
-Welcome to this book. This preface provides an overview of what you will learn.
+Welcome to this "book" AKA. IndexBox.com. This preface provides an overview of what you will learn.
 
-## Who This Book Is For
+## Who This "Book" Is For
 
-This book is for anyone interested in the topic.
+This "book" is for anyone interested in the topic.
 
-## How to Use This Book
+## How to Use This "Book"
 
-Each chapter builds on the previous one. Start from the beginning and work your way through.
+Each chapter [A to Z] builds on the previous one. Start from the beginning and work your way through.
 
 ## Acknowledgements
 
