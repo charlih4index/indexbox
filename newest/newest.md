@@ -17,7 +17,7 @@ Cloud based agent.
 Dots vs Grok Bot vs Muse
 
 | Name | Company | Launched |
-|------+---------+----------|
+|------|---------|----------|
 | Dots | OpenAI | 29SEP2026 |
 | Grok Bot | X | 11AUG2026 |
 | Muse | Meta | 08SEP2026 |
