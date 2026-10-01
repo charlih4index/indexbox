@@ -22,6 +22,15 @@ Dots vs Grok Bot vs Muse
 | [Grok Bot](https://docs.x.ai/grok-bot/) | SpaceXAI | 11AUG2026 |
 | [Muse](https://www.meta.com/muse-charm/) | Meta | 08SEP2026 |
 
+{numref}`fig-VS` shows VS among Dots, Grok Bot, and Muse.
+
+```{figure} img/DotsvsGrokBotvsMuse.png
+:name: fig-VS
+:alt: VS
+
+Dots vs Grok Bot vs Muse.
+```
+
 OpenAI Dots vs Grok Bot vs Meta Muse
 
 [Source](https://www.betterclaw.io/blog/openai-dots-vs-meta-muse-vs-grok-bot)
