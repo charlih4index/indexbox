@@ -30,6 +30,20 @@ vs.
 | **Replika**    | Proprietary  | Freemium               | Web, Mobile           | No              | ✅ Free core features       | Emotional support, customizable personality       |
 | **Character.AI** | Proprietary | Freemium               | Web, Mobile           | No              | ✅ Free with optional perks | Role-play agents, multi-character conversations   |
 
+vs.
+
+| Feature / Agent       | Meta Muse                          | OpenAI Dots                        | Grok Bot                          |
+|-----------------------|------------------------------------|-------------------------------------|------------------------------------|
+| **Type**              | Always-on personal AI agent        | Always-on personal AI agent         | Always-on personal AI agent        |
+| **Hosting**           | Cloud-based (Meta servers)         | Cloud-based (OpenAI servers)        | Cloud-based (X/Elon ecosystem)     |
+| **Memory**            | Long-term contextual memory        | Persistent task & file memory       | Event-triggered memory             |
+| **Triggers**          | Schedule, events, user prompts     | Schedule, events, API calls         | Real-time events, social signals   |
+| **Integration**       | Meta apps, WhatsApp, Messenger     | OpenAI API, Slack, email, webhooks  | X platform, APIs, IoT devices      |
+| **Pricing (2026)**    | Subscription (\$15–\$25/mo)         | Subscription (\$10–\$20/mo)         | Subscription (\$12–\$22/mo)        |
+| **Privacy Control**   | User dashboard + Meta safeguards   | User dashboard + encryption         | User dashboard + opt-in data share |
+| **Strengths**         | Deep social integration, creative  | Developer-friendly, flexible APIs   | Fast event response, social focus  |
+| **Limitations**       | Tied to Meta ecosystem              | Requires OpenAI account             | Best within X ecosystem            |
+
 #### AI Coding Agent
 
 | AI Coding Agent | Type         | Pricing Model       | Offline Support | MCP Support | Key Strengths                                      |
