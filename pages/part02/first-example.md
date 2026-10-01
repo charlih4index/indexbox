@@ -84,3 +84,14 @@ This example demonstrated the basic workflow.
 ## Database
 
 MySQL, MariaDB, PostgreSQL, MongoDB, and SQLite are all popular open-source relational databases.
+
+## Input by you
+
+Find a way to have user to input to tagging as many as possible for the "word" AKA. "object" on database.
+
+The tag is just like to hashtag.
+
+The more tagging will define more clarify the "object".
+
+All object has bidirectional relationship. Eg. A=B, A=C, A=Z etc. A is defined / described by B, C and Z.
+
