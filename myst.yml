@@ -37,61 +37,38 @@ project:
     - title: Examples
       children:
         - file: pages/part02/first-example.md
+    - title: Newest
+      children:
+        - file: newest/newest.md    
     - title: English
       children:
         - file: english/english.md
         - file: english/A.md
-          hidden: true
         - file: english/B.md
-          hidden: true
         - file: english/C.md
-          hidden: true
         - file: english/D.md
-          hidden: true
         - file: english/E.md
-          hidden: true
         - file: english/F.md
-          hidden: true
         - file: english/G.md
-          hidden: true
         - file: english/H.md
-          hidden: true
         - file: english/I.md
-          hidden: true
         - file: english/J.md
-          hidden: true
         - file: english/K.md
-          hidden: true
         - file: english/L.md
-          hidden: true
         - file: english/M.md
-          hidden: true
         - file: english/N.md
-          hidden: true
         - file: english/O.md
-          hidden: true
         - file: english/P.md
-          hidden: true
         - file: english/Q.md
-          hidden: true
         - file: english/R.md
-          hidden: true
         - file: english/S.md
-          hidden: true
         - file: english/T.md
-          hidden: true
         - file: english/U.md
-          hidden: true
         - file: english/V.md
-          hidden: true
         - file: english/W.md
-          hidden: true
         - file: english/X.md
-          hidden: true
         - file: english/Y.md
-          hidden: true
         - file: english/Z.md
-          hidden: true
         - file: english/lowercase/a.md
           hidden: true
         - file: english/lowercase/b.md
