@@ -20,7 +20,7 @@ This website contains all the URL featured in the page(s).
 
 {numref}`fig-self8` infinity loop.
 
-```{figure} /images/self8.png
+```{figure} pages/images/self8.png
 :name: fig-self8
 :alt: infinity self loop
 
@@ -178,7 +178,7 @@ Translate: Google | immersive
 
 :::{card}
 :link: https://github.com/charlih4index/indexdatabase
-![indexdatabase](pages/images/SQL.jpg)
+![IndexDatabase](pages/images/SQL.jpg)
 +++
 **IndexDatabase**
 :::
@@ -187,7 +187,7 @@ Translate: Google | immersive
 ``` :link: https://github.com/charlih4index/indexbox/blog.md ```
 
 :link: https://github.com/charlih4index/posts
-![indexdatabase](pages/images/blog.png)
+![Index Blog](pages/images/blog.png)
 +++
 **Index Blog**
 :::
