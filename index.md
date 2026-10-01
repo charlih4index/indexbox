@@ -140,6 +140,8 @@ fig-self8.
 
 ## Sub-Bookmarks AKA. Category
 
+Newest post: [newest.md](newest/newest.md)
+
 Top5 | Top10 | Top50 | Top100
 
 AI : Agent | Model | Others
