@@ -18,9 +18,9 @@ Dots vs Grok Bot vs Muse
 
 | Name | Company | Launched |
 |------|---------|----------|
-| Dots | OpenAI | 29SEP2026 |
-| Grok Bot | X | 11AUG2026 |
-| Muse | Meta | 08SEP2026 |
+| [Dots](https://openai.com/index/introducing-dots/) | OpenAI | 29SEP2026 |
+| [Grok Bot](https://docs.x.ai/grok-bot/) | SpaceXAI | 11AUG2026 |
+| [Muse](https://www.meta.com/muse-charm/) | Meta | 08SEP2026 |
 
 OpenAI Dots vs Grok Bot vs Meta Muse
 
