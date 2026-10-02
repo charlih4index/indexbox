@@ -103,7 +103,11 @@ Tagging.
 ```
 
 ---
-All object has bidirectional relationship. Eg. A=B, A=C, A=Z etc. A is defined / described by B, C and Z.
+Every object has a reciprocal relationship. 
+
+For example, A=B, B=Tag#1, B=Tag#2...B=Tag#n, etc. 
+
+B defines and describes A with more Tag#1...Tag #n for assistance.
 
 {numref}`fig-eq2` EQ2.
 
