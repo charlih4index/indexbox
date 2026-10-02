@@ -28,7 +28,7 @@ exports:
 
 | Zhuyin | Chinese character | meaning | pronounce | others |
 |--------| ------------------|---------|-----------|--------|
-| A | B | Tag#1 | Tag#2 | Tag#3 |
+| **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** |
 | ㄅㄚ | 八 | 阿拉伯數字8 | bā | 大寫為捌 |
 | ㄅㄚ | 巴 | 符號bar | bā | 大氣壓力的單位 |
 
