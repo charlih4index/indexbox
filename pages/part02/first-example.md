@@ -93,5 +93,23 @@ The tag is just like to hashtag.
 
 The more tagging will define more clarify the "object".
 
+{numref}`fig-tagging` Tagging to define the "object".
+
+```{figure} ../images/tags.png
+:name: fig-tag
+:alt: Tagging
+
+Tagging.
+```
+
+---
 All object has bidirectional relationship. Eg. A=B, A=C, A=Z etc. A is defined / described by B, C and Z.
 
+{numref}`fig-eq2` EQ2.
+
+```{figure} ../images/tagseq2.png
+:name: fig-eq2
+:alt: EQ2
+
+EQ2.
+```
