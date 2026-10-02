@@ -184,7 +184,7 @@ Translate: Google | immersive
 :::
 
 :::{card}
-``` :link: https://github.com/charlih4index/indexbox/blog.md ```
+<!-- :link: https://github.com/charlih4index/indexbox/blog.md -->
 
 :link: https://github.com/charlih4index/posts
 ![Index Blog](pages/images/blog.png)
