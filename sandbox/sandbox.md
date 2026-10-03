@@ -76,6 +76,7 @@ Source: [梗圖倉庫](https://memes.tw/)
 - https://arielhsu.tw/wp-content/uploads/2026/08/20240504_055046.jpg (粥潤發 aka. 周潤發)
 - https://x.com/Alldaymakememe/status/1915198951235702791/photo/1 (I'm so gay aka. 鹽酥雞 in 台語)
 <img width="678" height="579" alt="image" src="https://github.com/user-attachments/assets/b9b5b802-a9f9-46bc-b18d-463db958106c" />
+
 - https://s.yimg.com/lo/mysterio/api/c5e54c630b57d20f7ce4a9a7d15c9f52a6bade8ddc1a0b2165dd3e16eb7377fc/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fzh-tw%2Fftvn.com.tw%2Fc35f863d63a0fcc7ac24571bcfad08f0 (全家對麵)
 
 ##### 諧音梗
