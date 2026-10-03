@@ -47,6 +47,7 @@ Stand4 university <=> [Standford university](https://www.stanford.edu/).
 ##### [簡稱](https://dictionary.cambridge.org/dictionary/chinese-traditional-english/簡稱) (Addreviation or Contraction)
 - AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
 - BGM stands for Background music (背景音樂)
+- 3Q aka. Thank you
 - dddd <=> 懂的都懂
 
 #### 中文梗
@@ -66,8 +67,16 @@ Source: [梗圖倉庫](https://memes.tw/)
 ![洋遇騙](https://megapx-assets.dcard.tw/images/93b7243d-275a-4f8c-9661-7abbf609e921/1280.webp)
 
 - https://megapx-assets.dcard.tw/images/a4b2d4e8-ed20-48b7-95f4-d0b148a2a99f/1280.webp
-- https://today-obs.line-scdn.net/0h6C3QeUEEaWwOKHrz564WOzZ-ZR09TnNlLE8nXyooPgtwBH47MBk6D3wrZUBzG305LkxzCnsoZV0mTS5pNQ/w1200
+- https://today-obs.line-scdn.net/0h6C3QeUEEaWwOKHrz564WOzZ-ZR09TnNlLE8nXyooPgtwBH47MBk6D3wrZUBzG305LkxzCnsoZV0mTS5pNQ/w1200 (沒大沒小)
 - https://today-obs.line-scdn.net/0hn_Mt-zNMMXBwDSLvmYtOJ0hbPQFDayt5Ump9FVFeaBAPIXUuHG1iE11aaFxVNSJyUDkqQ1MJaBBZaHYhSA/w1200 (抬鐘人 aka. 台中人)
+- https://arielhsu.tw/wp-content/uploads/2026/08/wp-1713098036224.jpg (捷運富境 aka. 捷運附近)
+- https://arielhsu.tw/wp-content/uploads/2026/08/FB_IMG_1715104836983.jpg (餐烤蔬 aka.參考書)
+- https://arielhsu.tw/wp-content/uploads/2026/08/wp-1713098036810.jpg (大家住易 aka.大家注意)
+- https://arielhsu.tw/wp-content/uploads/2026/08/20240623_1201556409497773886560442.jpg (絲髪院 aka. 司法院)
+- https://arielhsu.tw/wp-content/uploads/2026/08/20240504_055046.jpg (粥潤發 aka. 周潤發)
+- https://x.com/Alldaymakememe/status/1915198951235702791/photo/1 (I'm so gay aka. 鹽酥雞 in 台語)
+<img width="678" height="579" alt="image" src="https://github.com/user-attachments/assets/b9b5b802-a9f9-46bc-b18d-463db958106c" />
+- https://s.yimg.com/lo/mysterio/api/c5e54c630b57d20f7ce4a9a7d15c9f52a6bade8ddc1a0b2165dd3e16eb7377fc/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fzh-tw%2Fftvn.com.tw%2Fc35f863d63a0fcc7ac24571bcfad08f0 (全家對麵)
 
 ##### 諧音梗
 
