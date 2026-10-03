@@ -1065,6 +1065,9 @@ project:
           hidden: true
         - file: greek/u03a9.md
           hidden: true
+    - title: Sandbox
+      children:
+        - file: sandbox/sandbox.md          
     - file: blog.md
       children:
         - file: tags/myst-markdown.md
