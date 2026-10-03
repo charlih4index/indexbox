@@ -26,6 +26,10 @@ exports:
 
 Total possible pronuciation = (((3+1)*(13+1)*(21+1))*5-(1*1*1*5) = ((4*14)*22)*5-5 = 6155
 
+### Zhuyin table
+
+[ZhuyinTable](ZhuyinTable.md)
+
 ### A Chinese character eq2 the Zhuyin
 
 | Zhuyin | Chinese character | meaning | pronounce | others |
