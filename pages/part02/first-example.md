@@ -117,3 +117,17 @@ B defines and describes A with more Tag#1...Tag #n for assistance.
 
 EQ2.
 ```
+
+```
+{
+  "A": {
+    "eq2": "B",
+    "tag1": "4tag1",
+    "tag2": "4tag2",
+    "tag3": "4tag3",
+    "tag4": "4tag4",
+    "tag5": "4tag5",
+    "others": "4others"
+  }
+}
+```
