@@ -65,6 +65,8 @@ Source: [梗圖倉庫](https://memes.tw/)
 
 ![洋遇騙](https://megapx-assets.dcard.tw/images/93b7243d-275a-4f8c-9661-7abbf609e921/1280.webp)
 
+https://megapx-assets.dcard.tw/images/a4b2d4e8-ed20-48b7-95f4-d0b148a2a99f/1280.webp
+
 ##### 諧音梗
 
 https://www.dcard.tw/topics/諧音梗
