@@ -32,18 +32,23 @@ exports:
 
 ### stand4 AKA. stand for AKA. 梗
 
+梗 AKA. 哏
+
+#### 英文梗
+
 Stand4 university <=> [Standford university](https://www.stanford.edu/).
 
-#### [簡稱](https://dictionary.cambridge.org/dictionary/chinese-traditional-english/簡稱) (Addreviation or Contraction)
+##### [簡稱](https://dictionary.cambridge.org/dictionary/chinese-traditional-english/簡稱) (Addreviation or Contraction)
 - AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
 - BGM stands for Background music (背景音樂)
 - dddd <=> 懂的都懂
 
-梗 AKA. 哏
 
-#### 梗圖
+#### 中文梗
 
+##### 梗文
 
+##### 梗圖
 
 Source: [梗圖倉庫](https://memes.tw/)
 
