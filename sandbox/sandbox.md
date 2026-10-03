@@ -55,7 +55,7 @@ Stand4 university <=> [Standford university](https://www.stanford.edu/).
 
 [丼煲處](https://www.instagram.com/donbaocanteen/) aka. [動保處](https://www.ahiqo.ntpc.gov.tw/)
 
-
+https://arielhsu.tw/easy-to-remember-name/
 
 ##### 梗圖
 
@@ -65,9 +65,13 @@ Source: [梗圖倉庫](https://memes.tw/)
 
 ![洋遇騙](https://megapx-assets.dcard.tw/images/93b7243d-275a-4f8c-9661-7abbf609e921/1280.webp)
 
-https://megapx-assets.dcard.tw/images/a4b2d4e8-ed20-48b7-95f4-d0b148a2a99f/1280.webp
+- https://megapx-assets.dcard.tw/images/a4b2d4e8-ed20-48b7-95f4-d0b148a2a99f/1280.webp
+- https://today-obs.line-scdn.net/0h6C3QeUEEaWwOKHrz564WOzZ-ZR09TnNlLE8nXyooPgtwBH47MBk6D3wrZUBzG305LkxzCnsoZV0mTS5pNQ/w1200
+- https://today-obs.line-scdn.net/0hn_Mt-zNMMXBwDSLvmYtOJ0hbPQFDayt5Ump9FVFeaBAPIXUuHG1iE11aaFxVNSJyUDkqQ1MJaBBZaHYhSA/w1200 (抬鐘人 aka. 台中人)
 
 ##### 諧音梗
 
 https://www.dcard.tw/topics/諧音梗
+
+蝦味先 aka. 呷每鮮 in 台語(吃不膩)
 
