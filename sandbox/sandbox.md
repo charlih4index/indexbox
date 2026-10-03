@@ -27,3 +27,17 @@ exports:
 ## idea1
 
 ## idea2
+
+## stand4
+
+### stand4 AKA. stand for AKA. 梗
+
+Stand4 university <=> [Standford university](https://www.stanford.edu/).
+
+AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
+
+dddd <=> 懂的都懂
+
+梗 AKA. 哏
+
+#### 梗圖
