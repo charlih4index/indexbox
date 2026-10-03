@@ -165,7 +165,7 @@ project:
     - title: Chinese
       children:
         - file: chinese/chinese.md
-        - file: chinese/chinese.md
+        - file: chinese/ZhuyinTable.md
           hidden: true
         - file: chinese/u3105.md
           hidden: true
