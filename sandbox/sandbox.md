@@ -34,9 +34,8 @@ exports:
 
 Stand4 university <=> [Standford university](https://www.stanford.edu/).
 
-AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
-
-dddd <=> 懂的都懂
+-- AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
+-- dddd <=> 懂的都懂
 
 梗 AKA. 哏
 
