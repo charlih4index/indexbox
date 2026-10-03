@@ -34,9 +34,16 @@ exports:
 
 Stand4 university <=> [Standford university](https://www.stanford.edu/).
 
+#### [簡稱](https://dictionary.cambridge.org/dictionary/chinese-traditional-english/簡稱) (Addreviation or Contraction)
 - AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
+- BGM stands for Background music (背景音樂)
 - dddd <=> 懂的都懂
 
 梗 AKA. 哏
 
 #### 梗圖
+
+
+
+Source: [梗圖倉庫](https://memes.tw/)
+
