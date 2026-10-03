@@ -43,7 +43,6 @@ Stand4 university <=> [Standford university](https://www.stanford.edu/).
 - BGM stands for Background music (背景音樂)
 - dddd <=> 懂的都懂
 
-
 #### 中文梗
 
 ##### 梗文
