@@ -53,7 +53,17 @@ Stand4 university <=> [Standford university](https://www.stanford.edu/).
 
 ##### 梗文
 
+[丼煲處](https://www.instagram.com/donbaocanteen/) aka. [動保處](https://www.ahiqo.ntpc.gov.tw/)
+
+
+
 ##### 梗圖
 
+https://www.reddit.com/r/China_irl/comments/1d2fwss/台灣最新梗圖/
+
 Source: [梗圖倉庫](https://memes.tw/)
+
+##### 諧音梗
+
+https://www.dcard.tw/topics/諧音梗
 
