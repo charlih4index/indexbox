@@ -71,6 +71,10 @@ Total possible pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = (
 （「八」字口語連用在去聲字前讀成陽平，如：「八號」、「八拜」。）"
 ```
 
+```
+Help me to update the uploaded Excel file to extract column V labeled "釋義" content's "[名],[代],[形],[動],[副],[介],[連],[感], or[擬]" into column O labeled "詞類 (word class)" and insert a new whole row below the checked row. So, if column V labeled "釋義" content has 3 sections  "[名], [形], or [副]", then the Excel will insert 3 new rows then. Stay untouched, and new rows added below. And the new row's column V labeled "釋義" content to just keep its [] .... and delete all others' []..... For example, if found [名] sentence here, then remove all other [] likes [形] sentence here [動]sentence here etc.
+```
+
 Paste this into Excel → VBA → Module:
 
 ```
