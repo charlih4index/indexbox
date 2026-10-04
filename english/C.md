@@ -24,4 +24,4 @@ exports:
 
 ## [Chinese](Chinese.md)
 
-## [chinese](chinese/chinese.md)
+## [chinese](../chinese/chinese.md)
