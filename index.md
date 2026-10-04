@@ -32,6 +32,13 @@ fig-self8.
 <!-- <img width="476" height="114" alt="image" src="https://github.com/user-attachments/assets/9a55a951-6f7c-443d-ab05-4f6a01d6885c" /> -->
 
 ---
+## Top menu
+
+All | Search | Images | Videos | Maps | News | Shopping | More
+
+Home | About | Blog | Contact | Product | Search
+
+Home | A-Z | Blog | Sandbox | Search | More...
 
 ## Bookmarks AKA. Indexer
 
