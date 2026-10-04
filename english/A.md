@@ -26,5 +26,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary3 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Above](Above.md) | [上](chinese/上.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/above?src=search-dict-box) | Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/above?q=Above) | Dict3 | [wikimedia](https://en.wikipedia.org/wiki/Above) |
+| [Above](Above.md) | [上](chinese/上.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/above?src=search-dict-box) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/above?q=Above) | Dict3 | [wikimedia](https://en.wikipedia.org/wiki/Above) |
 
