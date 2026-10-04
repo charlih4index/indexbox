@@ -23,3 +23,5 @@ exports:
 ## [Car](Car.md)
 
 ## [Chinese](Chinese.md)
+
+## [chinese](chinese/chinese.md)
