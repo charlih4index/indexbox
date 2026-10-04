@@ -42,7 +42,6 @@ Home | A-Z | Blog | Sandbox | Search | More...
 
 ## Bookmarks AKA. Indexer
 
-\- | +
 
 **Numbers**
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
@@ -155,7 +154,7 @@ AI : Agent | Model | Others
 
 Conference: Web | Events
 
-Car: EV | Tesla | Naviation | Waze | CyberTaxi | Waymo
+Car: EV | Tesla | Navigation | Waze | CyberTaxi | Waymo
 
 Deals: Slickdeals | 1Sale | Coupon
 
@@ -169,9 +168,9 @@ Radio: iHeart | TuneIn | myTuner
 
 Re-phrase: scribbr.com
 
-Serve: Uber | Lyft | Doordash | CyberTaxi | Waymo
+Serve: Uber | Lyft | DoorDash | CyberTaxi | Waymo
 
-Social media: Facebook | Instangram | YouTube | TikTok | Telgram | Reddit | Spotify | X | QQ | Discord | LINE
+Social media: Facebook | Instagram | YouTube | TikTok | Telegram | Reddit | Spotify | X | QQ | Discord | LINE
 
 Surrounding: Nextdoor
 
