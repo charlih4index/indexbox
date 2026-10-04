@@ -50,6 +50,16 @@ Total possible pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = (
 名詞、代詞、形容詞、動詞、副詞、介詞、連詞、感嘆詞。
 [名],[代],[形],[動],[副],[介],[連],[感]
 
+[名] = 名詞
+[代] = 代詞
+[形] = 形容詞
+[動] = 動詞
+[副] = 副詞
+[介] = 介詞
+[連] = 連詞
+[感] = 感嘆詞
+[擬] = 擬聲詞
+
 "[名]
 1.介於七與九之間的自然數。如：「六、七、八、九……」。大寫作「捌」，阿拉伯數字作「8」。
 2.姓。如漢代有西域人八滑。
@@ -59,6 +69,87 @@ Total possible pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = (
 [副]
 形容多數或多方面。如：「四通八達」。
 （「八」字口語連用在去聲字前讀成陽平，如：「八號」、「八拜」。）"
+```
+
+Paste this into Excel → VBA → Module:
+
+```
+Sub ExtractWordClasses_InsertRows()
+
+    Dim ws As Worksheet
+    Dim lastRow As Long, r As Long
+    Dim text As String
+    Dim classes As Variant
+    Dim c As Variant
+    Dim count As Long
+    Dim i As Long
+    Dim foundClasses As Collection
+    Dim sectionText As String
+    Dim startPos As Long, endPos As Long
+    
+    Set ws = ActiveSheet
+    lastRow = ws.Cells(ws.Rows.Count, "V").End(xlUp).Row
+    
+    ' Word class tags to detect
+    classes = Array("[名]", "[代]", "[形]", "[動]", "[副]", "[介]", "[連]", "[感]", "[擬]")
+    
+    ' Process bottom → top
+    For r = lastRow To 2 Step -1
+        
+        text = ws.Cells(r, "V").Value
+        
+        Set foundClasses = New Collection
+        
+        ' Find all tags present in column V
+        For Each c In classes
+            If InStr(text, c) > 0 Then
+                foundClasses.Add c
+            End If
+        Next c
+        
+        count = foundClasses.Count
+        
+        If count > 0 Then
+            
+            ' Insert N new rows below original row
+            ws.Rows(r + 1).Resize(count).Insert Shift:=xlDown
+            
+            ' For each tag found, create a new row
+            For i = 1 To count
+                
+                ' Copy entire row (A to V)
+                ws.Range(ws.Cells(r, 1), ws.Cells(r, 22)).Copy _
+                    Destination:=ws.Range(ws.Cells(r + i, 1), ws.Cells(r + i, 22))
+                
+                ' Write the word class into column O
+                ws.Cells(r + i, "O").Value = foundClasses(i)
+                
+                ' Extract only the section belonging to this tag
+                startPos = InStr(text, foundClasses(i))
+                
+                If startPos > 0 Then
+                    ' Find next "[" after this tag
+                    endPos = InStr(startPos + 1, text, "[")
+                    
+                    If endPos = 0 Then
+                        ' No more sections → take until end of text
+                        sectionText = Mid(text, startPos)
+                    Else
+                        ' Extract only this section
+                        sectionText = Mid(text, startPos, endPos - startPos)
+                    End If
+                End If
+                
+                ' Write cleaned definition into column V
+                ws.Cells(r + i, "V").Value = Trim(sectionText)
+                
+            Next i
+            
+        End If
+        
+    Next r
+
+End Sub
 ```
 
 ## Pinyin AKA. romanization
