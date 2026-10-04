@@ -20,6 +20,6 @@ exports:
 
 # C
 
-## Car
+## [Car](Car.md)
 
 ## [Chinese](Chinese.md)
