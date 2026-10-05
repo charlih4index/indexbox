@@ -165,17 +165,19 @@ End Sub
 
 ```
 Zhuyin0
+=LEFT(I2, 1)
+
 Zhuyin1
-=LEFT(I431, 1)
+=MID(I2, 2, 1)
 
 Zhuyin2
-=MID(I431, 2, 1)
+=MID(I2, 3, 1)
 
 Zhuyin3
-=MID(I431, 3, 1)
+=MID(I2, 4, 1)
 
 Zhuyin4
-=MID(I431, 4, 1)
+=MID(I2, 5, 1)
 ```
 
 ### Blank symbol
