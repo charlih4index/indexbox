@@ -177,4 +177,13 @@ Zhuyin3
 Zhuyin4
 =MID(I431, 4, 1)
 ```
+
+### Blank symbol
+
+AKA. substitute blank
+
+AKA. ASCII code: U+2422 or 9250 in Decimal
+
+What it looks alike: ␢ 
+
 ## Pinyin AKA. romanization
