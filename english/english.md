@@ -52,7 +52,7 @@ Release: Updated 2026‑09‑06 (very recent).
 
 Use case: Perfect for Excel filtering, tagging, building your own dictionary workbook, or feeding into scripts.
 
-[Download](https://blog.csdn.net/weixin_33883104/article/details/164437537?utm_source=copilot.com): Provided directly in the CSDN resource pack. 
+[Download](https://github.com/1eez/103976): Provided directly in the CSDN resource pack. 
 
 Why this is the best match:  
 You specifically asked for a newest and complete Excel dictionary. This is the only dataset in the search results that explicitly includes an Excel file and is recently updated.
