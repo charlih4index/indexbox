@@ -52,7 +52,7 @@ Release: Updated 2026‑09‑06 (very recent).
 
 Use case: Perfect for Excel filtering, tagging, building your own dictionary workbook, or feeding into scripts.
 
-Download: Provided directly in the CSDN resource pack. 
+[Download](https://blog.csdn.net/weixin_33883104/article/details/164437537?utm_source=copilot.com): Provided directly in the CSDN resource pack. 
 
 Why this is the best match:  
 You specifically asked for a newest and complete Excel dictionary. This is the only dataset in the search results that explicitly includes an Excel file and is recently updated.
@@ -65,7 +65,7 @@ Size: ~770k English entries + 125k Chinese entries (very large).
 
 Source: Open-source, widely used in dictionary apps.
 
-Download: SourceForge mirror updated 2025‑11‑13. 
+[Download](https://sourceforge.net/projects/ecdict.mirror/?utm_source=copilot.com): SourceForge mirror updated 2025‑11‑13. 
 
 Use case: If you want maximum completeness, you can open the CSV in Excel, but you must clean/reshape it yourself.
 
