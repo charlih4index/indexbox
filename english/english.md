@@ -98,5 +98,12 @@ Lightweight (4.63 MB)
 
 Updated in 2026, newer than ECDICT
 
+```
+Just upload 2 Excel files "ecdictA-L.xlsx" and "ecdictM-ZwNo.xlsx" which is the English words database on GitHub.com/charlih4index/english/
+Please grab word from column A and write those word as 1st column on MD table on .md file at /indexbox/english/ 
+Please check the A.md as sampler file with word "above" by MD table syntax for rest of work extract from those 2 Excel files.
+The column F should fall into 2nd column on MD table. The 3rd, 4th, 5th, 6th column table syntax on MD file are very easier to just the word on existing URL. 
+For example, /above?src=search-dict-box, /english/above?q=Above, ?p=Above, and the /wiki/Above.
+```
 
 
