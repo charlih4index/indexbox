@@ -49,7 +49,7 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
         run: myst build --html
         #   BASE_URL: /${{ github.event.repository.name }}
-        run: myst build --html
+        # run: myst build --html
 
       - name: Generate RSS and Atom feeds
         run: python generate_rss.py
