@@ -20,16 +20,16 @@ exports:
 
 # Q
 
-- [q-symbols](q-symbols.md)
-- [qa](qa.md)
-- [qb](qb.md)
-- [qc](qc.md)
-- [qe](qe.md)
-- [qi](qi.md)
-- [qp](qp.md)
-- [qq](qq.md)
-- [qt](qt.md)
-- [qu](qu.md)
-- [qv](qv.md)
-- [qw](qw.md)
+- [q-symbols](q-symbols.html)
+- [qa](qa.html)
+- [qb](qb.html)
+- [qc](qc.html)
+- [qe](qe.html)
+- [qi](qi.html)
+- [qp](qp.html)
+- [qq](qq.html)
+- [qt](qt.html)
+- [qu](qu.html)
+- [qv](qv.html)
+- [qw](qw.html)
 

@@ -20,15 +20,15 @@ exports:
 
 # Z
 
-- [z-symbols](z-symbols.md)
-- [za](za.md)
-- [zb](zb.md)
-- [ze](ze.md)
-- [zh](zh.md)
-- [zi](zi.md)
-- [zl](zl.md)
-- [zo](zo.md)
-- [zu](zu.md)
-- [zy](zy.md)
-- [zz](zz.md)
+- [z-symbols](z-symbols.html)
+- [za](za.html)
+- [zb](zb.html)
+- [ze](ze.html)
+- [zh](zh.html)
+- [zi](zi.html)
+- [zl](zl.html)
+- [zo](zo.html)
+- [zu](zu.html)
+- [zy](zy.html)
+- [zz](zz.html)
 

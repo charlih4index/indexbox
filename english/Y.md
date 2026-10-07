@@ -20,16 +20,16 @@ exports:
 
 # Y
 
-- [y-symbols](y-symbols.md)
-- [ya](ya.md)
-- [yd](yd.md)
-- [ye](ye.md)
-- [yi](yi.md)
-- [ym](ym.md)
-- [yo](yo.md)
-- [yp](yp.md)
-- [yr](yr.md)
-- [yt](yt.md)
-- [yu](yu.md)
-- [yv](yv.md)
+- [y-symbols](y-symbols.html)
+- [ya](ya.html)
+- [yd](yd.html)
+- [ye](ye.html)
+- [yi](yi.html)
+- [ym](ym.html)
+- [yo](yo.html)
+- [yp](yp.html)
+- [yr](yr.html)
+- [yt](yt.html)
+- [yu](yu.html)
+- [yv](yv.html)
 
