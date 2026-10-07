@@ -45,7 +45,9 @@ jobs:
 
       - name: Build HTML Assets
         # Remove BASE_URL if using a custom domain (CNAME)
-        # env:
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: myst build --html
         #   BASE_URL: /${{ github.event.repository.name }}
         run: myst build --html
 
