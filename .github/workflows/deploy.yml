@@ -48,7 +48,7 @@ jobs:
         env:
           NODE_OPTIONS: --max-old-space-size=6144
         run: myst build --html
-          - run: mkdir -p _build/html/english && cp english/A.html english/B.html english/C.html english/D.html english/E.html english/F.html english/G.html english/H.html english/I.html english/J.html english/K.html english/L.html english/M.html english/N.html english/O.html english/P.html english/Q.html english/R.html english/S.html english/T.html english/U.html english/V.html english/W.html english/X.html english/Y.html english/Z.html _build/html/english/
+      - run: mkdir -p _build/html/english && cp english/A.html english/B.html english/C.html english/D.html english/E.html english/F.html english/G.html english/H.html english/I.html english/J.html english/K.html english/L.html english/M.html english/N.html english/O.html english/P.html english/Q.html english/R.html english/S.html english/T.html english/U.html english/V.html english/W.html english/X.html english/Y.html english/Z.html _build/html/english/
         #   BASE_URL: /${{ github.event.repository.name }}
         # run: myst build --html
 
