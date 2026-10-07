@@ -20,5 +20,5 @@ exports:
 
 # G
 
-[Open the G dictionary page](G.html)
+<a href="G.html">Open the G dictionary page</a>
 
