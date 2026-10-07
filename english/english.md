@@ -103,7 +103,7 @@ Just upload 2 Excel files "ecdictA-L.xlsx" and "ecdictM-ZwNo.xlsx" which is the 
 Please grab word from column A and write those word as 1st column on MD table on .md file at /indexbox/english/ 
 Please check the A.md as sampler file with word "above" by MD table syntax for rest of work extract from those 2 Excel files.
 The column F on Excel file should fall into 2nd column table syntax on MD file. The 3rd, 4th, 5th, 6th column table syntax on MD file are very easier to just replace the word "above" on existing URL. 
-For example, /above?src=search-dict-box, /english/above?q=Above, ?p=Above, and the /wiki/Above.
+For example, https://www.merriam-webster.com/dictionary/above, /us/dictionary/english/above, /search?p=above, and the /wiki/Above.
 ```
 
 
