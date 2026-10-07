@@ -21,7 +21,6 @@ exports:
 # U
 
 - [u-symbols](u-symbols.md)
-- [u2](u2.md)
 - [ua](ua.md)
 - [ub](ub.md)
 - [uc](uc.md)
@@ -38,14 +37,11 @@ exports:
 - [un](un.md)
 - [uo](uo.md)
 - [up](up.md)
-- [uq](uq.md)
 - [ur](ur.md)
 - [us](us.md)
 - [ut](ut.md)
-- [uu](uu.md)
 - [uv](uv.md)
 - [uw](uw.md)
 - [ux](ux.md)
-- [uy](uy.md)
 - [uz](uz.md)
 

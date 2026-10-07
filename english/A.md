@@ -21,11 +21,6 @@ exports:
 # A
 
 - [a-symbols](a-symbols.md)
-- [a1](a1.md)
-- [a2](a2.md)
-- [a3](a3.md)
-- [a4](a4.md)
-- [a5](a5.md)
 - [aa](aa.md)
 - [ab](ab.md)
 - [ac](ac.md)

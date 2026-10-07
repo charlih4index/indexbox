@@ -21,9 +21,6 @@ exports:
 # M
 
 - [m-symbols](m-symbols.md)
-- [m1](m1.md)
-- [m2](m2.md)
-- [m3](m3.md)
 - [ma](ma.md)
 - [mb](mb.md)
 - [mc](mc.md)
@@ -40,7 +37,6 @@ exports:
 - [mn](mn.md)
 - [mo](mo.md)
 - [mp](mp.md)
-- [mq](mq.md)
 - [mr](mr.md)
 - [ms](ms.md)
 - [mt](mt.md)
@@ -49,5 +45,4 @@ exports:
 - [mw](mw.md)
 - [mx](mx.md)
 - [my](my.md)
-- [mz](mz.md)
 

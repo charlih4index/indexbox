@@ -21,16 +21,11 @@ exports:
 # T
 
 - [t-symbols](t-symbols.md)
-- [t1](t1.md)
-- [t2](t2.md)
-- [t3](t3.md)
-- [t4](t4.md)
 - [ta](ta.md)
 - [tb](tb.md)
 - [tc](tc.md)
 - [td](td.md)
 - [te](te.md)
-- [tf](tf.md)
 - [tg](tg.md)
 - [th](th.md)
 - [ti](ti.md)
@@ -50,5 +45,4 @@ exports:
 - [tw](tw.md)
 - [tx](tx.md)
 - [ty](ty.md)
-- [tz](tz.md)
 

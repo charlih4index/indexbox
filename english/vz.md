@@ -23,6 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Vz](vz.md) | abbr. virtual zero 虛零 | [Merriam Webster](https://www.merriam-webster.com/dictionary/vz) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vz) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vz) | [wikimedia](https://en.wikipedia.org/wiki/Vz) |
 | [VZV](vz.md) | abbr. 水痘帶狀皰疹病毒（varicella zoster virus） | [Merriam Webster](https://www.merriam-webster.com/dictionary/vzv) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vzv) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vzv) | [wikimedia](https://en.wikipedia.org/wiki/VZV) |
 

@@ -24,5 +24,4 @@ exports:
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
 | [Wj](wj.md) | abbr. 結構性投資工具（Whistle Jacket）；週刊少年JUMP（Weekly Jump）；兵工民品行業標準 | [Merriam Webster](https://www.merriam-webster.com/dictionary/wj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/wj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=wj) | [wikimedia](https://en.wikipedia.org/wiki/Wj) |
-| [Wjr](wj.md) | abbr. Wajir, Kenya 肯亞，瓦衣爾機場（程式碼） | [Merriam Webster](https://www.merriam-webster.com/dictionary/wjr) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/wjr) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=wjr) | [wikimedia](https://en.wikipedia.org/wiki/Wjr) |
 

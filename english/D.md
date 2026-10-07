@@ -21,7 +21,6 @@ exports:
 # D
 
 - [d-symbols](d-symbols.md)
-- [d2](d2.md)
 - [da](da.md)
 - [db](db.md)
 - [dc](dc.md)
@@ -38,7 +37,6 @@ exports:
 - [dn](dn.md)
 - [do](do.md)
 - [dp](dp.md)
-- [dq](dq.md)
 - [dr](dr.md)
 - [ds](ds.md)
 - [dt](dt.md)
@@ -47,5 +45,4 @@ exports:
 - [dw](dw.md)
 - [dx](dx.md)
 - [dy](dy.md)
-- [dz](dz.md)
 

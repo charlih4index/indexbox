@@ -24,5 +24,4 @@ exports:
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
 | [Gx](gx.md) | abbr. 鄰二甲苯 | [Merriam Webster](https://www.merriam-webster.com/dictionary/gx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/gx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=gx) | [wikimedia](https://en.wikipedia.org/wiki/Gx) |
-| [Gxt](gx.md) | abbr. graded exercise test 等級運動試驗; 分級訓練測驗; graded exercise testing 等級運動試驗 | [Merriam Webster](https://www.merriam-webster.com/dictionary/gxt) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/gxt) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=gxt) | [wikimedia](https://en.wikipedia.org/wiki/Gxt) |
 

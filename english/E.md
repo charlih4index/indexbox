@@ -21,9 +21,6 @@ exports:
 # E
 
 - [e-symbols](e-symbols.md)
-- [e1](e1.md)
-- [e2](e2.md)
-- [e6](e6.md)
 - [ea](ea.md)
 - [eb](eb.md)
 - [ec](ec.md)

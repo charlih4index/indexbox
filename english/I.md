@@ -28,9 +28,7 @@ exports:
 - [ie](ie.md)
 - [if](if.md)
 - [ig](ig.md)
-- [ih](ih.md)
 - [ii](ii.md)
-- [ij](ij.md)
 - [ik](ik.md)
 - [il](il.md)
 - [im](im.md)
@@ -45,6 +43,5 @@ exports:
 - [iv](iv.md)
 - [iw](iw.md)
 - [ix](ix.md)
-- [iy](iy.md)
 - [iz](iz.md)
 

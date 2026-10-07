@@ -21,7 +21,6 @@ exports:
 # R
 
 - [r-symbols](r-symbols.md)
-- [r4](r4.md)
 - [ra](ra.md)
 - [rb](rb.md)
 - [rc](rc.md)
@@ -38,7 +37,6 @@ exports:
 - [rn](rn.md)
 - [ro](ro.md)
 - [rp](rp.md)
-- [rq](rq.md)
 - [rr](rr.md)
 - [rs](rs.md)
 - [rt](rt.md)
@@ -47,5 +45,4 @@ exports:
 - [rw](rw.md)
 - [rx](rx.md)
 - [ry](ry.md)
-- [rz](rz.md)
 

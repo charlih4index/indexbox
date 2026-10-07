@@ -21,10 +21,6 @@ exports:
 # H
 
 - [h-symbols](h-symbols.md)
-- [h1](h1.md)
-- [h2](h2.md)
-- [h3](h3.md)
-- [h8](h8.md)
 - [ha](ha.md)
 - [hb](hb.md)
 - [hc](hc.md)
@@ -48,7 +44,6 @@ exports:
 - [hu](hu.md)
 - [hv](hv.md)
 - [hw](hw.md)
-- [hx](hx.md)
 - [hy](hy.md)
 - [hz](hz.md)
 

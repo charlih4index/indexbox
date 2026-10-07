@@ -21,8 +21,6 @@ exports:
 # P
 
 - [p-symbols](p-symbols.md)
-- [p2](p2.md)
-- [p3](p3.md)
 - [pa](pa.md)
 - [pb](pb.md)
 - [pc](pc.md)
@@ -39,14 +37,11 @@ exports:
 - [pn](pn.md)
 - [po](po.md)
 - [pp](pp.md)
-- [pq](pq.md)
 - [pr](pr.md)
 - [ps](ps.md)
 - [pt](pt.md)
 - [pu](pu.md)
 - [pv](pv.md)
 - [pw](pw.md)
-- [px](px.md)
 - [py](py.md)
-- [pz](pz.md)
 

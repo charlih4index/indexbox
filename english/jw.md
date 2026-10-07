@@ -24,7 +24,4 @@ exports:
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
 | [Jw](jw.md) | abbr. 水套（jacket of water） | [Merriam Webster](https://www.merriam-webster.com/dictionary/jw) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jw) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jw) | [wikimedia](https://en.wikipedia.org/wiki/Jw) |
-| [Jwc](jw.md) | abbr. junction wire connector 匯接線聯結器 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jwc) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jwc) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jwc) | [wikimedia](https://en.wikipedia.org/wiki/Jwc) |
-| [Jwl](jw.md) | abbr. jewel 寶石; jeweler 寶石商 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jwl) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jwl) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jwl) | [wikimedia](https://en.wikipedia.org/wiki/Jwl) |
-| [Jwt](jw.md) | abbr. J Walter Thompson (advertising agency) J·華爾特·湯普森（廣告機構）; joint wavelet transform 聯合子波變換 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jwt) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jwt) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jwt) | [wikimedia](https://en.wikipedia.org/wiki/Jwt) |
 

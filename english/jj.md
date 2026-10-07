@@ -24,6 +24,4 @@ exports:
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
 | [JJ](jj.md) | n. 林俊傑；約瑟夫遜結 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jj) | [wikimedia](https://en.wikipedia.org/wiki/JJ) |
-| [Jjc](jj.md) | n. [魔獸世界]競技場。 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jjc) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jjc) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jjc) | [wikimedia](https://en.wikipedia.org/wiki/Jjc) |
-| [Jjj](jj.md) | abbr. 系列精密淨油加油機；非貨幣用未鍛造金進出口分析；聚甲基丙烯酸甲酯進出口 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jjj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jjj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jjj) | [wikimedia](https://en.wikipedia.org/wiki/Jjj) |
 

@@ -21,8 +21,6 @@ exports:
 # O
 
 - [o-symbols](o-symbols.md)
-- [o2](o2.md)
-- [o3](o3.md)
 - [oa](oa.md)
 - [ob](ob.md)
 - [oc](oc.md)
@@ -32,14 +30,12 @@ exports:
 - [og](og.md)
 - [oh](oh.md)
 - [oi](oi.md)
-- [oj](oj.md)
 - [ok](ok.md)
 - [ol](ol.md)
 - [om](om.md)
 - [on](on.md)
 - [oo](oo.md)
 - [op](op.md)
-- [oq](oq.md)
 - [or](or.md)
 - [os](os.md)
 - [ot](ot.md)

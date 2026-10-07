@@ -21,7 +21,6 @@ exports:
 # W
 
 - [w-symbols](w-symbols.md)
-- [w3](w3.md)
 - [wa](wa.md)
 - [wb](wb.md)
 - [wc](wc.md)
@@ -32,20 +31,14 @@ exports:
 - [wh](wh.md)
 - [wi](wi.md)
 - [wj](wj.md)
-- [wk](wk.md)
 - [wl](wl.md)
 - [wm](wm.md)
-- [wn](wn.md)
 - [wo](wo.md)
 - [wp](wp.md)
-- [wq](wq.md)
 - [wr](wr.md)
 - [ws](ws.md)
 - [wt](wt.md)
 - [wu](wu.md)
-- [wv](wv.md)
 - [ww](ww.md)
-- [wx](wx.md)
 - [wy](wy.md)
-- [wz](wz.md)
 

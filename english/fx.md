@@ -24,5 +24,4 @@ exports:
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
 | [Fx](fx.md) | abbr. 外匯（Foreign Exchange）；固定電臺（Fixed Station） | [Merriam Webster](https://www.merriam-webster.com/dictionary/fx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/fx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=fx) | [wikimedia](https://en.wikipedia.org/wiki/Fx) |
-| [Fxr](fx.md) | abbr. fixer 固定器，定色劑，毒販子 | [Merriam Webster](https://www.merriam-webster.com/dictionary/fxr) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/fxr) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=fxr) | [wikimedia](https://en.wikipedia.org/wiki/Fxr) |
 

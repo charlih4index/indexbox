@@ -21,7 +21,6 @@ exports:
 # B
 
 - [b-symbols](b-symbols.md)
-- [b2](b2.md)
 - [ba](ba.md)
 - [bb](bb.md)
 - [bc](bc.md)
@@ -38,7 +37,6 @@ exports:
 - [bn](bn.md)
 - [bo](bo.md)
 - [bp](bp.md)
-- [bq](bq.md)
 - [br](br.md)
 - [bs](bs.md)
 - [bt](bt.md)
@@ -47,5 +45,4 @@ exports:
 - [bw](bw.md)
 - [bx](bx.md)
 - [by](by.md)
-- [bz](bz.md)
 

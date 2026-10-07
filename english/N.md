@@ -43,7 +43,6 @@ exports:
 - [nu](nu.md)
 - [nv](nv.md)
 - [nw](nw.md)
-- [nx](nx.md)
 - [ny](ny.md)
 - [nz](nz.md)
 
