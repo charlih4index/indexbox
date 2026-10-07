@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Zj](zj.md) | [abbr. zipper(ed) jacket 拉鍊夾克; zonder jaartel (Dutch=without date of publication) （丹麥語）沒有出版日](../chinese/abbr. zipper(ed) jacket 拉鍊夾克; zonder jaartel (Dutch=without date of publication) （丹麥語）沒有出版日.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/zj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zj) | [wikimedia](https://en.wikipedia.org/wiki/Zj) |
+| [Zj](zj.md) | abbr. zipper(ed) jacket 拉鍊夾克; zonder jaartel (Dutch=without date of publication) （丹麥語）沒有出版日 | [Merriam Webster](https://www.merriam-webster.com/dictionary/zj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zj) | [wikimedia](https://en.wikipedia.org/wiki/Zj) |
 

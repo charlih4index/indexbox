@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Jx](jx.md) | [abbr. juxtaglomerular radius 腎小球旁的半徑](../chinese/abbr. juxtaglomerular radius 腎小球旁的半徑.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/jx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jx) | [wikimedia](https://en.wikipedia.org/wiki/Jx) |
+| [Jx](jx.md) | abbr. juxtaglomerular radius 腎小球旁的半徑 | [Merriam Webster](https://www.merriam-webster.com/dictionary/jx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jx) | [wikimedia](https://en.wikipedia.org/wiki/Jx) |
 

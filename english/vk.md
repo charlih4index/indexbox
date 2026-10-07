@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Vk](vk.md) | [abbr. 維生素k（vitamin k）](../chinese/abbr. 維生素k（vitamin k）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/vk) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vk) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vk) | [wikimedia](https://en.wikipedia.org/wiki/Vk) |
+| [Vk](vk.md) | abbr. 維生素k（vitamin k） | [Merriam Webster](https://www.merriam-webster.com/dictionary/vk) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vk) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vk) | [wikimedia](https://en.wikipedia.org/wiki/Vk) |
 

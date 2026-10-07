@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Jg](jg.md) | [abbr. 少尉（junior grade）](../chinese/abbr. 少尉（junior grade）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/jg) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jg) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jg) | [wikimedia](https://en.wikipedia.org/wiki/Jg) |
+| [Jg](jg.md) | abbr. 少尉（junior grade） | [Merriam Webster](https://www.merriam-webster.com/dictionary/jg) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jg) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jg) | [wikimedia](https://en.wikipedia.org/wiki/Jg) |
 

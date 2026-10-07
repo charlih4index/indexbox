@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Vqr](vq.md) | [abbr. vendor qualification report 供應商質量認證報告](../chinese/abbr. vendor qualification report 供應商質量認證報告.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/vqr) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vqr) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vqr) | [wikimedia](https://en.wikipedia.org/wiki/Vqr) |
+| [Vqr](vq.md) | abbr. vendor qualification report 供應商質量認證報告 | [Merriam Webster](https://www.merriam-webster.com/dictionary/vqr) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vqr) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vqr) | [wikimedia](https://en.wikipedia.org/wiki/Vqr) |
 

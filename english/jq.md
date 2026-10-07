@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Jq](jq.md) | [abbr. 判斷力商數（Judgment Quotient）](../chinese/abbr. 判斷力商數（Judgment Quotient）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/jq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jq) | [wikimedia](https://en.wikipedia.org/wiki/Jq) |
+| [Jq](jq.md) | abbr. 判斷力商數（Judgment Quotient） | [Merriam Webster](https://www.merriam-webster.com/dictionary/jq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/jq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=jq) | [wikimedia](https://en.wikipedia.org/wiki/Jq) |
 

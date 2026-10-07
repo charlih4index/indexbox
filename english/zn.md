@@ -23,6 +23,6 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Zn](zn.md) | [[醫] 鋅(30號元素)](../chinese/[醫] 鋅(30號元素).md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/zn) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zn) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zn) | [wikimedia](https://en.wikipedia.org/wiki/Zn) |
-| [Zna](zn.md) | [ [醫][=mixture of dill weed and monosodium glutamate]蒔蘿草和穀氨酸鈉混合物](../chinese/[醫][=mixture of dill weed and monosodium glutamate]蒔蘿草和穀氨酸鈉混合物.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/zna) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zna) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zna) | [wikimedia](https://en.wikipedia.org/wiki/Zna) |
+| [Zn](zn.md) | [醫] 鋅(30號元素) | [Merriam Webster](https://www.merriam-webster.com/dictionary/zn) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zn) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zn) | [wikimedia](https://en.wikipedia.org/wiki/Zn) |
+| [Zna](zn.md) |  [醫][=mixture of dill weed and monosodium glutamate]蒔蘿草和穀氨酸鈉混合物 | [Merriam Webster](https://www.merriam-webster.com/dictionary/zna) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zna) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zna) | [wikimedia](https://en.wikipedia.org/wiki/Zna) |
 

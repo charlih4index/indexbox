@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [VX](vx.md) | [[化] 甲硫膦酸丙胺乙酯](../chinese/[化] 甲硫膦酸丙胺乙酯.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/vx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vx) | [wikimedia](https://en.wikipedia.org/wiki/VX) |
+| [VX](vx.md) | [化] 甲硫膦酸丙胺乙酯 | [Merriam Webster](https://www.merriam-webster.com/dictionary/vx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/vx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=vx) | [wikimedia](https://en.wikipedia.org/wiki/VX) |
 

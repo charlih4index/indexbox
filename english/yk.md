@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Ykk](yk.md) | [abbr. Tajiri Kikai Kogyo Co; Ltd. <日本>田尻機械工業公司（代號）; Yamada Chemical Co.; Ltd. <日本>山田化學公司](../chinese/abbr. Tajiri Kikai Kogyo Co; Ltd. <日本>田尻機械工業公司（代號）; Yamada Chemical Co.; Ltd. <日本>山田化學公司.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/ykk) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/ykk) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=ykk) | [wikimedia](https://en.wikipedia.org/wiki/Ykk) |
+| [Ykk](yk.md) | abbr. Tajiri Kikai Kogyo Co; Ltd. <日本>田尻機械工業公司（代號）; Yamada Chemical Co.; Ltd. <日本>山田化學公司 | [Merriam Webster](https://www.merriam-webster.com/dictionary/ykk) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/ykk) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=ykk) | [wikimedia](https://en.wikipedia.org/wiki/Ykk) |
 

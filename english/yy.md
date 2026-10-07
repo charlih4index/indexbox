@@ -23,6 +23,6 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Yy](yy.md) | [n. 尤尼克斯（羽毛球品牌）；多玩歪歪（軟體名）；影牙城堡（遊戲名）](../chinese/n. 尤尼克斯（羽毛球品牌）；多玩歪歪（軟體名）；影牙城堡（遊戲名）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/yy) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yy) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yy) | [wikimedia](https://en.wikipedia.org/wiki/Yy) |
-| [Yyy](yy.md) | [n. 代替具體的名稱、資料等](../chinese/n. 代替具體的名稱、資料等.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/yyy) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yyy) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yyy) | [wikimedia](https://en.wikipedia.org/wiki/Yyy) |
+| [Yy](yy.md) | n. 尤尼克斯（羽毛球品牌）；多玩歪歪（軟體名）；影牙城堡（遊戲名） | [Merriam Webster](https://www.merriam-webster.com/dictionary/yy) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yy) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yy) | [wikimedia](https://en.wikipedia.org/wiki/Yy) |
+| [Yyy](yy.md) | n. 代替具體的名稱、資料等 | [Merriam Webster](https://www.merriam-webster.com/dictionary/yyy) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yyy) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yyy) | [wikimedia](https://en.wikipedia.org/wiki/Yyy) |
 

@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Qh](qh.md) | [abbr. （拉）每小時（quaque hora）](../chinese/abbr. （拉）每小時（quaque hora）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/qh) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/qh) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=qh) | [wikimedia](https://en.wikipedia.org/wiki/Qh) |
+| [Qh](qh.md) | abbr. （拉）每小時（quaque hora） | [Merriam Webster](https://www.merriam-webster.com/dictionary/qh) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/qh) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=qh) | [wikimedia](https://en.wikipedia.org/wiki/Qh) |
 

@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Gq](gq.md) | [abbr. 全船戰備部署（general quarters）](../chinese/abbr. 全船戰備部署（general quarters）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/gq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/gq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=gq) | [wikimedia](https://en.wikipedia.org/wiki/Gq) |
+| [Gq](gq.md) | abbr. 全船戰備部署（general quarters） | [Merriam Webster](https://www.merriam-webster.com/dictionary/gq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/gq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=gq) | [wikimedia](https://en.wikipedia.org/wiki/Gq) |
 

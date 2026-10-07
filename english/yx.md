@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Yx](yx.md) | [n. [暗黑破壞神]you xing,有形的](../chinese/n. [暗黑破壞神]you xing,有形的.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/yx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yx) | [wikimedia](https://en.wikipedia.org/wiki/Yx) |
+| [Yx](yx.md) | n. [暗黑破壞神]you xing,有形的 | [Merriam Webster](https://www.merriam-webster.com/dictionary/yx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yx) | [wikimedia](https://en.wikipedia.org/wiki/Yx) |
 

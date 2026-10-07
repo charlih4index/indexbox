@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Wq](wq.md) | [abbr. 一系列汙水汙物潛水泵型號；志商（Will Intelligence Quotient）；無功電量](../chinese/abbr. 一系列汙水汙物潛水泵型號；志商（Will Intelligence Quotient）；無功電量.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/wq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/wq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=wq) | [wikimedia](https://en.wikipedia.org/wiki/Wq) |
+| [Wq](wq.md) | abbr. 一系列汙水汙物潛水泵型號；志商（Will Intelligence Quotient）；無功電量 | [Merriam Webster](https://www.merriam-webster.com/dictionary/wq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/wq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=wq) | [wikimedia](https://en.wikipedia.org/wiki/Wq) |
 

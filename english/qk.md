@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Qksort](qk.md) | [快速排序](../chinese/快速排序.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/qksort) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/qksort) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=qksort) | [wikimedia](https://en.wikipedia.org/wiki/Qksort) |
+| [Qksort](qk.md) | 快速排序 | [Merriam Webster](https://www.merriam-webster.com/dictionary/qksort) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/qksort) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=qksort) | [wikimedia](https://en.wikipedia.org/wiki/Qksort) |
 

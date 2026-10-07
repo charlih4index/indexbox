@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Qgp](qg.md) | [abbr. quark gluon plasma 夸克膠子電漿態](../chinese/abbr. quark gluon plasma 夸克膠子電漿態.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/qgp) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/qgp) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=qgp) | [wikimedia](https://en.wikipedia.org/wiki/Qgp) |
+| [Qgp](qg.md) | abbr. quark gluon plasma 夸克膠子電漿態 | [Merriam Webster](https://www.merriam-webster.com/dictionary/qgp) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/qgp) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=qgp) | [wikimedia](https://en.wikipedia.org/wiki/Qgp) |
 

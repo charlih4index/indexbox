@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Zk](zk.md) | [ [醫][=z line]z線（即間板）](../chinese/[醫][=z line]z線（即間板）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/zk) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zk) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zk) | [wikimedia](https://en.wikipedia.org/wiki/Zk) |
+| [Zk](zk.md) |  [醫][=z line]z線（即間板） | [Merriam Webster](https://www.merriam-webster.com/dictionary/zk) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/zk) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=zk) | [wikimedia](https://en.wikipedia.org/wiki/Zk) |
 

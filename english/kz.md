@@ -23,6 +23,6 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Kz](kz.md) | [abbr. 哈薩克（Kazakhstan）](../chinese/abbr. 哈薩克（Kazakhstan）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/kz) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/kz) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=kz) | [wikimedia](https://en.wikipedia.org/wiki/Kz) |
-| [Kzn](kz.md) | [abbr. Kazan, Russian Federation 俄羅斯，喀山機場（程式碼）](../chinese/abbr. Kazan, Russian Federation 俄羅斯，喀山機場（程式碼）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/kzn) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/kzn) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=kzn) | [wikimedia](https://en.wikipedia.org/wiki/Kzn) |
+| [Kz](kz.md) | abbr. 哈薩克（Kazakhstan） | [Merriam Webster](https://www.merriam-webster.com/dictionary/kz) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/kz) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=kz) | [wikimedia](https://en.wikipedia.org/wiki/Kz) |
+| [Kzn](kz.md) | abbr. Kazan, Russian Federation 俄羅斯，喀山機場（程式碼） | [Merriam Webster](https://www.merriam-webster.com/dictionary/kzn) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/kzn) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=kzn) | [wikimedia](https://en.wikipedia.org/wiki/Kzn) |
 

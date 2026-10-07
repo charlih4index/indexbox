@@ -23,6 +23,6 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Hz](hz.md) | [[計] 赫茲](../chinese/[計] 赫茲.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/hz) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hz) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hz) | [wikimedia](https://en.wikipedia.org/wiki/Hz) |
-| [Hzv](hz.md) | [ [醫][=herpes zoster virus]帶狀皰疹病毒](../chinese/[醫][=herpes zoster virus]帶狀皰疹病毒.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/hzv) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hzv) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hzv) | [wikimedia](https://en.wikipedia.org/wiki/Hzv) |
+| [Hz](hz.md) | [計] 赫茲 | [Merriam Webster](https://www.merriam-webster.com/dictionary/hz) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hz) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hz) | [wikimedia](https://en.wikipedia.org/wiki/Hz) |
+| [Hzv](hz.md) |  [醫][=herpes zoster virus]帶狀皰疹病毒 | [Merriam Webster](https://www.merriam-webster.com/dictionary/hzv) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hzv) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hzv) | [wikimedia](https://en.wikipedia.org/wiki/Hzv) |
 

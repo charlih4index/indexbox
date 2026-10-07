@@ -23,7 +23,7 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [HX](hx.md) | [abbr. 鹵化氫；香港航空（Hong Kong Airlines）](../chinese/abbr. 鹵化氫；香港航空（Hong Kong Airlines）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/hx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hx) | [wikimedia](https://en.wikipedia.org/wiki/HX) |
-| [HXc](hx.md) | [](../chinese/.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/hxc) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hxc) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hxc) | [wikimedia](https://en.wikipedia.org/wiki/HXc) |
-| [HXR](hx.md) | [[化] 肌苷](../chinese/[化] 肌苷.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/hxr) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hxr) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hxr) | [wikimedia](https://en.wikipedia.org/wiki/HXR) |
+| [HX](hx.md) | abbr. 鹵化氫；香港航空（Hong Kong Airlines） | [Merriam Webster](https://www.merriam-webster.com/dictionary/hx) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hx) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hx) | [wikimedia](https://en.wikipedia.org/wiki/HX) |
+| [HXc](hx.md) |  | [Merriam Webster](https://www.merriam-webster.com/dictionary/hxc) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hxc) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hxc) | [wikimedia](https://en.wikipedia.org/wiki/HXc) |
+| [HXR](hx.md) | [化] 肌苷 | [Merriam Webster](https://www.merriam-webster.com/dictionary/hxr) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hxr) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=hxr) | [wikimedia](https://en.wikipedia.org/wiki/HXR) |
 

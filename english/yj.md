@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Yj](yj.md) | [abbr. radar homing beacon 歸航雷達信標（代號）](../chinese/abbr. radar homing beacon 歸航雷達信標（代號）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/yj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yj) | [wikimedia](https://en.wikipedia.org/wiki/Yj) |
+| [Yj](yj.md) | abbr. radar homing beacon 歸航雷達信標（代號） | [Merriam Webster](https://www.merriam-webster.com/dictionary/yj) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/yj) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=yj) | [wikimedia](https://en.wikipedia.org/wiki/Yj) |
 

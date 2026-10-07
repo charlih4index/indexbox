@@ -23,5 +23,5 @@ exports:
 | English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
 |---|---|---|---|---|---|
 | **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Bq](bq.md) | [abbr. [醫]對苯醌（p-benzoquinone）](../chinese/abbr. [醫]對苯醌（p-benzoquinone）.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/bq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/bq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=bq) | [wikimedia](https://en.wikipedia.org/wiki/Bq) |
+| [Bq](bq.md) | abbr. [醫]對苯醌（p-benzoquinone） | [Merriam Webster](https://www.merriam-webster.com/dictionary/bq) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/bq) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=bq) | [wikimedia](https://en.wikipedia.org/wiki/Bq) |
 
