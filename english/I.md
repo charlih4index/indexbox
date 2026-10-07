@@ -20,5 +20,5 @@ exports:
 
 # I
 
-[Open the I dictionary page](I.html)
+<a href="I.html">Open the I dictionary page</a>
 
