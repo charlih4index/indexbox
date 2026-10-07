@@ -20,5 +20,5 @@ exports:
 
 # C
 
-[Open the C dictionary page](C.html)
+<a href="C.html">Open the C dictionary page</a>
 
