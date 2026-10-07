@@ -20,5 +20,5 @@ exports:
 
 # Q
 
-[Open the Q dictionary page](Q.html)
+<a href="Q.html">Open the Q dictionary page</a>
 
