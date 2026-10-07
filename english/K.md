@@ -20,5 +20,5 @@ exports:
 
 # K
 
-[Open the K dictionary page](K.html)
+<a href="K.html">Open the K dictionary page</a>
 
