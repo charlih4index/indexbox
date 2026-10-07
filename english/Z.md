@@ -20,5 +20,5 @@ exports:
 
 # Z
 
-[Open the Z dictionary page](Z.html)
+<a href="Z.html">Open the Z dictionary page</a>
 
