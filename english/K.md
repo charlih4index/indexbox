@@ -20,24 +20,5 @@ exports:
 
 # K
 
-- [k-symbols](k-symbols.html)
-- [ka](ka.html)
-- [kb](kb.html)
-- [kc](kc.html)
-- [kd](kd.html)
-- [ke](ke.html)
-- [kg](kg.html)
-- [kh](kh.html)
-- [ki](ki.html)
-- [kj](kj.html)
-- [kl](kl.html)
-- [km](km.html)
-- [kn](kn.html)
-- [ko](ko.html)
-- [kp](kp.html)
-- [kr](kr.html)
-- [ku](ku.html)
-- [kv](kv.html)
-- [kw](kw.html)
-- [ky](ky.html)
+[Open the K dictionary page](K.html)
 

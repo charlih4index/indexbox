@@ -20,27 +20,5 @@ exports:
 
 # G
 
-- [g-symbols](g-symbols.html)
-- [ga](ga.html)
-- [gb](gb.html)
-- [gc](gc.html)
-- [gd](gd.html)
-- [ge](ge.html)
-- [gf](gf.html)
-- [gg](gg.html)
-- [gh](gh.html)
-- [gi](gi.html)
-- [gk](gk.html)
-- [gl](gl.html)
-- [gm](gm.html)
-- [gn](gn.html)
-- [go](go.html)
-- [gp](gp.html)
-- [gr](gr.html)
-- [gs](gs.html)
-- [gt](gt.html)
-- [gu](gu.html)
-- [gw](gw.html)
-- [gx](gx.html)
-- [gy](gy.html)
+[Open the G dictionary page](G.html)
 

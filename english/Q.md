@@ -20,16 +20,5 @@ exports:
 
 # Q
 
-- [q-symbols](q-symbols.html)
-- [qa](qa.html)
-- [qb](qb.html)
-- [qc](qc.html)
-- [qe](qe.html)
-- [qi](qi.html)
-- [qp](qp.html)
-- [qq](qq.html)
-- [qt](qt.html)
-- [qu](qu.html)
-- [qv](qv.html)
-- [qw](qw.html)
+[Open the Q dictionary page](Q.html)
 

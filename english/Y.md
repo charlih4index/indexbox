@@ -20,16 +20,5 @@ exports:
 
 # Y
 
-- [y-symbols](y-symbols.html)
-- [ya](ya.html)
-- [yd](yd.html)
-- [ye](ye.html)
-- [yi](yi.html)
-- [ym](ym.html)
-- [yo](yo.html)
-- [yp](yp.html)
-- [yr](yr.html)
-- [yt](yt.html)
-- [yu](yu.html)
-- [yv](yv.html)
+[Open the Y dictionary page](Y.html)
 

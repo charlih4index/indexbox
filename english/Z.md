@@ -20,15 +20,5 @@ exports:
 
 # Z
 
-- [z-symbols](z-symbols.html)
-- [za](za.html)
-- [zb](zb.html)
-- [ze](ze.html)
-- [zh](zh.html)
-- [zi](zi.html)
-- [zl](zl.html)
-- [zo](zo.html)
-- [zu](zu.html)
-- [zy](zy.html)
-- [zz](zz.html)
+[Open the Z dictionary page](Z.html)
 

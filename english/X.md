@@ -20,16 +20,5 @@ exports:
 
 # X
 
-- [x-symbols](x-symbols.html)
-- [xa](xa.html)
-- [xe](xe.html)
-- [xh](xh.html)
-- [xi](xi.html)
-- [xl](xl.html)
-- [xm](xm.html)
-- [xt](xt.html)
-- [xu](xu.html)
-- [xv](xv.html)
-- [xx](xx.html)
-- [xy](xy.html)
+[Open the X dictionary page](X.html)
 
