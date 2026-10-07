@@ -11,7 +11,7 @@ kernelspec:
 title: C
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,8 +20,36 @@ exports:
 
 # C
 
-## [Car](Car.md)
+- [c-symbols](c-symbols.md)
+- [c1](c1.md)
+- [c2](c2.md)
+- [c4](c4.md)
+- [c5](c5.md)
+- [c6](c6.md)
+- [ca](ca.md)
+- [cb](cb.md)
+- [cc](cc.md)
+- [cd](cd.md)
+- [ce](ce.md)
+- [cf](cf.md)
+- [cg](cg.md)
+- [ch](ch.md)
+- [ci](ci.md)
+- [cj](cj.md)
+- [ck](ck.md)
+- [cl](cl.md)
+- [cm](cm.md)
+- [cn](cn.md)
+- [co](co.md)
+- [cp](cp.md)
+- [cq](cq.md)
+- [cr](cr.md)
+- [cs](cs.md)
+- [ct](ct.md)
+- [cu](cu.md)
+- [cv](cv.md)
+- [cw](cw.md)
+- [cx](cx.md)
+- [cy](cy.md)
+- [cz](cz.md)
 
-## [Chinese](Chinese.md)
-
-## [chinese](../chinese/chinese.md)

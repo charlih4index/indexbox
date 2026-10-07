@@ -11,7 +11,7 @@ kernelspec:
 title: U
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,32 @@ exports:
 
 # U
 
-## Umbrella
+- [u-symbols](u-symbols.md)
+- [u2](u2.md)
+- [ua](ua.md)
+- [ub](ub.md)
+- [uc](uc.md)
+- [ud](ud.md)
+- [ue](ue.md)
+- [uf](uf.md)
+- [ug](ug.md)
+- [uh](uh.md)
+- [ui](ui.md)
+- [uj](uj.md)
+- [uk](uk.md)
+- [ul](ul.md)
+- [um](um.md)
+- [un](un.md)
+- [uo](uo.md)
+- [up](up.md)
+- [uq](uq.md)
+- [ur](ur.md)
+- [us](us.md)
+- [ut](ut.md)
+- [uu](uu.md)
+- [uv](uv.md)
+- [uw](uw.md)
+- [ux](ux.md)
+- [uy](uy.md)
+- [uz](uz.md)
+

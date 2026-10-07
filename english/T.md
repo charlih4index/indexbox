@@ -11,7 +11,7 @@ kernelspec:
 title: T
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,35 @@ exports:
 
 # T
 
-## Tiger
+- [t-symbols](t-symbols.md)
+- [t1](t1.md)
+- [t2](t2.md)
+- [t3](t3.md)
+- [t4](t4.md)
+- [ta](ta.md)
+- [tb](tb.md)
+- [tc](tc.md)
+- [td](td.md)
+- [te](te.md)
+- [tf](tf.md)
+- [tg](tg.md)
+- [th](th.md)
+- [ti](ti.md)
+- [tj](tj.md)
+- [tk](tk.md)
+- [tl](tl.md)
+- [tm](tm.md)
+- [tn](tn.md)
+- [to](to.md)
+- [tp](tp.md)
+- [tq](tq.md)
+- [tr](tr.md)
+- [ts](ts.md)
+- [tt](tt.md)
+- [tu](tu.md)
+- [tv](tv.md)
+- [tw](tw.md)
+- [tx](tx.md)
+- [ty](ty.md)
+- [tz](tz.md)
+

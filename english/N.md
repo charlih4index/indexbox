@@ -11,7 +11,7 @@ kernelspec:
 title: N
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,30 @@ exports:
 
 # N
 
-## Nest
+- [n-symbols](n-symbols.md)
+- [na](na.md)
+- [nb](nb.md)
+- [nc](nc.md)
+- [nd](nd.md)
+- [ne](ne.md)
+- [nf](nf.md)
+- [ng](ng.md)
+- [nh](nh.md)
+- [ni](ni.md)
+- [nj](nj.md)
+- [nk](nk.md)
+- [nl](nl.md)
+- [nm](nm.md)
+- [nn](nn.md)
+- [no](no.md)
+- [np](np.md)
+- [nr](nr.md)
+- [ns](ns.md)
+- [nt](nt.md)
+- [nu](nu.md)
+- [nv](nv.md)
+- [nw](nw.md)
+- [nx](nx.md)
+- [ny](ny.md)
+- [nz](nz.md)
+

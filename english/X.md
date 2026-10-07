@@ -11,7 +11,7 @@ kernelspec:
 title: X
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,31 @@ exports:
 
 # X
 
-## Xylophone
+- [x-symbols](x-symbols.md)
+- [xa](xa.md)
+- [xb](xb.md)
+- [xc](xc.md)
+- [xd](xd.md)
+- [xe](xe.md)
+- [xf](xf.md)
+- [xg](xg.md)
+- [xh](xh.md)
+- [xi](xi.md)
+- [xj](xj.md)
+- [xk](xk.md)
+- [xl](xl.md)
+- [xm](xm.md)
+- [xn](xn.md)
+- [xo](xo.md)
+- [xp](xp.md)
+- [xq](xq.md)
+- [xr](xr.md)
+- [xs](xs.md)
+- [xt](xt.md)
+- [xu](xu.md)
+- [xv](xv.md)
+- [xw](xw.md)
+- [xx](xx.md)
+- [xy](xy.md)
+- [xz](xz.md)
+

@@ -11,7 +11,7 @@ kernelspec:
 title: P
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,33 @@ exports:
 
 # P
 
-## Pen
+- [p-symbols](p-symbols.md)
+- [p2](p2.md)
+- [p3](p3.md)
+- [pa](pa.md)
+- [pb](pb.md)
+- [pc](pc.md)
+- [pd](pd.md)
+- [pe](pe.md)
+- [pf](pf.md)
+- [pg](pg.md)
+- [ph](ph.md)
+- [pi](pi.md)
+- [pj](pj.md)
+- [pk](pk.md)
+- [pl](pl.md)
+- [pm](pm.md)
+- [pn](pn.md)
+- [po](po.md)
+- [pp](pp.md)
+- [pq](pq.md)
+- [pr](pr.md)
+- [ps](ps.md)
+- [pt](pt.md)
+- [pu](pu.md)
+- [pv](pv.md)
+- [pw](pw.md)
+- [px](px.md)
+- [py](py.md)
+- [pz](pz.md)
+

@@ -20,9 +20,36 @@ exports:
 
 # A
 
-## Above
-| English | Chinese | Dictionary1 | Dictionary2 | Dictionary3 | wikimedia |
-|---|---|---|---|---|---|
-| **A** | **B** | **Tag#1** | **Tag#2** | **Tag#3** | **Tag#4** |
-| [Above](A.md) | [上](../chinese/上.md) | [Merriam Webster](https://www.merriam-webster.com/dictionary/above) | [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/above) | [Yahoo! Dictionary](https://tw.dictionary.search.yahoo.com/search?p=above) | [wikimedia](https://en.wikipedia.org/wiki/Above) |
+- [a-symbols](a-symbols.md)
+- [a1](a1.md)
+- [a2](a2.md)
+- [a3](a3.md)
+- [a4](a4.md)
+- [a5](a5.md)
+- [aa](aa.md)
+- [ab](ab.md)
+- [ac](ac.md)
+- [ad](ad.md)
+- [ae](ae.md)
+- [af](af.md)
+- [ag](ag.md)
+- [ah](ah.md)
+- [ai](ai.md)
+- [aj](aj.md)
+- [ak](ak.md)
+- [al](al.md)
+- [am](am.md)
+- [an](an.md)
+- [ao](ao.md)
+- [ap](ap.md)
+- [aq](aq.md)
+- [ar](ar.md)
+- [as](as.md)
+- [at](at.md)
+- [au](au.md)
+- [av](av.md)
+- [aw](aw.md)
+- [ax](ax.md)
+- [ay](ay.md)
+- [az](az.md)
 

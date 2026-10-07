@@ -11,7 +11,7 @@ kernelspec:
 title: W
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,32 @@ exports:
 
 # W
 
-## Whale
+- [w-symbols](w-symbols.md)
+- [w3](w3.md)
+- [wa](wa.md)
+- [wb](wb.md)
+- [wc](wc.md)
+- [wd](wd.md)
+- [we](we.md)
+- [wf](wf.md)
+- [wg](wg.md)
+- [wh](wh.md)
+- [wi](wi.md)
+- [wj](wj.md)
+- [wk](wk.md)
+- [wl](wl.md)
+- [wm](wm.md)
+- [wn](wn.md)
+- [wo](wo.md)
+- [wp](wp.md)
+- [wq](wq.md)
+- [wr](wr.md)
+- [ws](ws.md)
+- [wt](wt.md)
+- [wu](wu.md)
+- [wv](wv.md)
+- [ww](ww.md)
+- [wx](wx.md)
+- [wy](wy.md)
+- [wz](wz.md)
+

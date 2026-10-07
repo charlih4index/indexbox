@@ -11,7 +11,7 @@ kernelspec:
 title: Y
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,31 @@ exports:
 
 # Y
 
-## Yak
+- [y-symbols](y-symbols.md)
+- [ya](ya.md)
+- [yb](yb.md)
+- [yc](yc.md)
+- [yd](yd.md)
+- [ye](ye.md)
+- [yf](yf.md)
+- [yg](yg.md)
+- [yh](yh.md)
+- [yi](yi.md)
+- [yj](yj.md)
+- [yk](yk.md)
+- [yl](yl.md)
+- [ym](ym.md)
+- [yn](yn.md)
+- [yo](yo.md)
+- [yp](yp.md)
+- [yq](yq.md)
+- [yr](yr.md)
+- [ys](ys.md)
+- [yt](yt.md)
+- [yu](yu.md)
+- [yv](yv.md)
+- [yw](yw.md)
+- [yx](yx.md)
+- [yy](yy.md)
+- [yz](yz.md)
+

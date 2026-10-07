@@ -11,7 +11,7 @@ kernelspec:
 title: D
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,32 @@ exports:
 
 # D
 
-## Dog
+- [d-symbols](d-symbols.md)
+- [d2](d2.md)
+- [da](da.md)
+- [db](db.md)
+- [dc](dc.md)
+- [dd](dd.md)
+- [de](de.md)
+- [df](df.md)
+- [dg](dg.md)
+- [dh](dh.md)
+- [di](di.md)
+- [dj](dj.md)
+- [dk](dk.md)
+- [dl](dl.md)
+- [dm](dm.md)
+- [dn](dn.md)
+- [do](do.md)
+- [dp](dp.md)
+- [dq](dq.md)
+- [dr](dr.md)
+- [ds](ds.md)
+- [dt](dt.md)
+- [du](du.md)
+- [dv](dv.md)
+- [dw](dw.md)
+- [dx](dx.md)
+- [dy](dy.md)
+- [dz](dz.md)
+

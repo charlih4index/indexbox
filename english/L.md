@@ -11,7 +11,7 @@ kernelspec:
 title: L
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,4 +20,31 @@ exports:
 
 # L
 
-## Lion
+- [l-symbols](l-symbols.md)
+- [la](la.md)
+- [lb](lb.md)
+- [lc](lc.md)
+- [ld](ld.md)
+- [le](le.md)
+- [lf](lf.md)
+- [lg](lg.md)
+- [lh](lh.md)
+- [li](li.md)
+- [lj](lj.md)
+- [lk](lk.md)
+- [ll](ll.md)
+- [lm](lm.md)
+- [ln](ln.md)
+- [lo](lo.md)
+- [lp](lp.md)
+- [lq](lq.md)
+- [lr](lr.md)
+- [ls](ls.md)
+- [lt](lt.md)
+- [lu](lu.md)
+- [lv](lv.md)
+- [lw](lw.md)
+- [lx](lx.md)
+- [ly](ly.md)
+- [lz](lz.md)
+
