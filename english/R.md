@@ -20,5 +20,5 @@ exports:
 
 # R
 
-[Open the R dictionary page](R.html)
+<a href="R.html">Open the R dictionary page</a>
 
