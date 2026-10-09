@@ -77,9 +77,19 @@ https://ride.guru/content/resources/rideshares-worldwide
 
 | Company | URL | Logo | App | others | 
 |---------|-----|------|-----|--------|
-| Uber Eat |  | | | |
-| DoorDash |  | | | |
-| Food Panda | | | |
+| Uber Eats | https://www.ubereats.com/ | | | |
+| DoorDash | https://www.doordash.com/ | | | |
+| Foodpanda | | | |
+| GrabFood | | | |
+| Just Eat Takeaway | https://www.justeattakeaway.com/ | | |
+| Meituan | https://about.meituan.com/en | | |
+| ELEME | https://www.ele.me/ | | |
+| Deliveroo | https://corporate.deliveroo.co.uk/ | | |
+| Delivery Hero | https://www.deliveryhero.com/ | | |
+| Zomato | | | |
+| Swiggy | | | |
+| iFood | | | |
+| Rappi | | | |
 
 ## idea1
 
