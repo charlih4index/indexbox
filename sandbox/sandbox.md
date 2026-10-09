@@ -79,17 +79,17 @@ https://ride.guru/content/resources/rideshares-worldwide
 |---------|-----|------|-----|--------|
 | Uber Eats | https://www.ubereats.com/ | | | |
 | DoorDash | https://www.doordash.com/ | | | |
-| Foodpanda | | | |
-| GrabFood | | | |
+| Foodpanda | http://foodpanda.com/ | | |
+| GrabFood | http://grab.com/ | | |
 | Just Eat Takeaway | https://www.justeattakeaway.com/ | | |
-| Meituan | https://about.meituan.com/en | | |
+| Meituan | https://about.meituan.com/en | | 美團 |
 | ELEME | https://www.ele.me/ | | |
 | Deliveroo | https://corporate.deliveroo.co.uk/ | | |
 | Delivery Hero | https://www.deliveryhero.com/ | | |
-| Zomato | | | |
-| Swiggy | | | |
-| iFood | | | |
-| Rappi | | | |
+| Zomato | https://zomato.com/ | | |
+| Swiggy | https://swiggy.com/ | | |
+| iFood | https://www.ifood.com.br/ | | |
+| Rappi | http://about.rappi.com/ | | |
 
 ## idea1
 
