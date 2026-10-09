@@ -101,9 +101,27 @@ https://ride.guru/content/resources/rideshares-worldwide
 
 梗 AKA. 哏
 
-#### 英文梗
+#### 英文梗 aka. meme name
 
 Stand4 university <=> [Standford university](https://www.stanford.edu/).
+
+TL;DR stands for Too Long; Didn't Read
+
+LMAO stands for Laughing My Ass Off
+
+BRB stands for Be Right Back
+
+BFF stands for Best Friends Foreever
+
+LOK stands for Laughing Out Loud
+
+Me after one email
+
+Great. Another meeting.
+
+LOWERCASE, GUY.
+
+
 
 ##### [簡稱](https://dictionary.cambridge.org/dictionary/chinese-traditional-english/簡稱) (Addreviation or Contraction)
 - AKA <=> A.K.A. <=> a.k.a. <-> As Known As <=> Also Known As
