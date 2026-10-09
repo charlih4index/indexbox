@@ -43,6 +43,42 @@ https://uptogo.com.tw/文化/最近有什麼流行用語？/
 | SMH | VanEck半導體ETF | 632.50 | 3.86% | 3.86% | 75.63% | 
 | SOXX | iShares半導體ETF | 589.45 | 3.66% | 3.66% | 95.73% |
 
+## test3
+
+### Ridesharing
+
+| Company | URL | Logo | App | others | 
+|---------|-----|------|-----|--------|
+| Uber | | | | |
+| Lyft |  | | | |
+| DiDi |  | | | |
+| Grab | | | | |
+| Bolt | | | | |
+| inDrive | | | | |
+| Gojek | | | | |
+| Cabify | | | | |
+| Ziro | | | | |
+| Via | | | | |
+| Gett | | | | |
+| Ztrip | | | | |
+| Arro | | | | |
+| Flywheel | | | | |
+| Wingz | | | | |
+| Hitch | | | | |
+| Curb | | | | |
+| BlaBla Car | | | | |
+| Ola | | | | |
+| GoKid | | | | |
+| Scoop |  | | | |
+
+### Food Delivery
+
+| Company | URL | Logo | App | others | 
+|---------|-----|------|-----|--------|
+| Uber Eat |  | | | |
+| DoorDash |  | | | |
+| Food Panda | | | |
+
 ## idea1
 
 ## idea2
