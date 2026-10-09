@@ -111,7 +111,7 @@ LMAO stands for Laughing My Ass Off
 
 BRB stands for Be Right Back
 
-BFF stands for Best Friends Foreever
+BFF stands for Best Friends Forever
 
 LOK stands for Laughing Out Loud
 
