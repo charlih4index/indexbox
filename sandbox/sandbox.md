@@ -71,6 +71,8 @@ https://uptogo.com.tw/文化/最近有什麼流行用語？/
 | GoKid | | | | |
 | Scoop |  | | | |
 
+https://ride.guru/content/resources/rideshares-worldwide
+
 ### Food Delivery
 
 | Company | URL | Logo | App | others | 
