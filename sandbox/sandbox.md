@@ -82,7 +82,7 @@ https://ride.guru/content/resources/rideshares-worldwide
 | Foodpanda | http://foodpanda.com/ | | |
 | GrabFood | http://grab.com/ | | |
 | Just Eat Takeaway | https://www.justeattakeaway.com/ | | |
-| Meituan | https://about.meituan.com/en | | 美團 |
+| Meituan | https://about.meituan.com/en | | | 美團 |
 | ELEME | https://www.ele.me/ | | |
 | Deliveroo | https://corporate.deliveroo.co.uk/ | | |
 | Delivery Hero | https://www.deliveryhero.com/ | | |
