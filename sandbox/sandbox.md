@@ -113,7 +113,7 @@ BRB stands for Be Right Back
 
 BFF stands for Best Friends Forever
 
-LOK stands for Laughing Out Loud
+LOL stands for Laughing Out Loud
 
 Me after one email
 
