@@ -47,29 +47,29 @@ https://uptogo.com.tw/文化/最近有什麼流行用語？/
 
 ### Ridesharing
 
-| Company | URL | Logo | App | others | 
-|---------|-----|------|-----|--------|
-| Uber | | | | |
-| Lyft |  | | | |
-| DiDi |  | | | DiDi Chuxing |
-| Grab | | | | |
-| Bolt | | | | formerly Taxify |
-| inDrive | | | | |
-| Gojek | | | | |
-| Cabify | | | | |
-| Ziro | | | | |
-| Via | | | | |
-| Gett | | | | |
-| Ztrip | | | | |
-| Arro | | | | |
-| Flywheel | | | | |
-| Wingz | | | | |
-| Hitch | | | | |
-| Curb | | | | |
-| BlaBla Car | | | | |
-| Ola | | | | |
-| GoKid | | | | |
-| Scoop |  | | | |
+| Company | URL | Logo | App | others | Born |
+|---------|-----|------|-----|--------|------|
+| Uber | | | | | March 2009 |
+| Lyft | | | | | June 9, 2012 |
+| DiDi |  | | | DiDi Chuxing | June 2012 |
+| Grab | | | | | June 2012 |
+| Bolt | | | | formerly Taxify | |
+| inDrive | | | | | |
+| Gojek | | | | | |
+| Cabify | | | | | |
+| Ziro | | | | | |
+| Via | | | | | |
+| Gett | | | | | |
+| Ztrip | | | | | |
+| Arro | | | | | |
+| Flywheel | | | | | |
+| Wingz | | | | | |
+| Hitch | | | | | |
+| Curb | | | | | |
+| BlaBla Car | | | | | |
+| Ola | | | | | | |
+| GoKid | | | | | |
+| Scoop |  | | | | |
 
 https://ride.guru/content/resources/rideshares-worldwide
 
