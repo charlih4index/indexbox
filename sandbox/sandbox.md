@@ -51,7 +51,7 @@ https://uptogo.com.tw/文化/最近有什麼流行用語？/
 |---------|-----|------|-----|--------|
 | Uber | | | | |
 | Lyft |  | | | |
-| DiDi |  | | | |
+| DiDi |  | | | DiDi Chuxing |
 | Grab | | | | |
 | Bolt | | | | formerly Taxify |
 | inDrive | | | | |
