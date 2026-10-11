@@ -25,7 +25,7 @@ The more tagging will define more clarify the "object".
 
 {numref}`fig-tagging` Tagging to define the "object".
 
-```{figure} ../images/tags.png
+```{figure} pages/images/tags.png
 :name: fig-tag
 :alt: Tagging
 
@@ -41,7 +41,7 @@ B defines and describes A with more Tag#1...Tag #n for assistance.
 
 {numref}`fig-eq2` EQ2.
 
-```{figure} ../images/tagseq2.png
+```{figure} pages/images/tagseq2.png
 :name: fig-eq2
 :alt: EQ2
 
