@@ -15,6 +15,10 @@ A website [indexbox.com](https://indexbox.com/) is making useful bookmarks for e
 2. By using **SQL database** : the solution for above issue to reach infinity bookmarking/indexing.
 3. Other
 
+## Input by user
+
+
+
 ## Become comparable to
 
 - **Google**
