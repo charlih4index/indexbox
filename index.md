@@ -211,7 +211,7 @@ Translate: Google | immersive
 :::
 
 :::{card}
-:link: https://github.com/charlih4index/indexbox/category.md
+:link: /sandbox/category.md
 ![Blog](pages/images/category.png)
 +++
 **Index Category AKA. Sub-Bookmark**
