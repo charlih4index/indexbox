@@ -131,3 +131,26 @@ EQ2.
   }
 }
 ```
+
+Help me to modify the ZhuyinTable.html under GitHub.com/charlih4index/Chinese
+Here is the sampler html code to update:
+From:
+```
+      ㄇ
+      <br/>
+      ㄧ
+      <br/>
+      ㄝ
+      <br/>
+      ˊ
+```
+To:
+```
+   <a href="␢ㄇㄧㄝˊ.md" target="_blank">ㄅ
+      <div>
+      ㄧ
+      <div>
+      ㄝ
+      <div>
+      ˊ</a>
+```
