@@ -72,6 +72,8 @@ As separate bar / line / divider : Do the similar as Time square news, newest bl
 
 ---
 
+![注音的位置](pages/image/注音的位置.jpg)
+
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [ㄅ](chinese/u3105.md) | [ㄆ](chinese/u3106.md) | [ㄇ](chinese/u3107.md) | [ㄈ](chinese/u3108.md) | [ㄉ](chinese/u3109.md) | [ㄊ](chinese/u310a.md) | [ㄋ](chinese/u310b.md) | [ㄌ](chinese/u310c.md) | [ㄍ](chinese/u310d.md) | [ㄎ](chinese/u310e.md) | [ㄏ](chinese/u310f.md) | [ㄐ](chinese/u3110.md) | [ㄑ](chinese/u3111.md) | [ㄒ](chinese/u3112.md) | [ㄓ](chinese/u3113.md) | [ㄔ](chinese/u3114.md) | [ㄕ](chinese/u3115.md) | [ㄖ](chinese/u3116.md) | [ㄗ](chinese/u3117.md) | [ㄘ](chinese/u3118.md) | [ㄙ](chinese/u3119.md) |
