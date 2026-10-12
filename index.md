@@ -213,7 +213,7 @@ Translate: Google | immersive
 :::
 
 :::{card}
-:link: /sandbox/category.md
+:link: /sandbox/category
 ![Blog](pages/images/category.png)
 +++
 **Index Category AKA. Sub-Bookmark**
