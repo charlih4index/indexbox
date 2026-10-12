@@ -27,6 +27,7 @@ project:
     - pages/references.bib
   toc:
     - file: index.md
+    - file: others.md
     - title: Preface
       children:
         - file: pages/preface.md
