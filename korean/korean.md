@@ -22,7 +22,7 @@ exports:
 
 ## Hangul table
 
-Total possible Korean characters = 19*21*28 = 11,172
+Total possible Korean characters = 19 * 21 * 28 = 11,172
 
 [Hangul_Table.html](hangul_table.html)
 
