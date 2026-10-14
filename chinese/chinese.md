@@ -36,6 +36,10 @@ Total possible pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = (
 
 [ZhuyinTable.md](ZhuyinTable.md) vs. [ZhuyinTable.html](ZhuyinTable.html) vs. [ZhuyinTable.xlsx](ZhuyinTable.xlsx)
 
+### Search
+
+[Search Chinese character page](https://indexbox.com/chinese/character.html)
+
 ### A Chinese character eq2 the Zhuyin
 
 | Zhuyin | Chinese character | meaning | pronounce | others |
