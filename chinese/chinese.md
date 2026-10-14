@@ -37,8 +37,8 @@ Total possible pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = (
 [ZhuyinTable.md](ZhuyinTable.md) vs. [ZhuyinTable.html](ZhuyinTable.html) vs. [ZhuyinTable.xlsx](ZhuyinTable.xlsx)
 
 ### Search
-
-[Chinese character search page](https://indexbox.com/chinese/character.html)
+- [Zhuyin search page](https://indexbox.com/chinese/zhuyin.html)
+- [Chinese character search page](https://indexbox.com/chinese/character.html)
 
 ### A Chinese character eq2 the Zhuyin
 
