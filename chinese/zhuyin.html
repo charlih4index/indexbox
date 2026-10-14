@@ -16,6 +16,13 @@
   #search { margin: 0 0 1em; }
   #search input { font-size: 1.1em; padding: 6px 10px; width: 10em; }
   #search button { font-size: 1.1em; padding: 6px 14px; margin-left: 6px; cursor: pointer; }
+  #picker { margin: 0 0 1em; }
+  #picker table { border-collapse: collapse; width: auto; }
+  #picker td { border: 2px solid #222; padding: 8px 10px; text-align: center; vertical-align: middle; }
+  #picker td.empty { border: none; }
+  #picker select { font-size: 1.3em; }
+  #picker-result { font-size: 2em; font-weight: bold; min-height: 1.2em; margin-right: 0.3em; }
+  #picker-search { font-size: 1.1em; padding: 6px 14px; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -25,6 +32,87 @@
   <input id="q" type="text" placeholder="輸入一個注音" aria-label="Syllable to look up" autocomplete="off">
   <button type="submit">Search</button>
 </form>
+<div id="picker">
+  <table>
+    <tr>
+      <td>
+        <select id="pkA" aria-label="Neutral tone">
+          <option value="" selected>␢</option>
+          <option value="˙">˙</option>
+        </select>
+      </td>
+      <td rowspan="2" class="empty"></td>
+    </tr>
+    <tr>
+      <td>
+        <select id="pkB" aria-label="Initial">
+          <option value="" selected>␢</option>
+          <option>ㄅ</option>
+          <option>ㄆ</option>
+          <option>ㄇ</option>
+          <option>ㄈ</option>
+          <option>ㄉ</option>
+          <option>ㄊ</option>
+          <option>ㄋ</option>
+          <option>ㄌ</option>
+          <option>ㄍ</option>
+          <option>ㄎ</option>
+          <option>ㄏ</option>
+          <option>ㄐ</option>
+          <option>ㄑ</option>
+          <option>ㄒ</option>
+          <option>ㄓ</option>
+          <option>ㄔ</option>
+          <option>ㄕ</option>
+          <option>ㄖ</option>
+          <option>ㄗ</option>
+          <option>ㄘ</option>
+          <option>ㄙ</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <select id="pkC" aria-label="Medial">
+          <option value="" selected>␢</option>
+          <option>ㄧ</option>
+          <option>ㄨ</option>
+          <option>ㄩ</option>
+        </select>
+      </td>
+      <td>
+        <select id="pkD" aria-label="Tone">
+          <option value="" selected>␢</option>
+          <option>ˊ</option>
+          <option>ˇ</option>
+          <option>ˋ</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <select id="pkE" aria-label="Final">
+          <option value="" selected>␢</option>
+          <option>ㄚ</option>
+          <option>ㄛ</option>
+          <option>ㄜ</option>
+          <option>ㄝ</option>
+          <option>ㄞ</option>
+          <option>ㄟ</option>
+          <option>ㄠ</option>
+          <option>ㄡ</option>
+          <option>ㄢ</option>
+          <option>ㄣ</option>
+          <option>ㄤ</option>
+          <option>ㄥ</option>
+          <option>ㄦ</option>
+        </select>
+      </td>
+      <td class="empty"></td>
+    </tr>
+  </table>
+  <div><span id="picker-result"></span><button id="picker-search" type="button">Search</button></div>
+</div>
 <div id="status">Loading…</div>
 <div id="content"></div>
 <script>
@@ -44,6 +132,45 @@
     if (!v) return;
     window.location.search = '?zhuyin=' + encodeURIComponent(v);
   });
+  // Syllable picker: 5 dropdowns (neutral tone, initial, medial, tone, final)
+  // combined as ˙? + initial + medial + final + tone, same as the sandbox helper.
+  var pkA = document.getElementById('pkA');
+  var pkB = document.getElementById('pkB');
+  var pkC = document.getElementById('pkC');
+  var pkD = document.getElementById('pkD');
+  var pkE = document.getElementById('pkE');
+  function combineZhuyin() {
+    var out = '';
+    if (pkA.value === '˙') out += '˙';
+    out += pkB.value + pkC.value + pkE.value + pkD.value;
+    document.getElementById('picker-result').textContent = out;
+    return out;
+  }
+  [pkA, pkB, pkC, pkD, pkE].forEach(function (el) {
+    el.addEventListener('change', combineZhuyin);
+  });
+  document.getElementById('picker-search').addEventListener('click', function () {
+    var v = combineZhuyin();
+    if (!v) return;
+    window.location.search = '?zhuyin=' + encodeURIComponent(v);
+  });
+  // Pre-select the dropdowns from the current ?zhuyin= value, if any.
+  if (zy) {
+    var rest = zy;
+    if (rest.charAt(0) === '˙') { pkA.value = '˙'; rest = rest.slice(1); }
+    var last = rest.charAt(rest.length - 1);
+    if (last === 'ˊ' || last === 'ˇ' || last === 'ˋ') { pkD.value = last; rest = rest.slice(0, -1); }
+    var initials = 'ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙ';
+    var medials = 'ㄧㄨㄩ';
+    var finals = 'ㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ';
+    for (var i = 0; i < rest.length; i++) {
+      var ch = rest.charAt(i);
+      if (initials.indexOf(ch) !== -1) pkB.value = ch;
+      else if (medials.indexOf(ch) !== -1) pkC.value = ch;
+      else if (finals.indexOf(ch) !== -1) pkE.value = ch;
+    }
+  }
+  combineZhuyin();
   if (!zy) {
     document.getElementById('status').textContent = 'Enter a syllable above to look up.';
     return;
