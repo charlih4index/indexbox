@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 5px solid black;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.empty {
+    border: none;
+}
+
+select {
+    font-size: 32px;
+    width: 90px;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 80px;
+}
+</style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>
+            <select id="A" onchange="combineZhuyin()">
+                <option value="" selected>␢</option>
+                <option value="˙">˙</option>
+            </select>
+        </td>
+        <td rowspan="2" class="empty"></td>
+    </tr>
+
+    <tr>
+        <td>
+            <select id="B" onchange="combineZhuyin()">
+                <option value="" selected>␢</option>
+                <option>ㄅ</option>
+                <option>ㄆ</option>
+                <option>ㄇ</option>
+                <option>ㄈ</option>
+                <option>ㄉ</option>
+                <option>ㄊ</option>
+                <option>ㄋ</option>
+                <option>ㄌ</option>
+                <option>ㄍ</option>
+                <option>ㄎ</option>
+                <option>ㄏ</option>
+                <option>ㄐ</option>
+                <option>ㄑ</option>
+                <option>ㄒ</option>
+                <option>ㄓ</option>
+                <option>ㄔ</option>
+                <option>ㄕ</option>
+                <option>ㄖ</option>
+                <option>ㄗ</option>
+                <option>ㄘ</option>
+                <option>ㄙ</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <select id="C" onchange="combineZhuyin()">
+                <option value="" selected>␢</option>
+                <option>ㄧ</option>
+                <option>ㄨ</option>
+                <option>ㄩ</option>
+            </select>
+        </td>
+
+        <td>
+            <select id="D" onchange="combineZhuyin()">
+                <option value="" selected>␢</option>
+                <option>ˊ</option>
+                <option>ˇ</option>
+                <option>ˋ</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <select id="E" onchange="combineZhuyin()">
+                <option value="" selected>␢</option>
+                <option>ㄚ</option>
+                <option>ㄛ</option>
+                <option>ㄜ</option>
+                <option>ㄝ</option>
+                <option>ㄞ</option>
+                <option>ㄟ</option>
+                <option>ㄠ</option>
+                <option>ㄡ</option>
+                <option>ㄢ</option>
+                <option>ㄣ</option>
+                <option>ㄤ</option>
+                <option>ㄥ</option>
+                <option>ㄦ</option>
+            </select>
+        </td>
+
+        <td class="empty"></td>
+    </tr>
+</table>
+
+<div id="result"></div>
+
+<script>
+function combineZhuyin() {
+
+    const A = document.getElementById("A").value;
+    const B = document.getElementById("B").value;
+    const C = document.getElementById("C").value;
+    const D = document.getElementById("D").value;
+    const E = document.getElementById("E").value;
+
+    let output = "";
+
+    // Light tone mark appears at beginning
+    if (A === "˙") {
+        output += "˙";
+    }
+
+    output += B + C + E + D;
+
+    document.getElementById("result").textContent = output;
+}
+
+combineZhuyin();
+</script>
+
+</body>
+</html>
