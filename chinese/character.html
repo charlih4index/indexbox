@@ -13,11 +13,18 @@
   th { background: #f0f0f0; white-space: nowrap; }
   td:first-child { font-size: 1.5em; white-space: nowrap; }
   #status { color: #666; }
+  #search { margin: 0 0 1em; }
+  #search input { font-size: 1.1em; padding: 6px 10px; width: 10em; }
+  #search button { font-size: 1.1em; padding: 6px 14px; margin-left: 6px; cursor: pointer; }
 </style>
 </head>
 <body>
 <h1 id="title"></h1>
 <hr>
+<form id="search">
+  <input id="q" type="text" placeholder="輸入一個中文字" aria-label="Character to look up" autocomplete="off">
+  <button type="submit">Search</button>
+</form>
 <div id="status">Loading…</div>
 <div id="content"></div>
 <script>
@@ -31,8 +38,14 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
+  document.getElementById('search').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var v = document.getElementById('q').value.trim();
+    if (!v) return;
+    window.location.search = '?char=' + encodeURIComponent(v.charAt(0));
+  });
   if (!ch) {
-    document.getElementById('status').textContent = 'No character specified.';
+    document.getElementById('status').textContent = 'Enter a character above to look up.';
     return;
   }
   fetch('chinese_word.json')
@@ -41,7 +54,7 @@
       var rows = data.filter(function (r) { return r.character === ch; });
       var status = document.getElementById('status');
       if (!rows.length) {
-        status.textContent = 'No data found for "' + ch + '".';
+        status.textContent = 'No entries found for "' + ch + '".';
         return;
       }
       status.textContent = rows.length + ' entr' + (rows.length === 1 ? 'y' : 'ies') + ' found.';
