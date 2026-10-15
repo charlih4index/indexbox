@@ -22,7 +22,9 @@ exports:
 
 ## Hangul table
 
-Total possible Korean characters = 19 * 21 * 28 = 11,172
+Total possible Korean character is 256,956.
+
+Which is adding up 3 Korean character positions: 11,172+11,172+234,612=256,956.
 
 [Hangul_Table.html](hangul_table.html)
 
