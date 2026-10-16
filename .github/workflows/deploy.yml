@@ -50,10 +50,10 @@ jobs:
         run: myst build --html
       - run: mkdir -p _build/html/english && cp english/A.html english/B.html english/C.html english/D.html english/E.html english/F.html english/G.html english/H.html english/I.html english/J.html english/K.html english/L.html english/M.html english/N.html english/O.html english/P.html english/Q.html english/R.html english/S.html english/T.html english/U.html english/V.html english/W.html english/X.html english/Y.html english/Z.html _build/html/english/
       #- run: mkdir -p _build/html/chinese && cp chinese/ZhuyinTable.html _build/html/chinese/
-      #- run: mkdir -p _build/html/chinese && cp chinese/ZhuyinTable.html _build/html/chinese/ && mkdir -p _build/html/chinese/img && cp chinese/img/*.png _build/html/chinese/img/
-      #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html _build/html/korean/  
+      - run: mkdir -p _build/html/chinese && cp chinese/ZhuyinTable.html _build/html/chinese/ && mkdir -p _build/html/chinese/img && cp chinese/img/*.png _build/html/chinese/img/
       #- run: cp chinese/character.html chinese/chinese_word.json _build/html/chinese/
-      #- run: cp chinese/character.html chinese/zhuyin.html chinese/chinese_word.json _build/html/chinese/
+      - run: cp chinese/character.html chinese/zhuyin.html chinese/chinese_word.json _build/html/chinese/
+      #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html _build/html/korean/ 
       - run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json _build/html/korean/
         #   BASE_URL: /${{ github.event.repository.name }}
         # run: myst build --html
