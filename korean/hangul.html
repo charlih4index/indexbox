@@ -68,7 +68,7 @@
         status.textContent = 'Failed to load data.';
         return;
       }
-      var rows = parts[0].rows.concat(parts[1].rows).filter(function (r) { return r.hangul === hg; });
+      var rows = parts[0].rows.concat(parts[1].rows).filter(function (r) { return r.hangul.indexOf(hg) === 0; });
       if (!rows.length) {
         status.textContent = 'No entries found for "' + hg + '".';
         return;
