@@ -62,7 +62,7 @@ jobs:
       - name: Generate RSS and Atom feeds
         run: python generate_rss.py
 
-      - name: Inject Giscus comments into blog posts
+      #- name: Inject Giscus comments into blog posts
     #    run: python inject_comments.py
 
       - name: Copy static files
