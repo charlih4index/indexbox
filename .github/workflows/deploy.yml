@@ -54,7 +54,8 @@ jobs:
       #- run: cp chinese/character.html chinese/chinese_word.json _build/html/chinese/
       - run: cp chinese/character.html chinese/zhuyin.html chinese/chinese_word.json _build/html/chinese/
       #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html _build/html/korean/ 
-      - run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json _build/html/korean/
+      #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json _build/html/korean/
+      - run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json korean/hangul1.json _build/html/korean/
         #   BASE_URL: /${{ github.event.repository.name }}
         # run: myst build --html
 
@@ -62,7 +63,7 @@ jobs:
         run: python generate_rss.py
 
       - name: Inject Giscus comments into blog posts
-        run: python inject_comments.py
+    #    run: python inject_comments.py
 
       - name: Copy static files
         run: |
