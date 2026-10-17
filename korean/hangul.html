@@ -48,17 +48,34 @@
     document.getElementById('status').textContent = 'Enter a word above to look up.';
     return;
   }
-  fetch('hangul.json')
-    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(function (data) {
-      var rows = data.filter(function (r) { return r.hangul === hg; });
+  function load(url, source) {
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + url);
+      return r.json();
+    }).then(function (data) {
+      return { ok: true, rows: data.map(function (e) {
+        return { hangul: e.hangul, meaning: e.meaning, alphabet: e.alphabet, source: source };
+      }) };
+    }).catch(function () {
+      return { ok: false, rows: [] };
+    });
+  }
+  Promise.all([load('hangul.json', 'kengdic'), load('hangul1.json', 'ebook')])
+    .then(function (parts) {
       var status = document.getElementById('status');
+      var loaded = parts.filter(function (p) { return p.ok; });
+      if (!loaded.length) {
+        status.textContent = 'Failed to load data.';
+        return;
+      }
+      var rows = parts[0].rows.concat(parts[1].rows).filter(function (r) { return r.hangul === hg; });
       if (!rows.length) {
         status.textContent = 'No entries found for "' + hg + '".';
         return;
       }
-      status.textContent = rows.length + ' entr' + (rows.length === 1 ? 'y' : 'ies') + ' found.';
-      var cols = ['hangul', 'meaning', 'alphabet'];
+      var note = loaded.length < parts.length ? ' (some sources unavailable)' : '';
+      status.textContent = rows.length + ' entr' + (rows.length === 1 ? 'y' : 'ies') + ' found.' + note;
+      var cols = ['hangul', 'meaning', 'alphabet', 'source'];
       var html = '<table><thead><tr>' + cols.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
       rows.forEach(function (r) {
         html += '<tr>' + cols.map(function (c) {
@@ -67,9 +84,6 @@
       });
       html += '</tbody></table>';
       document.getElementById('content').innerHTML = html;
-    })
-    .catch(function (e) {
-      document.getElementById('status').textContent = 'Failed to load data: ' + e.message;
     });
 })();
 </script>
