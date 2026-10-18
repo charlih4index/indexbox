@@ -32,10 +32,10 @@ exports:
 
 a (gojūon, 五十音, "Fifty Sounds") table
 
-[HiraganaTable.md](hiraganaTable.md)
+[HiraganaTable.md](HiraganaTable.md)
 
 ## Katakana table
 
 a (gojūon, 五十音, "Fifty Sounds") table
 
-[KatakanaTable.md](katakanaTable.md)
+[KatakanaTable.md](KatakanaTable.md)
