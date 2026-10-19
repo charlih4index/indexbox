@@ -45,11 +45,11 @@ r	ラ[ラ](u30e9.md)	リ[リ](u30ea.md)	ル[ル](u30eb.md)	レ[レ](u30ec.md)	�
 w	ワ[ワ](u30ef.md)	ヰ	␢	ヱ	ヲ[ヲ](u30f2.md)
 
 
-hiragana | pingyin | meaning | type |
-                               50
-                               pre-index
-3 letters
-4 letters
-5
-6
-....
+| hiragana  |  pingyin  |  meaning | type |
+| か       |  a     |       |        |50音|
+|かか       |  aa    |       |       |pre-index|
+|かかか      |      |      |       | 3 letters|
+|かかかか    |    |       |       | 4 letters|
+|かかかかか  |     |       |       | 5|
+|かかかかかか |    |      |        | 6|
+|            |     |      |       | ....|
