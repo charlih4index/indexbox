@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pokemon Go Pokedex</title>
+        <meta name="source" content="https://pokemon.gameinfo.io">
+        <meta name="author" content="Charlih Chen">
+	</head>
+	<body>pokemon = {
+		<br/>
+1:"Bulbasaur"
+		<br/>
+2:"Ivysaur"
+		<br/>
+3:"Venusaur"
+		<br/>
+3:"Venusaur"
+		<br/>
+4:"Charmander"
+		<br/>
+5:"Charmeleon"
+		<br/>
+6:"Charizard"
+		<br/>
+6:"Charizard"
+		<br/>
+6:"Charizard"
+		<br/>
+7:"Squirtle"
+		<br/>
+8:"Wartortle"
+		<br/>
+9:"Blastoise"
+		<br/>
+9:"Blastoise"
+		<br/>
+10:"Caterpie"
+		<br/>
+11:"Metapod"
+		<br/>
+12:"Butterfree"
+		<br/>
+13:"Weedle"
+		<br/>
+14:"Kakuna"
+		<br/>
+15:"Beedrill"
+		<br/>
+15:"Beedrill"
+		<br/>
+16:"Pidgey"
+		<br/>
+17:"Pidgeotto"
+		<br/>
+18:"Pidgeot"
+		<br/>
+18:"Pidgeot"
+		<br/>
+19:"Rattata"
+		<br/>
+19:"Rattata"
+		<br/>
+20:"Raticate"
+		<br/>
+20:"Raticate"
+		<br/>
+21:"Spearow"
+		<br/>
+22:"Fearow"
+		<br/>
+23:"Ekans"
+		<br/>
+24:"Arbok"
+		<br/>
+25:"Pikachu"
+		<br/>
+25:"Pikachu"
+		<br/>
+26:"Raichu"
+		<br/>
+26:"Raichu"
+		<br/>
+27:"Sandshrew"
+		<br/>
+27:"Sandshrew"
+		<br/>
+28:"Sandslash"
+		<br/>
+28:"Sandslash"
+		<br/>
+29:"Nidoran♀"
+		<br/>
+30:"Nidorina"
+		<br/>
+31:"Nidoqueen"
+		<br/>
+32:"Nidoran♂"
+		<br/>
+33:"Nidorino"
+		<br/>
+34:"Nidoking"
+		<br/>
+35:"Clefairy"
+		<br/>
+36:"Clefable"
+		<br/>
+37:"Vulpix"
+		<br/>
+37:"Vulpix"
+		<br/>
+38:"Ninetales"
+		<br/>
+38:"Ninetales"
+		<br/>
+39:"Jigglypuff"
+		<br/>
+40:"Wigglytuff"
+		<br/>
+41:"Zubat"
+		<br/>
+42:"Golbat"
+		<br/>
+43:"Oddish"
+		<br/>
+44:"Gloom"
+		<br/>
+45:"Vileplume"
+		<br/>
+46:"Paras"
+		<br/>
+47:"Parasect"
+		<br/>
+48:"Venonat"
+		<br/>
+49:"Venomoth"
+		<br/>
+50:"Diglett"
+		<br/>
+50:"Diglett"
+		<br/>
+51:"Dugtrio"
+		<br/>
+51:"Dugtrio"
+		<br/>
+52:"Meowth"
+		<br/>
+52:"Meowth"
+		<br/>
+52:"Meowth"
+		<br/>
+53:"Persian"
+		<br/>
+53:"Persian"
+		<br/>
+54:"Psyduck"
+		<br/>
+55:"Golduck"
+		<br/>
+56:"Mankey"
+		<br/>
+57:"Primeape"
+		<br/>
+58:"Growlithe"
+		<br/>
+58:"Growlithe"
+		<br/>
+59:"Arcanine"
+		<br/>
+59:"Arcanine"
+		<br/>
+60:"Poliwag"
+		<br/>
+61:"Poliwhirl"
+		<br/>
+62:"Poliwrath"
+		<br/>
+63:"Abra"
+		<br/>
+64:"Kadabra"
+		<br/>
+65:"Alakazam"
+		<br/>
+65:"Alakazam"
+		<br/>
+66:"Machop"
+		<br/>
+67:"Machoke"
+		<br/>
+68:"Machamp"
+		<br/>
+69:"Bellsprout"
+		<br/>
+70:"Weepinbell"
+		<br/>
+71:"Victreebel"
+		<br/>
+72:"Tentacool"
+		<br/>
+73:"Tentacruel"
+		<br/>
+74:"Geodude"
+		<br/>
+74:"Geodude"
+		<br/>
+75:"Graveler"
+		<br/>
+75:"Graveler"
+		<br/>
+76:"Golem"
+		<br/>
+76:"Golem"
+		<br/>
+77:"Ponyta"
+		<br/>
+77:"Ponyta"
+		<br/>
+78:"Rapidash"
+		<br/>
+78:"Rapidash"
+		<br/>
+79:"Slowpoke"
+		<br/>
+79:"Slowpoke"
+		<br/>
+80:"Slowbro"
+		<br/>
+80:"Slowbro"
+		<br/>
+80:"Slowbro"
+		<br/>
+81:"Magnemite"
+		<br/>
+82:"Magneton"
+		<br/>
+83:"Farfetch'd"
+		<br/>
+83:"Farfetch'd"
+		<br/>
+84:"Doduo"
+		<br/>
+85:"Dodrio"
+		<br/>
+86:"Seel"
+		<br/>
+87:"Dewgong"
+		<br/>
+88:"Grimer"
+		<br/>
+88:"Grimer"
+		<br/>
+89:"Muk"
+		<br/>
+89:"Muk"
+		<br/>
+90:"Shellder"
+		<br/>
+91:"Cloyster"
+		<br/>
+92:"Gastly"
+		<br/>
+93:"Haunter"
+		<br/>
+94:"Gengar"
+		<br/>
+94:"Gengar"
+		<br/>
+95:"Onix"
+		<br/>
+96:"Drowzee"
+		<br/>
+97:"Hypno"
+		<br/>
+98:"Krabby"
+		<br/>
+99:"Kingler"
+		<br/>
+100:"Voltorb"
+		<br/>
+100:"Voltorb"
+		<br/>
+101:"Electrode"
+		<br/>
+101:"Electrode"
+		<br/>
+102:"Exeggcute"
+		<br/>
+103:"Exeggutor"
+		<br/>
+103:"Exeggutor"
+		<br/>
+104:"Cubone"
+		<br/>
+105:"Marowak"
+		<br/>
+105:"Marowak"
+		<br/>
+106:"Hitmonlee"
+		<br/>
+107:"Hitmonchan"
+		<br/>
+108:"Lickitung"
+		<br/>
+109:"Koffing"
+		<br/>
+110:"Weezing"
+		<br/>
+110:"Weezing"
+		<br/>
+111:"Rhyhorn"
+		<br/>
+112:"Rhydon"
+		<br/>
+113:"Chansey"
+		<br/>
+114:"Tangela"
+		<br/>
+115:"Kangaskhan"
+		<br/>
+115:"Kangaskhan"
+		<br/>
+116:"Horsea"
+		<br/>
+117:"Seadra"
+		<br/>
+118:"Goldeen"
+		<br/>
+119:"Seaking"
+		<br/>
+120:"Staryu"
+		<br/>
+121:"Starmie"
+		<br/>
+122:"Mr. Mime"
+		<br/>
+122:"Mr. Mime"
+		<br/>
+123:"Scyther"
+		<br/>
+124:"Jynx"
+		<br/>
+125:"Electabuzz"
+		<br/>
+126:"Magmar"
+		<br/>
+127:"Pinsir"
+		<br/>
+127:"Pinsir"
+		<br/>
+128:"Tauros"
+		<br/>
+128:"Tauros"
+		<br/>
+128:"Tauros"
+		<br/>
+128:"Tauros"
+		<br/>
+129:"Magikarp"
+		<br/>
+130:"Gyarados"
+		<br/>
+130:"Gyarados"
+		<br/>
+131:"Lapras"
+		<br/>
+132:"Ditto"
+		<br/>
+133:"Eevee"
+		<br/>
+133:"Eevee"
+		<br/>
+134:"Vaporeon"
+		<br/>
+135:"Jolteon"
+		<br/>
+136:"Flareon"
+		<br/>
+137:"Porygon"
+		<br/>
+138:"Omanyte"
+		<br/>
+139:"Omastar"
+		<br/>
+140:"Kabuto"
+		<br/>
+141:"Kabutops"
+		<br/>
+142:"Aerodactyl"
+		<br/>
+142:"Aerodactyl"
+		<br/>
+143:"Snorlax"
+		<br/>
+144:"Articuno"
+		<br/>
+144:"Articuno"
+		<br/>
+145:"Zapdos"
+		<br/>
+145:"Zapdos"
+		<br/>
+146:"Moltres"
+		<br/>
+146:"Moltres"
+		<br/>
+147:"Dratini"
+		<br/>
+148:"Dragonair"
+		<br/>
+149:"Dragonite"
+		<br/>
+150:"Mewtwo"
+		<br/>
+150:"Mewtwo"
+		<br/>
+150:"Mewtwo"
+		<br/>
+151:"Mew"
+		<br/>
+152:"Chikorita"
+		<br/>
+153:"Bayleef"
+		<br/>
+154:"Meganium"
+		<br/>
+155:"Cyndaquil"
+		<br/>
+156:"Quilava"
+		<br/>
+157:"Typhlosion"
+		<br/>
+157:"Typhlosion"
+		<br/>
+158:"Totodile"
+		<br/>
+159:"Croconaw"
+		<br/>
+160:"Feraligatr"
+		<br/>
+161:"Sentret"
+		<br/>
+162:"Furret"
+		<br/>
+163:"Hoothoot"
+		<br/>
+164:"Noctowl"
+		<br/>
+165:"Ledyba"
+		<br/>
+166:"Ledian"
+		<br/>
+167:"Spinarak"
+		<br/>
+168:"Ariados"
+		<br/>
+169:"Crobat"
+		<br/>
+170:"Chinchou"
+		<br/>
+171:"Lanturn"
+		<br/>
+172:"Pichu"
+		<br/>
+173:"Cleffa"
+		<br/>
+174:"Igglybuff"
+		<br/>
+175:"Togepi"
+		<br/>
+176:"Togetic"
+		<br/>
+177:"Natu"
+		<br/>
+178:"Xatu"
+		<br/>
+179:"Mareep"
+		<br/>
+180:"Flaaffy"
+		<br/>
+181:"Ampharos"
+		<br/>
+181:"Ampharos"
+		<br/>
+182:"Bellossom"
+		<br/>
+183:"Marill"
+		<br/>
+184:"Azumarill"
+		<br/>
+185:"Sudowoodo"
+		<br/>
+186:"Politoed"
+		<br/>
+187:"Hoppip"
+		<br/>
+188:"Skiploom"
+		<br/>
+189:"Jumpluff"
+		<br/>
+190:"Aipom"
+		<br/>
+191:"Sunkern"
+		<br/>
+192:"Sunflora"
+		<br/>
+193:"Yanma"
+		<br/>
+194:"Wooper"
+		<br/>
+194:"Wooper"
+		<br/>
+195:"Quagsire"
+		<br/>
+196:"Espeon"
+		<br/>
+197:"Umbreon"
+		<br/>
+198:"Murkrow"
+		<br/>
+199:"Slowking"
+		<br/>
+199:"Slowking"
+		<br/>
+200:"Misdreavus"
+		<br/>
+201:"Unown"
+		<br/>
+202:"Wobbuffet"
+		<br/>
+203:"Girafarig"
+		<br/>
+204:"Pineco"
+		<br/>
+205:"Forretress"
+		<br/>
+206:"Dunsparce"
+		<br/>
+207:"Gligar"
+		<br/>
+208:"Steelix"
+		<br/>
+208:"Steelix"
+		<br/>
+209:"Snubbull"
+		<br/>
+210:"Granbull"
+		<br/>
+211:"Qwilfish"
+		<br/>
+211:"Qwilfish"
+		<br/>
+212:"Scizor"
+		<br/>
+212:"Scizor"
+		<br/>
+213:"Shuckle"
+		<br/>
+214:"Heracross"
+		<br/>
+214:"Heracross"
+		<br/>
+215:"Sneasel"
+		<br/>
+215:"Sneasel"
+		<br/>
+216:"Teddiursa"
+		<br/>
+217:"Ursaring"
+		<br/>
+218:"Slugma"
+		<br/>
+219:"Magcargo"
+		<br/>
+220:"Swinub"
+		<br/>
+221:"Piloswine"
+		<br/>
+222:"Corsola"
+		<br/>
+222:"Corsola"
+		<br/>
+223:"Remoraid"
+		<br/>
+224:"Octillery"
+		<br/>
+225:"Delibird"
+		<br/>
+226:"Mantine"
+		<br/>
+227:"Skarmory"
+		<br/>
+228:"Houndour"
+		<br/>
+229:"Houndoom"
+		<br/>
+229:"Houndoom"
+		<br/>
+230:"Kingdra"
+		<br/>
+231:"Phanpy"
+		<br/>
+232:"Donphan"
+		<br/>
+233:"Porygon2"
+		<br/>
+234:"Stantler"
+		<br/>
+235:"Smeargle"
+		<br/>
+236:"Tyrogue"
+		<br/>
+237:"Hitmontop"
+		<br/>
+238:"Smoochum"
+		<br/>
+239:"Elekid"
+		<br/>
+240:"Magby"
+		<br/>
+241:"Miltank"
+		<br/>
+242:"Blissey"
+		<br/>
+243:"Raikou"
+		<br/>
+244:"Entei"
+		<br/>
+245:"Suicune"
+		<br/>
+246:"Larvitar"
+		<br/>
+247:"Pupitar"
+		<br/>
+248:"Tyranitar"
+		<br/>
+248:"Tyranitar"
+		<br/>
+249:"Lugia"
+		<br/>
+250:"Ho-oh"
+		<br/>
+251:"Celebi"
+		<br/>
+252:"Treecko"
+		<br/>
+253:"Grovyle"
+		<br/>
+254:"Sceptile"
+		<br/>
+254:"Sceptile"
+		<br/>
+255:"Torchic"
+		<br/>
+256:"Combusken"
+		<br/>
+257:"Blaziken"
+		<br/>
+257:"Blaziken"
+		<br/>
+258:"Mudkip"
+		<br/>
+259:"Marshtomp"
+		<br/>
+260:"Swampert"
+		<br/>
+260:"Swampert"
+		<br/>
+261:"Poochyena"
+		<br/>
+262:"Mightyena"
+		<br/>
+263:"Zigzagoon"
+		<br/>
+263:"Zigzagoon"
+		<br/>
+264:"Linoone"
+		<br/>
+264:"Linoone"
+		<br/>
+265:"Wurmple"
+		<br/>
+266:"Silcoon"
+		<br/>
+267:"Beautifly"
+		<br/>
+268:"Cascoon"
+		<br/>
+269:"Dustox"
+		<br/>
+270:"Lotad"
+		<br/>
+271:"Lombre"
+		<br/>
+272:"Ludicolo"
+		<br/>
+273:"Seedot"
+		<br/>
+274:"Nuzleaf"
+		<br/>
+275:"Shiftry"
+		<br/>
+276:"Taillow"
+		<br/>
+277:"Swellow"
+		<br/>
+278:"Wingull"
+		<br/>
+279:"Pelipper"
+		<br/>
+280:"Ralts"
+		<br/>
+281:"Kirlia"
+		<br/>
+282:"Gardevoir"
+		<br/>
+282:"Gardevoir"
+		<br/>
+283:"Surskit"
+		<br/>
+284:"Masquerain"
+		<br/>
+285:"Shroomish"
+		<br/>
+286:"Breloom"
+		<br/>
+287:"Slakoth"
+		<br/>
+288:"Vigoroth"
+		<br/>
+289:"Slaking"
+		<br/>
+290:"Nincada"
+		<br/>
+291:"Ninjask"
+		<br/>
+292:"Shedinja"
+		<br/>
+293:"Whismur"
+		<br/>
+294:"Loudred"
+		<br/>
+295:"Exploud"
+		<br/>
+296:"Makuhita"
+		<br/>
+297:"Hariyama"
+		<br/>
+298:"Azurill"
+		<br/>
+299:"Nosepass"
+		<br/>
+300:"Skitty"
+		<br/>
+301:"Delcatty"
+		<br/>
+302:"Sableye"
+		<br/>
+302:"Sableye"
+		<br/>
+303:"Mawile"
+		<br/>
+303:"Mawile"
+		<br/>
+304:"Aron"
+		<br/>
+305:"Lairon"
+		<br/>
+306:"Aggron"
+		<br/>
+306:"Aggron"
+		<br/>
+307:"Meditite"
+		<br/>
+308:"Medicham"
+		<br/>
+308:"Medicham"
+		<br/>
+309:"Electrike"
+		<br/>
+310:"Manectric"
+		<br/>
+310:"Manectric"
+		<br/>
+311:"Plusle"
+		<br/>
+312:"Minun"
+		<br/>
+313:"Volbeat"
+		<br/>
+314:"Illumise"
+		<br/>
+315:"Roselia"
+		<br/>
+316:"Gulpin"
+		<br/>
+317:"Swalot"
+		<br/>
+318:"Carvanha"
+		<br/>
+319:"Sharpedo"
+		<br/>
+319:"Sharpedo"
+		<br/>
+320:"Wailmer"
+		<br/>
+321:"Wailord"
+		<br/>
+322:"Numel"
+		<br/>
+323:"Camerupt"
+		<br/>
+323:"Camerupt"
+		<br/>
+324:"Torkoal"
+		<br/>
+325:"Spoink"
+		<br/>
+326:"Grumpig"
+		<br/>
+327:"Spinda"
+		<br/>
+328:"Trapinch"
+		<br/>
+329:"Vibrava"
+		<br/>
+330:"Flygon"
+		<br/>
+331:"Cacnea"
+		<br/>
+332:"Cacturne"
+		<br/>
+333:"Swablu"
+		<br/>
+334:"Altaria"
+		<br/>
+334:"Altaria"
+		<br/>
+335:"Zangoose"
+		<br/>
+336:"Seviper"
+		<br/>
+337:"Lunatone"
+		<br/>
+338:"Solrock"
+		<br/>
+339:"Barboach"
+		<br/>
+340:"Whiscash"
+		<br/>
+341:"Corphish"
+		<br/>
+342:"Crawdaunt"
+		<br/>
+343:"Baltoy"
+		<br/>
+344:"Claydol"
+		<br/>
+345:"Lileep"
+		<br/>
+346:"Cradily"
+		<br/>
+347:"Anorith"
+		<br/>
+348:"Armaldo"
+		<br/>
+349:"Feebas"
+		<br/>
+350:"Milotic"
+		<br/>
+351:"Castform"
+		<br/>
+351:"Castform"
+		<br/>
+351:"Castform"
+		<br/>
+351:"Castform"
+		<br/>
+352:"Kecleon"
+		<br/>
+353:"Shuppet"
+		<br/>
+354:"Banette"
+		<br/>
+354:"Banette"
+		<br/>
+355:"Duskull"
+		<br/>
+356:"Dusclops"
+		<br/>
+357:"Tropius"
+		<br/>
+358:"Chimecho"
+		<br/>
+359:"Absol"
+		<br/>
+359:"Absol"
+		<br/>
+360:"Wynaut"
+		<br/>
+361:"Snorunt"
+		<br/>
+362:"Glalie"
+		<br/>
+362:"Glalie"
+		<br/>
+363:"Spheal"
+		<br/>
+364:"Sealeo"
+		<br/>
+365:"Walrein"
+		<br/>
+366:"Clamperl"
+		<br/>
+367:"Huntail"
+		<br/>
+368:"Gorebyss"
+		<br/>
+369:"Relicanth"
+		<br/>
+370:"Luvdisc"
+		<br/>
+371:"Bagon"
+		<br/>
+372:"Shelgon"
+		<br/>
+373:"Salamence"
+		<br/>
+373:"Salamence"
+		<br/>
+374:"Beldum"
+		<br/>
+375:"Metang"
+		<br/>
+376:"Metagross"
+		<br/>
+376:"Metagross"
+		<br/>
+377:"Regirock"
+		<br/>
+378:"Regice"
+		<br/>
+379:"Registeel"
+		<br/>
+380:"Latias"
+		<br/>
+380:"Latias"
+		<br/>
+381:"Latios"
+		<br/>
+381:"Latios"
+		<br/>
+382:"Kyogre"
+		<br/>
+382:"Kyogre"
+		<br/>
+383:"Groudon"
+		<br/>
+383:"Groudon"
+		<br/>
+384:"Rayquaza"
+		<br/>
+384:"Rayquaza"
+		<br/>
+385:"Jirachi"
+		<br/>
+386:"Deoxys"
+		<br/>
+386:"Deoxys"
+		<br/>
+386:"Deoxys"
+		<br/>
+386:"Deoxys"
+		<br/>
+387:"Turtwig"
+		<br/>
+388:"Grotle"
+		<br/>
+389:"Torterra"
+		<br/>
+390:"Chimchar"
+		<br/>
+391:"Monferno"
+		<br/>
+392:"Infernape"
+		<br/>
+393:"Piplup"
+		<br/>
+394:"Prinplup"
+		<br/>
+395:"Empoleon"
+		<br/>
+396:"Starly"
+		<br/>
+397:"Staravia"
+		<br/>
+398:"Staraptor"
+		<br/>
+399:"Bidoof"
+		<br/>
+400:"Bibarel"
+		<br/>
+401:"Kricketot"
+		<br/>
+402:"Kricketune"
+		<br/>
+403:"Shinx"
+		<br/>
+404:"Luxio"
+		<br/>
+405:"Luxray"
+		<br/>
+406:"Budew"
+		<br/>
+407:"Roserade"
+		<br/>
+408:"Cranidos"
+		<br/>
+409:"Rampardos"
+		<br/>
+410:"Shieldon"
+		<br/>
+411:"Bastiodon"
+		<br/>
+412:"Burmy"
+		<br/>
+412:"Burmy"
+		<br/>
+412:"Burmy"
+		<br/>
+413:"Wormadam"
+		<br/>
+413:"Wormadam"
+		<br/>
+413:"Wormadam"
+		<br/>
+414:"Mothim"
+		<br/>
+415:"Combee"
+		<br/>
+416:"Vespiquen"
+		<br/>
+417:"Pachirisu"
+		<br/>
+418:"Buizel"
+		<br/>
+419:"Floatzel"
+		<br/>
+420:"Cherubi"
+		<br/>
+421:"Cherrim"
+		<br/>
+422:"Shellos"
+		<br/>
+423:"Gastrodon"
+		<br/>
+424:"Ambipom"
+		<br/>
+425:"Drifloon"
+		<br/>
+426:"Drifblim"
+		<br/>
+427:"Buneary"
+		<br/>
+428:"Lopunny"
+		<br/>
+428:"Lopunny"
+		<br/>
+429:"Mismagius"
+		<br/>
+430:"Honchkrow"
+		<br/>
+431:"Glameow"
+		<br/>
+432:"Purugly"
+		<br/>
+433:"Chingling"
+		<br/>
+434:"Stunky"
+		<br/>
+435:"Skuntank"
+		<br/>
+436:"Bronzor"
+		<br/>
+437:"Bronzong"
+		<br/>
+438:"Bonsly"
+		<br/>
+439:"Mime Jr."
+		<br/>
+440:"Happiny"
+		<br/>
+441:"Chatot"
+		<br/>
+442:"Spiritomb"
+		<br/>
+443:"Gible"
+		<br/>
+444:"Gabite"
+		<br/>
+445:"Garchomp"
+		<br/>
+445:"Garchomp"
+		<br/>
+446:"Munchlax"
+		<br/>
+447:"Riolu"
+		<br/>
+448:"Lucario"
+		<br/>
+448:"Lucario"
+		<br/>
+449:"Hippopotas"
+		<br/>
+450:"Hippowdon"
+		<br/>
+451:"Skorupi"
+		<br/>
+452:"Drapion"
+		<br/>
+453:"Croagunk"
+		<br/>
+454:"Toxicroak"
+		<br/>
+455:"Carnivine"
+		<br/>
+456:"Finneon"
+		<br/>
+457:"Lumineon"
+		<br/>
+458:"Mantyke"
+		<br/>
+459:"Snover"
+		<br/>
+460:"Abomasnow"
+		<br/>
+460:"Abomasnow"
+		<br/>
+461:"Weavile"
+		<br/>
+462:"Magnezone"
+		<br/>
+463:"Lickilicky"
+		<br/>
+464:"Rhyperior"
+		<br/>
+465:"Tangrowth"
+		<br/>
+466:"Electivire"
+		<br/>
+467:"Magmortar"
+		<br/>
+468:"Togekiss"
+		<br/>
+469:"Yanmega"
+		<br/>
+470:"Leafeon"
+		<br/>
+471:"Glaceon"
+		<br/>
+472:"Gliscor"
+		<br/>
+473:"Mamoswine"
+		<br/>
+474:"Porygon-Z"
+		<br/>
+475:"Gallade"
+		<br/>
+475:"Gallade"
+		<br/>
+476:"Probopass"
+		<br/>
+477:"Dusknoir"
+		<br/>
+478:"Froslass"
+		<br/>
+479:"Rotom"
+		<br/>
+479:"Rotom"
+		<br/>
+479:"Rotom"
+		<br/>
+479:"Rotom"
+		<br/>
+479:"Rotom"
+		<br/>
+479:"Rotom"
+		<br/>
+480:"Uxie"
+		<br/>
+481:"Mesprit"
+		<br/>
+482:"Azelf"
+		<br/>
+483:"Dialga"
+		<br/>
+483:"Dialga"
+		<br/>
+484:"Palkia"
+		<br/>
+484:"Palkia"
+		<br/>
+485:"Heatran"
+		<br/>
+486:"Regigigas"
+		<br/>
+487:"Giratina"
+		<br/>
+487:"Giratina"
+		<br/>
+488:"Cresselia"
+		<br/>
+489:"Phione"
+		<br/>
+490:"Manaphy"
+		<br/>
+491:"Darkrai"
+		<br/>
+492:"Shaymin"
+		<br/>
+492:"Shaymin"
+		<br/>
+493:"Arceus"
+		<br/>
+494:"Victini"
+		<br/>
+495:"Snivy"
+		<br/>
+496:"Servine"
+		<br/>
+497:"Serperior"
+		<br/>
+498:"Tepig"
+		<br/>
+499:"Pignite"
+		<br/>
+500:"Emboar"
+		<br/>
+501:"Oshawott"
+		<br/>
+502:"Dewott"
+		<br/>
+503:"Samurott"
+		<br/>
+503:"Samurott"
+		<br/>
+504:"Patrat"
+		<br/>
+505:"Watchog"
+		<br/>
+506:"Lillipup"
+		<br/>
+507:"Herdier"
+		<br/>
+508:"Stoutland"
+		<br/>
+509:"Purrloin"
+		<br/>
+510:"Liepard"
+		<br/>
+511:"Pansage"
+		<br/>
+512:"Simisage"
+		<br/>
+513:"Pansear"
+		<br/>
+514:"Simisear"
+		<br/>
+515:"Panpour"
+		<br/>
+516:"Simipour"
+		<br/>
+517:"Munna"
+		<br/>
+518:"Musharna"
+		<br/>
+519:"Pidove"
+		<br/>
+520:"Tranquill"
+		<br/>
+521:"Unfezant"
+		<br/>
+522:"Blitzle"
+		<br/>
+523:"Zebstrika"
+		<br/>
+524:"Roggenrola"
+		<br/>
+525:"Boldore"
+		<br/>
+526:"Gigalith"
+		<br/>
+527:"Woobat"
+		<br/>
+528:"Swoobat"
+		<br/>
+529:"Drilbur"
+		<br/>
+530:"Excadrill"
+		<br/>
+531:"Audino"
+		<br/>
+531:"Audino"
+		<br/>
+532:"Timburr"
+		<br/>
+533:"Gurdurr"
+		<br/>
+534:"Conkeldurr"
+		<br/>
+535:"Tympole"
+		<br/>
+536:"Palpitoad"
+		<br/>
+537:"Seismitoad"
+		<br/>
+538:"Throh"
+		<br/>
+539:"Sawk"
+		<br/>
+540:"Sewaddle"
+		<br/>
+541:"Swadloon"
+		<br/>
+542:"Leavanny"
+		<br/>
+543:"Venipede"
+		<br/>
+544:"Whirlipede"
+		<br/>
+545:"Scolipede"
+		<br/>
+546:"Cottonee"
+		<br/>
+547:"Whimsicott"
+		<br/>
+548:"Petilil"
+		<br/>
+549:"Lilligant"
+		<br/>
+549:"Lilligant"
+		<br/>
+550:"Basculin"
+		<br/>
+550:"Basculin"
+		<br/>
+550:"Basculin"
+		<br/>
+551:"Sandile"
+		<br/>
+552:"Krokorok"
+		<br/>
+553:"Krookodile"
+		<br/>
+554:"Darumaka"
+		<br/>
+554:"Darumaka"
+		<br/>
+555:"Darmanitan"
+		<br/>
+555:"Darmanitan"
+		<br/>
+555:"Darmanitan"
+		<br/>
+555:"Darmanitan"
+		<br/>
+556:"Maractus"
+		<br/>
+557:"Dwebble"
+		<br/>
+558:"Crustle"
+		<br/>
+559:"Scraggy"
+		<br/>
+560:"Scrafty"
+		<br/>
+561:"Sigilyph"
+		<br/>
+562:"Yamask"
+		<br/>
+562:"Yamask"
+		<br/>
+563:"Cofagrigus"
+		<br/>
+564:"Tirtouga"
+		<br/>
+565:"Carracosta"
+		<br/>
+566:"Archen"
+		<br/>
+567:"Archeops"
+		<br/>
+568:"Trubbish"
+		<br/>
+569:"Garbodor"
+		<br/>
+570:"Zorua"
+		<br/>
+570:"Zorua"
+		<br/>
+571:"Zoroark"
+		<br/>
+571:"Zoroark"
+		<br/>
+572:"Minccino"
+		<br/>
+573:"Cinccino"
+		<br/>
+574:"Gothita"
+		<br/>
+575:"Gothorita"
+		<br/>
+576:"Gothitelle"
+		<br/>
+577:"Solosis"
+		<br/>
+578:"Duosion"
+		<br/>
+579:"Reuniclus"
+		<br/>
+580:"Ducklett"
+		<br/>
+581:"Swanna"
+		<br/>
+582:"Vanillite"
+		<br/>
+583:"Vanillish"
+		<br/>
+584:"Vanilluxe"
+		<br/>
+585:"Deerling"
+		<br/>
+586:"Sawsbuck"
+		<br/>
+587:"Emolga"
+		<br/>
+588:"Karrablast"
+		<br/>
+589:"Escavalier"
+		<br/>
+590:"Foongus"
+		<br/>
+591:"Amoonguss"
+		<br/>
+592:"Frillish"
+		<br/>
+593:"Jellicent"
+		<br/>
+594:"Alomomola"
+		<br/>
+595:"Joltik"
+		<br/>
+596:"Galvantula"
+		<br/>
+597:"Ferroseed"
+		<br/>
+598:"Ferrothorn"
+		<br/>
+599:"Klink"
+		<br/>
+600:"Klang"
+		<br/>
+601:"Klinklang"
+		<br/>
+602:"Tynamo"
+		<br/>
+603:"Eelektrik"
+		<br/>
+604:"Eelektross"
+		<br/>
+605:"Elgyem"
+		<br/>
+606:"Beheeyem"
+		<br/>
+607:"Litwick"
+		<br/>
+608:"Lampent"
+		<br/>
+609:"Chandelure"
+		<br/>
+610:"Axew"
+		<br/>
+611:"Fraxure"
+		<br/>
+612:"Haxorus"
+		<br/>
+613:"Cubchoo"
+		<br/>
+614:"Beartic"
+		<br/>
+615:"Cryogonal"
+		<br/>
+616:"Shelmet"
+		<br/>
+617:"Accelgor"
+		<br/>
+618:"Stunfisk"
+		<br/>
+618:"Stunfisk"
+		<br/>
+619:"Mienfoo"
+		<br/>
+620:"Mienshao"
+		<br/>
+621:"Druddigon"
+		<br/>
+622:"Golett"
+		<br/>
+623:"Golurk"
+		<br/>
+624:"Pawniard"
+		<br/>
+625:"Bisharp"
+		<br/>
+626:"Bouffalant"
+		<br/>
+627:"Rufflet"
+		<br/>
+628:"Braviary"
+		<br/>
+628:"Braviary"
+		<br/>
+629:"Vullaby"
+		<br/>
+630:"Mandibuzz"
+		<br/>
+631:"Heatmor"
+		<br/>
+632:"Durant"
+		<br/>
+633:"Deino"
+		<br/>
+634:"Zweilous"
+		<br/>
+635:"Hydreigon"
+		<br/>
+636:"Larvesta"
+		<br/>
+637:"Volcarona"
+		<br/>
+638:"Cobalion"
+		<br/>
+639:"Terrakion"
+		<br/>
+640:"Virizion"
+		<br/>
+641:"Tornadus"
+		<br/>
+641:"Tornadus"
+		<br/>
+642:"Thundurus"
+		<br/>
+642:"Thundurus"
+		<br/>
+643:"Reshiram"
+		<br/>
+644:"Zekrom"
+		<br/>
+645:"Landorus"
+		<br/>
+645:"Landorus"
+		<br/>
+646:"Kyurem"
+		<br/>
+646:"Kyurem"
+		<br/>
+646:"Kyurem"
+		<br/>
+647:"Keldeo"
+		<br/>
+647:"Keldeo"
+		<br/>
+648:"Meloetta"
+		<br/>
+648:"Meloetta"
+		<br/>
+649:"Genesect"
+		<br/>
+650:"Chespin"
+		<br/>
+651:"Quilladin"
+		<br/>
+652:"Chesnaught"
+		<br/>
+653:"Fennekin"
+		<br/>
+654:"Braixen"
+		<br/>
+655:"Delphox"
+		<br/>
+656:"Froakie"
+		<br/>
+657:"Frogadier"
+		<br/>
+658:"Greninja"
+		<br/>
+658:"Greninja"
+		<br/>
+659:"Bunnelby"
+		<br/>
+660:"Diggersby"
+		<br/>
+661:"Fletchling"
+		<br/>
+662:"Fletchinder"
+		<br/>
+663:"Talonflame"
+		<br/>
+664:"Scatterbug"
+		<br/>
+665:"Spewpa"
+		<br/>
+666:"Vivillon"
+		<br/>
+667:"Litleo"
+		<br/>
+668:"Pyroar"
+		<br/>
+669:"Flabébé"
+		<br/>
+670:"Floette"
+		<br/>
+671:"Florges"
+		<br/>
+672:"Skiddo"
+		<br/>
+673:"Gogoat"
+		<br/>
+674:"Pancham"
+		<br/>
+675:"Pangoro"
+		<br/>
+676:"Furfrou"
+		<br/>
+677:"Espurr"
+		<br/>
+678:"Meowstic"
+		<br/>
+678:"Meowstic"
+		<br/>
+679:"Honedge"
+		<br/>
+680:"Doublade"
+		<br/>
+681:"Aegislash"
+		<br/>
+681:"Aegislash"
+		<br/>
+682:"Spritzee"
+		<br/>
+683:"Aromatisse"
+		<br/>
+684:"Swirlix"
+		<br/>
+685:"Slurpuff"
+		<br/>
+686:"Inkay"
+		<br/>
+687:"Malamar"
+		<br/>
+688:"Binacle"
+		<br/>
+689:"Barbaracle"
+		<br/>
+690:"Skrelp"
+		<br/>
+691:"Dragalge"
+		<br/>
+692:"Clauncher"
+		<br/>
+693:"Clawitzer"
+		<br/>
+694:"Helioptile"
+		<br/>
+695:"Heliolisk"
+		<br/>
+696:"Tyrunt"
+		<br/>
+697:"Tyrantrum"
+		<br/>
+698:"Amaura"
+		<br/>
+699:"Aurorus"
+		<br/>
+700:"Sylveon"
+		<br/>
+701:"Hawlucha"
+		<br/>
+702:"Dedenne"
+		<br/>
+703:"Carbink"
+		<br/>
+704:"Goomy"
+		<br/>
+705:"Sliggoo"
+		<br/>
+705:"Sliggoo"
+		<br/>
+706:"Goodra"
+		<br/>
+706:"Goodra"
+		<br/>
+707:"Klefki"
+		<br/>
+708:"Phantump"
+		<br/>
+709:"Trevenant"
+		<br/>
+710:"Pumpkaboo"
+		<br/>
+710:"Pumpkaboo"
+		<br/>
+710:"Pumpkaboo"
+		<br/>
+710:"Pumpkaboo"
+		<br/>
+711:"Gourgeist"
+		<br/>
+711:"Gourgeist"
+		<br/>
+711:"Gourgeist"
+		<br/>
+711:"Gourgeist"
+		<br/>
+712:"Bergmite"
+		<br/>
+713:"Avalugg"
+		<br/>
+713:"Avalugg"
+		<br/>
+714:"Noibat"
+		<br/>
+715:"Noivern"
+		<br/>
+716:"Xerneas"
+		<br/>
+717:"Yveltal"
+		<br/>
+718:"Zygarde"
+		<br/>
+718:"Zygarde"
+		<br/>
+718:"Zygarde"
+		<br/>
+719:"Diancie"
+		<br/>
+719:"Diancie"
+		<br/>
+720:"Hoopa"
+		<br/>
+720:"Hoopa"
+		<br/>
+721:"Volcanion"
+		<br/>
+722:"Rowlet"
+		<br/>
+723:"Dartrix"
+		<br/>
+724:"Decidueye"
+		<br/>
+724:"Decidueye"
+		<br/>
+725:"Litten"
+		<br/>
+726:"Torracat"
+		<br/>
+727:"Incineroar"
+		<br/>
+728:"Popplio"
+		<br/>
+729:"Brionne"
+		<br/>
+730:"Primarina"
+		<br/>
+731:"Pikipek"
+		<br/>
+732:"Trumbeak"
+		<br/>
+733:"Toucannon"
+		<br/>
+734:"Yungoos"
+		<br/>
+735:"Gumshoos"
+		<br/>
+736:"Grubbin"
+		<br/>
+737:"Charjabug"
+		<br/>
+738:"Vikavolt"
+		<br/>
+739:"Crabrawler"
+		<br/>
+740:"Crabominable"
+		<br/>
+741:"Oricorio"
+		<br/>
+741:"Oricorio"
+		<br/>
+741:"Oricorio"
+		<br/>
+741:"Oricorio"
+		<br/>
+742:"Cutiefly"
+		<br/>
+743:"Ribombee"
+		<br/>
+744:"Rockruff"
+		<br/>
+744:"Rockruff"
+		<br/>
+745:"Lycanroc"
+		<br/>
+745:"Lycanroc"
+		<br/>
+745:"Lycanroc"
+		<br/>
+746:"Wishiwashi"
+		<br/>
+746:"Wishiwashi"
+		<br/>
+747:"Mareanie"
+		<br/>
+748:"Toxapex"
+		<br/>
+749:"Mudbray"
+		<br/>
+750:"Mudsdale"
+		<br/>
+751:"Dewpider"
+		<br/>
+752:"Araquanid"
+		<br/>
+753:"Fomantis"
+		<br/>
+754:"Lurantis"
+		<br/>
+755:"Morelull"
+		<br/>
+756:"Shiinotic"
+		<br/>
+757:"Salandit"
+		<br/>
+758:"Salazzle"
+		<br/>
+759:"Stufful"
+		<br/>
+760:"Bewear"
+		<br/>
+761:"Bounsweet"
+		<br/>
+762:"Steenee"
+		<br/>
+763:"Tsareena"
+		<br/>
+764:"Comfey"
+		<br/>
+765:"Oranguru"
+		<br/>
+766:"Passimian"
+		<br/>
+767:"Wimpod"
+		<br/>
+768:"Golisopod"
+		<br/>
+769:"Sandygast"
+		<br/>
+770:"Palossand"
+		<br/>
+771:"Pyukumuku"
+		<br/>
+772:"Type: Null"
+		<br/>
+773:"Silvally"
+		<br/>
+774:"Minior"
+		<br/>
+774:"Minior"
+		<br/>
+775:"Komala"
+		<br/>
+776:"Turtonator"
+		<br/>
+777:"Togedemaru"
+		<br/>
+778:"Mimikyu"
+		<br/>
+779:"Bruxish"
+		<br/>
+780:"Drampa"
+		<br/>
+781:"Dhelmise"
+		<br/>
+782:"Jangmo-o"
+		<br/>
+783:"Hakamo-o"
+		<br/>
+784:"Kommo-o"
+		<br/>
+785:"Tapu Koko"
+		<br/>
+786:"Tapu Lele"
+		<br/>
+787:"Tapu Bulu"
+		<br/>
+788:"Tapu Fini"
+		<br/>
+789:"Cosmog"
+		<br/>
+790:"Cosmoem"
+		<br/>
+791:"Solgaleo"
+		<br/>
+792:"Lunala"
+		<br/>
+793:"Nihilego"
+		<br/>
+794:"Buzzwole"
+		<br/>
+795:"Pheromosa"
+		<br/>
+796:"Xurkitree"
+		<br/>
+797:"Celesteela"
+		<br/>
+798:"Kartana"
+		<br/>
+799:"Guzzlord"
+		<br/>
+800:"Necrozma"
+		<br/>
+800:"Necrozma"
+		<br/>
+800:"Necrozma"
+		<br/>
+800:"Necrozma"
+		<br/>
+801:"Magearna"
+		<br/>
+802:"Marshadow"
+		<br/>
+803:"Poipole"
+		<br/>
+804:"Naganadel"
+		<br/>
+805:"Stakataka"
+		<br/>
+806:"Blacephalon"
+		<br/>
+807:"Zeraora"
+		<br/>
+808:"Meltan"
+		<br/>
+809:"Melmetal"
+		<br/>
+810:"Grookey"
+		<br/>
+811:"Thwackey"
+		<br/>
+812:"Rillaboom"
+		<br/>
+813:"Scorbunny"
+		<br/>
+814:"Raboot"
+		<br/>
+815:"Cinderace"
+		<br/>
+816:"Sobble"
+		<br/>
+817:"Drizzile"
+		<br/>
+818:"Inteleon"
+		<br/>
+819:"Skwovet"
+		<br/>
+820:"Greedent"
+		<br/>
+821:"Rookidee"
+		<br/>
+822:"Corvisquire"
+		<br/>
+823:"Corviknight"
+		<br/>
+824:"Blipbug"
+		<br/>
+825:"Dottler"
+		<br/>
+826:"Orbeetle"
+		<br/>
+827:"Nickit"
+		<br/>
+828:"Thievul"
+		<br/>
+829:"Gossifleur"
+		<br/>
+830:"Eldegoss"
+		<br/>
+831:"Wooloo"
+		<br/>
+832:"Dubwool"
+		<br/>
+833:"Chewtle"
+		<br/>
+834:"Drednaw"
+		<br/>
+835:"Yamper"
+		<br/>
+836:"Boltund"
+		<br/>
+837:"Rolycoly"
+		<br/>
+838:"Carkol"
+		<br/>
+839:"Coalossal"
+		<br/>
+840:"Applin"
+		<br/>
+841:"Flapple"
+		<br/>
+842:"Appletun"
+		<br/>
+843:"Silicobra"
+		<br/>
+844:"Sandaconda"
+		<br/>
+845:"Cramorant"
+		<br/>
+846:"Arrokuda"
+		<br/>
+847:"Barraskewda"
+		<br/>
+848:"Toxel"
+		<br/>
+849:"Toxtricity"
+		<br/>
+849:"Toxtricity"
+		<br/>
+850:"Sizzlipede"
+		<br/>
+851:"Centiskorch"
+		<br/>
+852:"Clobbopus"
+		<br/>
+853:"Grapploct"
+		<br/>
+854:"Sinistea"
+		<br/>
+855:"Polteageist"
+		<br/>
+856:"Hatenna"
+		<br/>
+857:"Hattrem"
+		<br/>
+858:"Hatterene"
+		<br/>
+859:"Impidimp"
+		<br/>
+860:"Morgrem"
+		<br/>
+861:"Grimmsnarl"
+		<br/>
+862:"Obstagoon"
+		<br/>
+863:"Perrserker"
+		<br/>
+864:"Cursola"
+		<br/>
+865:"Sirfetch'd"
+		<br/>
+866:"Mr. Rime"
+		<br/>
+867:"Runerigus"
+		<br/>
+868:"Milcery"
+		<br/>
+869:"Alcremie"
+		<br/>
+870:"Falinks"
+		<br/>
+871:"Pincurchin"
+		<br/>
+872:"Snom"
+		<br/>
+873:"Frosmoth"
+		<br/>
+874:"Stonjourner"
+		<br/>
+875:"Eiscue"
+		<br/>
+875:"Eiscue"
+		<br/>
+876:"Indeedee"
+		<br/>
+876:"Indeedee"
+		<br/>
+877:"Morpeko"
+		<br/>
+877:"Morpeko"
+		<br/>
+878:"Cufant"
+		<br/>
+879:"Copperajah"
+		<br/>
+880:"Dracozolt"
+		<br/>
+881:"Arctozolt"
+		<br/>
+882:"Dracovish"
+		<br/>
+883:"Arctovish"
+		<br/>
+884:"Duraludon"
+		<br/>
+885:"Dreepy"
+		<br/>
+886:"Drakloak"
+		<br/>
+887:"Dragapult"
+		<br/>
+888:"Zacian"
+		<br/>
+888:"Zacian"
+		<br/>
+889:"Zamazenta"
+		<br/>
+889:"Zamazenta"
+		<br/>
+890:"Eternatus"
+		<br/>
+890:"Eternatus"
+		<br/>
+891:"Kubfu"
+		<br/>
+892:"Urshifu"
+		<br/>
+892:"Urshifu"
+		<br/>
+893:"Zarude"
+		<br/>
+894:"Regieleki"
+		<br/>
+895:"Regidrago"
+		<br/>
+896:"Glastrier"
+		<br/>
+897:"Spectrier"
+		<br/>
+898:"Calyrex"
+		<br/>
+898:"Calyrex"
+		<br/>
+898:"Calyrex"
+		<br/>
+899:"Wyrdeer"
+		<br/>
+900:"Kleavor"
+		<br/>
+901:"Ursaluna"
+		<br/>
+902:"Basculegion"
+		<br/>
+902:"Basculegion"
+		<br/>
+903:"Sneasler"
+		<br/>
+904:"Overqwil"
+		<br/>
+905:"Enamorus"
+		<br/>
+905:"Enamorus"
+		<br/>
+906:"Sprigatito"
+		<br/>
+907:"Floragato"
+		<br/>
+908:"Meowscarada"
+		<br/>
+909:"Fuecoco"
+		<br/>
+910:"Crocalor"
+		<br/>
+911:"Skeledirge"
+		<br/>
+912:"Quaxly"
+		<br/>
+913:"Quaxwell"
+		<br/>
+914:"Quaquaval"
+		<br/>
+915:"Lechonk"
+		<br/>
+916:"Oinkologne"
+		<br/>
+916:"Oinkologne"
+		<br/>
+917:"Tarountula"
+		<br/>
+918:"Spidops"
+		<br/>
+919:"Nymble"
+		<br/>
+920:"Lokix"
+		<br/>
+921:"Pawmi"
+		<br/>
+922:"Pawmo"
+		<br/>
+923:"Pawmot"
+		<br/>
+924:"Tandemaus"
+		<br/>
+925:"Maushold"
+		<br/>
+925:"Maushold"
+		<br/>
+926:"Fidough"
+		<br/>
+927:"Dachsbun"
+		<br/>
+928:"Smoliv"
+		<br/>
+929:"Dolliv"
+		<br/>
+930:"Arboliva"
+		<br/>
+931:"Squawkabilly"
+		<br/>
+931:"Squawkabilly"
+		<br/>
+931:"Squawkabilly"
+		<br/>
+931:"Squawkabilly"
+		<br/>
+932:"Nacli"
+		<br/>
+933:"Naclstack"
+		<br/>
+934:"Garganacl"
+		<br/>
+935:"Charcadet"
+		<br/>
+936:"Armarouge"
+		<br/>
+937:"Ceruledge"
+		<br/>
+938:"Tadbulb"
+		<br/>
+939:"Bellibolt"
+		<br/>
+940:"Wattrel"
+		<br/>
+941:"Kilowattrel"
+		<br/>
+942:"Maschiff"
+		<br/>
+943:"Mabosstiff"
+		<br/>
+944:"Shroodle"
+		<br/>
+945:"Grafaiai"
+		<br/>
+946:"Bramblin"
+		<br/>
+947:"Brambleghast"
+		<br/>
+948:"Toedscool"
+		<br/>
+949:"Toedscruel"
+		<br/>
+950:"Klawf"
+		<br/>
+951:"Capsakid"
+		<br/>
+952:"Scovillain"
+		<br/>
+953:"Rellor"
+		<br/>
+954:"Rabsca"
+		<br/>
+955:"Flittle"
+		<br/>
+956:"Espathra"
+		<br/>
+957:"Tinkatink"
+		<br/>
+958:"Tinkatuff"
+		<br/>
+959:"Tinkaton"
+		<br/>
+960:"Wiglett"
+		<br/>
+961:"Wugtrio"
+		<br/>
+962:"Bombirdier"
+		<br/>
+963:"Finizen"
+		<br/>
+964:"Palafin"
+		<br/>
+964:"Palafin"
+		<br/>
+965:"Varoom"
+		<br/>
+966:"Revavroom"
+		<br/>
+967:"Cyclizar"
+		<br/>
+968:"Orthworm"
+		<br/>
+969:"Glimmet"
+		<br/>
+970:"Glimmora"
+		<br/>
+971:"Greavard"
+		<br/>
+972:"Houndstone"
+		<br/>
+973:"Flamigo"
+		<br/>
+974:"Cetoddle"
+		<br/>
+975:"Cetitan"
+		<br/>
+976:"Veluza"
+		<br/>
+977:"Dondozo"
+		<br/>
+978:"Tatsugiri"
+		<br/>
+979:"Annihilape"
+		<br/>
+980:"Clodsire"
+		<br/>
+981:"Farigiraf"
+		<br/>
+982:"Dudunsparce"
+		<br/>
+982:"Dudunsparce"
+		<br/>
+983:"Kingambit"
+		<br/>
+984:"Great Tusk"
+		<br/>
+985:"Scream Tail"
+		<br/>
+986:"Brute Bonnet"
+		<br/>
+987:"Flutter Mane"
+		<br/>
+988:"Slither Wing"
+		<br/>
+989:"Sandy Shocks"
+		<br/>
+990:"Iron Treads"
+		<br/>
+991:"Iron Bundle"
+		<br/>
+992:"Iron Hands"
+		<br/>
+993:"Iron Jugulis"
+		<br/>
+994:"Iron Moth"
+		<br/>
+995:"Iron Thorns"
+		<br/>
+996:"Frigibax"
+		<br/>
+997:"Arctibax"
+		<br/>
+998:"Baxcalibur"
+		<br/>
+999:"Gimmighoul"
+		<br/>
+999:"Gimmighoul"
+		<br/>
+1000:"Gholdengo"
+		<br/>
+1001:"Wo-Chien"
+		<br/>
+1002:"Chien-Pao"
+		<br/>
+1003:"Ting-Lu"
+		<br/>
+1004:"Chi-Yu"
+		<br/>
+1005:"Roaring Moon"
+		<br/>
+1006:"Iron Valiant"
+		<br/>
+1007:"Koraidon"
+		<br/>
+1008:"Miraidon"
+		<br/>
+}
+		<br/>
+	</body>
+</html>
