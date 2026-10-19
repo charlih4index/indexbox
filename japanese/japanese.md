@@ -39,3 +39,10 @@ a (gojūon, 五十音, "Fifty Sounds") table
 a (gojūon, 五十音, "Fifty Sounds") table
 
 [KatakanaTable.md](KatakanaTable.md)
+
+
+## Pre-index
+
+AKA. 1st and 2nd letters possible combination: 50x(50+1)=2550
+
+eg. ああ, あい, あう,.....いい, いう, いえ,....をを
