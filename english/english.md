@@ -30,7 +30,7 @@ exports:
 
 ## Pre-index
 
-AKA. 1st and 2nd letters possible combination: 26x26+1=702
+AKA. 1st and 2nd letters possible combination: 26x(26+1)=702
 
 eg. AA, AB, AC,.....BB, BC, BD,....ZZ
 
