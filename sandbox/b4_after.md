@@ -20,6 +20,6 @@ exports:
 
 # Before vs After
 
-![Before](pages/images/IndexBox_logo_b4.png?text=Before) ![After](pages/images/IndexBox_logo_after.png?text=After)
+![Before](../pages/images/IndexBox_logo_b4.png?text=Before) ![After](../pages/images/IndexBox_logo_after.png?text=After)
 
 **Before and After Comparison**
