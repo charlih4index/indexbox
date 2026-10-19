@@ -59,6 +59,20 @@ jobs:
         #   BASE_URL: /${{ github.event.repository.name }}
         # run: myst build --html
 
+      - name: Checkout tennis site
+        uses: actions/checkout@v6
+        with:
+          repository: charlih4index/tennis
+          path: tennis-src
+
+      - name: Copy tennis site
+        run: |
+          mkdir -p _build/html/tennis
+          cp -r tennis-src/. _build/html/tennis/
+          rm -rf _build/html/tennis/.git _build/html/tennis/README.md _build/html/tennis/tennis.md _build/html/tennis/committee/htpasswd
+          find _build/html/tennis -name _vti_cnf -type d -exec rm -rf {} + 2>/dev/null || true
+          find _build/html/tennis \( -name Thumbs.db -o -name .gitkeep -o -name Picasa.ini -o -name '*_ip.txt' -o -name '*_logfile.txt' -o -name '*mail-list*' -o -name chap.member \) -delete
+  
       - name: Generate RSS and Atom feeds
         run: python generate_rss.py
 
