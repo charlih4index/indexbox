@@ -43,3 +43,13 @@ y	ヤ[ヤ](u30e4.md)	␢	ユ[ユ](u30e6.md)	␢	ヨ[ヨ](u30e8.md)
 r	ラ[ラ](u30e9.md)	リ[リ](u30ea.md)	ル[ル](u30eb.md)	レ[レ](u30ec.md)	ロ[ロ](u30ed.md)
 
 w	ワ[ワ](u30ef.md)	ヰ	␢	ヱ	ヲ[ヲ](u30f2.md)
+
+
+hiragana | pingyin | meaning | type |
+                               50
+                               pre-index
+3 letters
+4 letters
+5
+6
+....
