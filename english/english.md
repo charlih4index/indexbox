@@ -28,6 +28,12 @@ exports:
 
 | [a](lowercase/a.md) | [b](lowercase/b.md) | [c](lowercase/c.md) | [d](lowercase/d.md) | [e](lowercase/e.md) | [f](lowercase/f.md) | [g](lowercase/g.md) | [h](lowercase/h.md) | [i](lowercase/i.md) | [j](lowercase/j.md) | [k](lowercase/k.md) | [l](lowercase/l.md) | [m](lowercase/m.md) | [n](lowercase/n.md) | [o](lowercase/o.md) | [p](lowercase/p.md) | [q](lowercase/q.md) | [r](lowercase/r.md) | [s](lowercase/s.md) | [t](lowercase/t.md) | [u](lowercase/u.md) | [v](lowercase/v.md) | [w](lowercase/w.md) | [x](lowercase/x.md) | [y](lowercase/y.md) | [z](lowercase/z.md) |
 
+## Pre-index
+
+AKA. 1st and 2nd letters possible combination: 26x26+1=702
+
+eg. AA, AB, AC,.....BB, BC, BD,....ZZ
+
 ## Note
 
 ```
