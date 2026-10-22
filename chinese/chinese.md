@@ -91,3 +91,7 @@ AKA. ASCII code: U+2422 or 9250 in Decimal
 What it looks alike: ␢ 
 
 ## Pinyin AKA. romanization
+
+### Pinyin table
+
+Clickable [Pinyin table](https://kanjivg.tagaini.net/listing.html)
