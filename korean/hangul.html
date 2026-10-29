@@ -16,6 +16,7 @@
   #search { margin: 0 0 1em; }
   #search input { font-size: 1.1em; padding: 6px 10px; width: 10em; }
   #search button { font-size: 1.1em; padding: 6px 14px; margin-left: 6px; cursor: pointer; }
+  td a.contrib { display: inline-block; border: 1.5px solid #1663c7; color: #1663c7; border-radius: 8px; padding: 2px 10px; text-decoration: none; font-weight: 600; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -76,11 +77,11 @@
       var note = loaded.length < parts.length ? ' (some sources unavailable)' : '';
       status.textContent = rows.length + ' entr' + (rows.length === 1 ? 'y' : 'ies') + ' found.' + note;
       var cols = ['hangul', 'meaning', 'alphabet', 'source'];
-      var html = '<table><thead><tr>' + cols.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
+      var html = '<table><thead><tr>' + cols.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join('') + '<th>A=B</th></tr></thead><tbody>';
       rows.forEach(function (r) {
         html += '<tr>' + cols.map(function (c) {
           return '<td>' + esc(r[c]) + '</td>';
-        }).join('') + '</tr>';
+        }).join('') + '<td><a class="contrib" href="/a=b.html?a=' + encodeURIComponent(r.hangul) + '" target="_blank">Contribute A=B</a></td></tr>';
       });
       html += '</tbody></table>';
       document.getElementById('content').innerHTML = html;
