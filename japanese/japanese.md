@@ -34,15 +34,20 @@ a (gojūon, 五十音, "Fifty Sounds") table
 
 [HiraganaTable.md](HiraganaTable.md)
 
+<a href="japanese/HiraganaTable.md">HiraganaTable.md</a>
+
 ## Katakana table
 
 a (gojūon, 五十音, "Fifty Sounds") table
 
 [KatakanaTable.md](KatakanaTable.md)
 
+<a href="japanese/KatakanaTable.md">KatakanaTable.md</a>
 
 ## Pre-index
 
 AKA. 1st and 2nd letters possible combination: 50x(50+1)=2550
 
 eg. ああ, あい, あう,.....いい, いう, いえ,....をを
+
+<a href="japanese/jdict_index.html">Pre-index for Japanese Dictionary</a>
