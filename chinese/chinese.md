@@ -94,4 +94,8 @@ What it looks alike: ␢
 
 ### Pinyin table
 
-Clickable [Pinyin table](https://kanjivg.tagaini.net/listing.html)
+Clickable [Pinyin table](https://chinese.yabla.com/chinese-pinyin-chart.phpl)
+
+## Chinese character handwriting / stroke order
+
+Clickable [Chinese character table](https://kanjivg.tagaini.net/listing.html)
