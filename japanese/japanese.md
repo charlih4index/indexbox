@@ -34,7 +34,7 @@ a (gojūon, 五十音, "Fifty Sounds") table
 
 [HiraganaTable.md](HiraganaTable.md)
 
-<a href="japanese/HiraganaTable.md">HiraganaTable.md</a>
+<a href="japanese/HiraganaTable.html">HiraganaTable.html</a>
 
 ## Katakana table
 
@@ -42,7 +42,7 @@ a (gojūon, 五十音, "Fifty Sounds") table
 
 [KatakanaTable.md](KatakanaTable.md)
 
-<a href="japanese/KatakanaTable.md">KatakanaTable.md</a>
+<a href="japanese/KatakanaTable.html">KatakanaTable.html</a>
 
 ## Pre-index
 
