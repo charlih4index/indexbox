@@ -20,4 +20,6 @@ exports:
 
 # タ
 
+<a href="タ.html">Open the タ dictionary page</a>
+
 ## タクシー

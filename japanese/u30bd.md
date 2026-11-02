@@ -20,4 +20,6 @@ exports:
 
 # ソ
 
+<a href="ソ.html">Open the ソ dictionary page</a>
+
 ## ソファ

@@ -20,4 +20,6 @@ exports:
 
 # ニ
 
+<a href="ニ.html">Open the ニ dictionary page</a>
+
 ## ニュース

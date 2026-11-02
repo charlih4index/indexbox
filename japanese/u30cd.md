@@ -20,4 +20,6 @@ exports:
 
 # ネ
 
+<a href="ネ.html">Open the ネ dictionary page</a>
+
 ## ネクタイ
