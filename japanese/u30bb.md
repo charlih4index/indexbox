@@ -20,6 +20,4 @@ exports:
 
 # セ
 
-<a href="セ.html">Open the セ dictionary page</a>
-
 ## セーター

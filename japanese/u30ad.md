@@ -20,6 +20,4 @@ exports:
 
 # キ
 
-<a href="キ.html">Open the キ dictionary page</a>
-
 ## キリン

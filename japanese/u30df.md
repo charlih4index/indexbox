@@ -20,6 +20,4 @@ exports:
 
 # ミ
 
-<a href="ミ.html">Open the ミ dictionary page</a>
-
 ## ミルク

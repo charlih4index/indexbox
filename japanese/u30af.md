@@ -20,6 +20,4 @@ exports:
 
 # ク
 
-<a href="ク.html">Open the ク dictionary page</a>
-
 ## クラス

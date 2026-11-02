@@ -20,6 +20,4 @@ exports:
 
 # ハ
 
-<a href="ハ.html">Open the ハ dictionary page</a>
-
 ## ハンバーガー

@@ -20,6 +20,4 @@ exports:
 
 # ノ
 
-<a href="ノ.html">Open the ノ dictionary page</a>
-
 ## ノート

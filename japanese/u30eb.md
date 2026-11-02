@@ -20,6 +20,4 @@ exports:
 
 # ル
 
-<a href="ル.html">Open the ル dictionary page</a>
-
 ## ルール

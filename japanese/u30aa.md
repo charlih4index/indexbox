@@ -20,6 +20,4 @@ exports:
 
 # オ
 
-<a href="オ.html">Open the オ dictionary page</a>
-
 ## オレンジ

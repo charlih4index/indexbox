@@ -20,6 +20,4 @@ exports:
 
 # ホ
 
-<a href="ホ.html">Open the ホ dictionary page</a>
-
 ## ホテル

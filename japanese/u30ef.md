@@ -20,6 +20,4 @@ exports:
 
 # ワ
 
-<a href="ワ.html">Open the ワ dictionary page</a>
-
 ## ワイン
