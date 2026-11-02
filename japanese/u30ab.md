@@ -20,4 +20,6 @@ exports:
 
 # カ
 
+<a href="カ.html">Open the カ dictionary page</a>
+
 ## カメラ

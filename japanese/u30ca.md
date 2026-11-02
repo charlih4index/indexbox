@@ -20,4 +20,6 @@ exports:
 
 # ナ
 
+<a href="ナ.html">Open the ナ dictionary page</a>
+
 ## ナイフ

@@ -20,4 +20,6 @@ exports:
 
 # リ
 
+<a href="リ.html">Open the リ dictionary page</a>
+
 ## リモコン

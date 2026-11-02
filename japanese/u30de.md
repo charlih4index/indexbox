@@ -20,4 +20,6 @@ exports:
 
 # マ
 
+<a href="マ.html">Open the マ dictionary page</a>
+
 ## マンゴー

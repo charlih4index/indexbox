@@ -20,4 +20,6 @@ exports:
 
 # レ
 
+<a href="レ.html">Open the レ dictionary page</a>
+
 ## レモン

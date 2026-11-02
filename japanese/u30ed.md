@@ -20,4 +20,6 @@ exports:
 
 # ロ
 
+<a href="ロ.html">Open the ロ dictionary page</a>
+
 ## ロボット

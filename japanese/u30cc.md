@@ -20,4 +20,6 @@ exports:
 
 # ヌ
 
+<a href="ヌ.html">Open the ヌ dictionary page</a>
+
 ## ヌードル
