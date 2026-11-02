@@ -9,17 +9,19 @@
   h1 { font-weight: bold; font-size: 3em; margin: 0 0 0.2em; }
   hr { border: none; border-top: 2px solid #222; margin: 1em 0; }
   .preindex { line-height: 2; }
-  #search { margin: 0 0 1em; }
+  .title-row { display: flex; align-items: center; gap: 2em; flex-wrap: wrap; }
+  .title-row h1 { margin: 0; }
+  #search { margin: 0; }
   #search input { font-size: 1.1em; padding: 6px 10px; width: 12em; }
   #search button { font-size: 1.1em; padding: 6px 14px; margin-left: 6px; cursor: pointer; }
 </style>
 </head>
 <body>
-<h1>Alphabet ノ</h1>
+<div class="title-row"><h1>Alphabet ノ</h1>
 <form id="search" action="/japanese/jdict.html" method="get">
   <input type="text" name="japanese" placeholder="Enter a Japanese word" aria-label="Word to look up" autocomplete="off">
   <button type="submit">Search</button>
-</form>
+</form></div>
 <hr>
 <p class="preindex"><a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%82%A2">ノア</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%82%A4">ノイ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%82%AE">ノギ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%82%B3">ノコ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%82%B9">ノス</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%82%BA">ノズ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%83">ノッ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%8D">ノネ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%96">ノブ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%9F">ノミ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%A4">ノヤ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%A9">ノラ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%AA">ノリ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%AB">ノル</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%AD">ノロ</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%B3">ノン</a> <a href="/japanese/jdict.html?prefix=%E3%83%8E%E3%83%BC">ノー</a></p>
 </body>
