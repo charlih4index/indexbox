@@ -56,7 +56,7 @@ jobs:
       #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html _build/html/korean/ 
       #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json _build/html/korean/
       - run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json korean/hangul1.json _build/html/korean/
-      - run: mkdir -p _build/html/japanese && cp japanese/jdict.json japanese/jdict.html japanese/jdict_index.html japanese/HiraganaTable.html japanese/KatakanaTable.html _build/html/japanese/
+      - run: mkdir -p _build/html/japanese && cp japanese/*.html japanese/jdict.json _build/html/japanese/
         #   BASE_URL: /${{ github.event.repository.name }}
         # run: myst build --html
 
