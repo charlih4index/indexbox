@@ -94,7 +94,7 @@ What it looks alike: ␢
 
 ### Pinyin table
 
-Clickable [Pinyin table](https://chinese.yabla.com/chinese-pinyin-chart.php)
+Clickable [Pinyin table](https://chinese.yabla.com/chinese-pinyin-chart.php) vs. [PinyinTable.xlsx](PinyinTable.xlsx)
 
 ## Chinese character handwriting / stroke order
 
