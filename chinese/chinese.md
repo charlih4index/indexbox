@@ -30,7 +30,7 @@ exports:
 | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** | **11** | **12** | **13** |  |  |  |  |  |  |  |  |
 | [ㄚ](u311a.md) | [ㄛ](u311b.md) | [ㄜ](u311c.md) | [ㄝ](u311d.md) | [ㄞ](u311e.md) | [ㄟ](u311f.md) | [ㄠ](u3120.md) | [ㄡ](u3121.md) | [ㄢ](u3122.md) | [ㄣ](u3123.md) | [ㄤ](u3124.md) | [ㄥ](u3125.md) | [ㄦ](u3126.md) |  |  |  |  |  |  |  |  |
 
-Total possible pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = ((4*14)*22)*5-5 = 6155
+Total possible Zhuyin pronuciation = (((**3**+1)*(**13**+1)*(**21**+1))*5-(1*1*1*5) = ((4*14)*22)*5-5 = 6155
 
 ### Zhuyin table
 
@@ -93,6 +93,8 @@ What it looks alike: ␢
 ## Pinyin AKA. romanization
 
 ### Pinyin table
+
+Total possible Pinyin pronuciation = 36x22x5 = 3960
 
 Clickable [Pinyin table](https://chinese.yabla.com/chinese-pinyin-chart.php) vs. [PinyinTable.xlsx](PinyinTable.xlsx)
 
