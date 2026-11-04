@@ -55,7 +55,7 @@ EQ2.
 }
 ```
 
-## Input by you
+## Input/Contribute by you
 
 Find a way to have user to input to tagging as many as possible for the "word" AKA. "object" on database.
 
