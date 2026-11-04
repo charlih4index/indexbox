@@ -20,7 +20,9 @@ exports:
 
 # Preface
 
-Welcome to this website AKA. IndexBox.com. This preface provides an overview of what you will learn.
+Welcome to this website AKA. IndexBox.com. 
+
+This preface provides an overview of what you will learn.
 
 ## Who This Website Is For
 
