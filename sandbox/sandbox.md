@@ -266,3 +266,27 @@ https://www.dcard.tw/topics/諧音梗
 
 蝦味先 aka. 呷每鮮 in 台語(吃不膩)
 
+#### Others
+
+Here is the sampler html code to update:
+
+From:
+```
+      ㄇ
+      <br/>
+      ㄧ
+      <br/>
+      ㄝ
+      <br/>
+      ˊ
+```
+To:
+```
+   <a href="␢ㄇㄧㄝˊ.md" target="_blank">ㄅ
+      <div>
+      ㄧ
+      <div>
+      ㄝ
+      <div>
+      ˊ</a>
+```
