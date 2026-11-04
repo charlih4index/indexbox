@@ -58,7 +58,23 @@ Image:
 ![Alt text](image.jpg)
 ![Image with title](image.jpg "Image title")
 
+Image link:
+===========
 [![Image link](image.jpg)](https://www.markdownlang.com)
+
+Specify Image Size:
+===================
+<img src="image.jpg" alt="Alt text" width="300" height="200">
+
+Centered Image:
+===============
+<div align="center">
+  <img src="image.jpg" alt="Description">
+</div>
+
+Side-by-side Images:
+====================
+<img src="img1.jpg" width="48%"> <img src="img2.jpg" width="48%">
 
 Code block:
 ===========
