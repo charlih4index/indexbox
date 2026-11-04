@@ -77,10 +77,10 @@ You can input or contribute your A=B info. to database.
 
 ```[Contribute A=B](https://indexbox.com/a=b.html?a=???)```
 
-https://indexbox.com/build/ZhuyinTable.html
+https://indexbox.com/chinese/ZhuyinTable.html
 or 
 https://indexbox.com/english/english/
 or
 https://indexbox.com/japanese/jdict_index.html
 or
-https://indexbox.com/build/hangul_table.html
+https://indexbox.com/korean/hangul_table.html
