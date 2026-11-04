@@ -27,7 +27,7 @@ exports:
 ## List
 
 |No |Language |Sentence |
-|---|---------|---------|
+|:--|:--------|:--------|
 |1 |English | We stand with you, for you, and against injustice and discrimination. |
 |2 |Spanish |	Estamos con usted, para usted, y contra la injusticia y la discriminación. |
 |3 |Traditional Chinese |	我們將與您同在，幫助您反對不公正和歧視。|
