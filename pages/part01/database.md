@@ -73,26 +73,14 @@ Tagging.
 ```
 ---
 
-Help me to modify the ZhuyinTable.html under GitHub.com/charlih4index/Chinese
-Here is the sampler html code to update:
+You can input or contribute your A=B info. to database.
 
-From:
-```
-      ㄇ
-      <br/>
-      ㄧ
-      <br/>
-      ㄝ
-      <br/>
-      ˊ
-```
-To:
-```
-   <a href="␢ㄇㄧㄝˊ.md" target="_blank">ㄅ
-      <div>
-      ㄧ
-      <div>
-      ㄝ
-      <div>
-      ˊ</a>
-```
+```[Contribute A=B](https://indexbox.com/a=b.html?a=???)```
+
+https://indexbox.com/build/ZhuyinTable.html
+or 
+https://indexbox.com/english/english/
+or
+https://indexbox.com/japanese/jdict_index.html
+or
+https://indexbox.com/build/hangul_table.html
