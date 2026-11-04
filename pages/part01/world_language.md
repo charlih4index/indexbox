@@ -20,7 +20,11 @@ exports:
 
 # World language
 
+## List by image
+
 <img width="3264" height="2448" alt="TimePhoto_20260926_095105" src="https://github.com/user-attachments/assets/d976409c-d988-4451-9fa7-cb9ee21a7e9c" />
+
+## List
 
 - English
 - Chinese
