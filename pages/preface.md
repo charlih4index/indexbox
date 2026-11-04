@@ -11,7 +11,7 @@ kernelspec:
 title: Preface
 abstract: ""
 authors:
-  - name: Author Name
+  - name: Charlih Chen
 exports:
   - format: typst
     template: lapreprint-typst
@@ -20,19 +20,19 @@ exports:
 
 # Preface
 
-Welcome to this "book" AKA. IndexBox.com. This preface provides an overview of what you will learn.
+Welcome to this website AKA. IndexBox.com. This preface provides an overview of what you will learn.
 
-## Who This "Book" Is For
+## Who This Website Is For
 
-This "book" is for anyone interested in the topic.
+This website is for anyone interested in the topic.
 
-## How to Use This "Book"
+## How to Use This Website
 
-Each chapter [A to Z] builds on the previous one. Start from the beginning and work your way through.
+Each URL [A to Z] builds on the previous one. Start from the beginning and work your way through.
 
 ## Acknowledgements
 
-Thank you to everyone who contributed to this book.
+Thank you to everyone who contributed to this website.
 
 ## Folders structure
 
