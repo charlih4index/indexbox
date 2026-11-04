@@ -37,10 +37,11 @@ project:
         #- file: pages/part01/installation.md
     - title: Language
       children:
-        - file: pages/part02/World_language.md
+        - file: pages/part02/world_language.md
     - title: Newest
       children:
-        - file: newest/newest.md    
+        - file: newest/newest.md
+        - file: newest/first-example.md 
     - title: English
       children:
         - file: english/english.md
