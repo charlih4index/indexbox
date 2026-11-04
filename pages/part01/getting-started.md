@@ -18,43 +18,81 @@ exports:
     output: _build/exports/typst/
 ---
 
-# Getting Started
+# World language
 
-This chapter introduces the fundamental concepts.
+<img width="3264" height="2448" alt="TimePhoto_20260926_095105" src="https://github.com/user-attachments/assets/d976409c-d988-4451-9fa7-cb9ee21a7e9c" />
 
-## Overview
+# Database
 
-Provide an overview of the topic here.
+MySQL, MariaDB, PostgreSQL, MongoDB, and SQLite are all popular open-source relational databases.
 
-## Key Concepts
+# Input by you
 
-Explain the key concepts that readers need to understand.
+Find a way to have user to input to tagging as many as possible for the "word" AKA. "object" on database.
 
-```{code-cell} ipython3
-print("Hello, World!")
+The tag is just like to hashtag.
+
+The more tagging will define more clarify the "object".
+
+{numref}`fig-tagging` Tagging to define the "object".
+
+```{figure} ../images/tags.png
+:name: fig-tag
+:alt: Tagging
+
+Tagging.
 ```
 
-## Sample Table
+---
+Every object has a reciprocal relationship. 
 
-The table below shows an overview of the key tools used in this book.
+For example, A=B, B=Tag#1, B=Tag#2...B=Tag#n, etc. 
 
-```{list-table} Overview of key tools
-:header-rows: 1
-:name: tab-tools
+B defines and describes A with more Tag#1...Tag #n for assistance.
 
-* - Tool
-  - Description
-  - Version
-* - Python
-  - Programming language
-  - 3.12
-* - NumPy
-  - Numerical computing library
-  - 1.26
-* - Matplotlib
-  - Plotting and visualization
-  - 3.8
-* - MyST
-  - Markdown authoring framework
-  - 1.8
+{numref}`fig-eq2` EQ2.
+
+```{figure} ../images/tagseq2.png
+:name: fig-eq2
+:alt: EQ2
+
+EQ2.
+```
+
+```
+{
+  "A": {
+    "eq2": "B",
+    "tag1": "4tag1",
+    "tag2": "4tag2",
+    "tag3": "4tag3",
+    "tag4": "4tag4",
+    "tag5": "4tag5",
+    "others": "4others"
+  }
+}
+```
+
+Help me to modify the ZhuyinTable.html under GitHub.com/charlih4index/Chinese
+Here is the sampler html code to update:
+
+From:
+```
+      ㄇ
+      <br/>
+      ㄧ
+      <br/>
+      ㄝ
+      <br/>
+      ˊ
+```
+To:
+```
+   <a href="␢ㄇㄧㄝˊ.md" target="_blank">ㄅ
+      <div>
+      ㄧ
+      <div>
+      ㄝ
+      <div>
+      ˊ</a>
 ```
