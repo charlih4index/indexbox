@@ -4,6 +4,15 @@
 # Heading 1
 ## Heading 2
 ### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+Heading 1
+=========
+
+Heading 2
+---------
 
 Text Formatting:
 ================
@@ -11,24 +20,45 @@ Text Formatting:
 *italic text*
 ***Bold and italic***
 ~~Strikethrough~~
+<u>Underline</u>
+==Highlight==
+x^2^ (Superscript)
+H~2~O (Subscript)
 `Inline code`
 
 List:
 =====
 - Unordered list item
 - Another item
+  - Subitem 1
+  - Subitem 2
 
 1. Ordered list item
 2. Another item
 
+Task:
+=====
+- [x] Completed task
+- [ ] Incomplete task
+- [ ] Another task
+
 Link:
 =====
 [Link text](https://www.markdownlang.com)
+[Link with title](https://www.markdownlang.com "Link title")
+
+[Reference link][1]
+[1]: https://www.markdownlang.com "Link title"
+
+<https://www.markdownlang.com>
+<email@example.com>
 
 Image:
 ======
-![Alt text](image-url.jpg)
-![Image with title](image-url.jpg "Image title")
+![Alt text](image.jpg)
+![Image with title](image.jpg "Image title")
+
+[![Image link](image.jpg)](https://www.markdownlang.com)
 
 Code block:
 ===========
@@ -45,6 +75,52 @@ Blockquote:
 > It can span multiple lines
 > 
 > > And can be nested
+
+> This is a blockquote
+> 
+> Second paragraph in blockquote
+
+> Level 1 quote
+> > Level 2 quote
+> > > Level 3 quote
+
+Keyboard key:
+=============
+<kbd>Ctrl</kbd>
+
+Escaping Characters:
+====================
+\   Backslash
+`   Backtick
+*   Asterisk
+_   Underscore
+{}  Curly braces
+[]  Square brackets
+()  Parentheses
+#   Hash
++   Plus
+-   Minus
+.   Period
+!   Exclamation mark
+
+\* \_ \\ \` \{ \} \[ \] \( \) \# \+ \- \. \!
+
+\*not italic\*
+\#not heading
+\[not link\]
+
+Footnote:
+=========
+Here is a footnote reference[^1].
+
+[^1]: This is the content of the footnote.
+
+Heading ID:
+===========
+### Heading {#custom-id}
+### Heading {.class-name}
+
+Jump to [Heading](#heading)
 
 ~~~
 
