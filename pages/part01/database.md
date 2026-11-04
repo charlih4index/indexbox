@@ -22,24 +22,8 @@ exports:
 
 MySQL, MariaDB, PostgreSQL, MongoDB, and SQLite are all popular open-source relational databases.
 
-# Input by you
+# A=B
 
-Find a way to have user to input to tagging as many as possible for the "word" AKA. "object" on database.
-
-The tag is just like to hashtag.
-
-The more tagging will define more clarify the "object".
-
-{numref}`fig-tagging` Tagging to define the "object".
-
-```{figure} ../images/tags.png
-:name: fig-tag
-:alt: Tagging
-
-Tagging.
-```
-
----
 Every object has a reciprocal relationship. 
 
 For example, A=B, B=Tag#1, B=Tag#2...B=Tag#n, etc. 
@@ -68,6 +52,24 @@ EQ2.
   }
 }
 ```
+
+# Input by you
+
+Find a way to have user to input to tagging as many as possible for the "word" AKA. "object" on database.
+
+The tag is just like to hashtag.
+
+The more tagging will define more clarify the "object".
+
+{numref}`fig-tagging` Tagging to define the "object".
+
+```{figure} ../images/tags.png
+:name: fig-tag
+:alt: Tagging
+
+Tagging.
+```
+---
 
 Help me to modify the ZhuyinTable.html under GitHub.com/charlih4index/Chinese
 Here is the sampler html code to update:
