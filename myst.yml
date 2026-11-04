@@ -31,13 +31,13 @@ project:
     - title: Preface
       children:
         - file: pages/preface.md
-    - title: Getting Started
+    - title: Database
       children:
-        - file: pages/part01/getting-started.md
-        - file: pages/part01/installation.md
-    - title: Examples
+        - file: pages/part01/database.md
+        #- file: pages/part01/installation.md
+    - title: Language
       children:
-        - file: pages/part02/first-example.md
+        - file: pages/part02/World_language.md
     - title: Newest
       children:
         - file: newest/newest.md    
