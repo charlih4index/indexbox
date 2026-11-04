@@ -8,7 +8,7 @@ kernelspec:
   display_name: Python 3
   language: python
   name: python3
-title: Getting Started
+title: Database
 abstract: ""
 authors:
   - name: Charlih Chen
@@ -17,10 +17,6 @@ exports:
     template: lapreprint-typst
     output: _build/exports/typst/
 ---
-
-# World language
-
-<img width="3264" height="2448" alt="TimePhoto_20260926_095105" src="https://github.com/user-attachments/assets/d976409c-d988-4451-9fa7-cb9ee21a7e9c" />
 
 # Database
 
