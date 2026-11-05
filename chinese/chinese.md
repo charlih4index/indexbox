@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 title: Chinese
-abstract: ""
+abstract: "注音符號"
 authors:
   - name: Charlih Chen
 exports:
