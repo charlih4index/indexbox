@@ -96,7 +96,7 @@ What it looks alike: ␢
 
 Total possible Pinyin pronuciation = 36x22x5 = 3960
 
-Clickable [Pinyin table](https://chinese.yabla.com/chinese-pinyin-chart.php) vs. [PinyinTable.xlsx](PinyinTable.xlsx)
+Clickable [Pinyin table](https://chinese.yabla.com/chinese-pinyin-chart.php)  vs. [PinyinTable.html](PinyinTable.html) vs. [PinyinTable.xlsx](PinyinTable.xlsx)
 
 ## Chinese character handwriting / stroke order
 
