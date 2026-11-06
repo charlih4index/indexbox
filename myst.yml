@@ -3,7 +3,7 @@ project:
   title: indexbox.com
   # authors:
   #   - name: Author Name
-  copyright: '©2026 Indexbox. All rights reserved.'
+  copyright: '©2026 indexbox.com All rights reserved.'
   exclude:
     - _build
     - Thumbs.db
