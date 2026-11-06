@@ -195,7 +195,18 @@ https://ride.guru/content/resources/rideshares-worldwide
 
 ## idea1
 
-## idea2
+## MD syntax for Trademark and Copyright
+
+You can use html in Markdown:
+
+    Trademark: &trade;
+    Copyright: &copy;
+
+The Markdown-specific versions are:
+
+    Trademark: :tm:
+    Copyright: :copyright:
+
 
 ## stand4
 
