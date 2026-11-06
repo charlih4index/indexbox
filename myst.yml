@@ -1121,5 +1121,5 @@ site:
     primary_sidebar_footer: ''
     #banner: Updates will be released soon!
     # footer: footer.md
-    footer: ":tm: indexbox.com (c) 2026 :copyright:"
+    footer: "indexbox.com (c) 2026"
     # style: ./css/footer.css
