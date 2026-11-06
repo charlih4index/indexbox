@@ -1091,21 +1091,21 @@ site:
     - title: Home
       url: /
     - title: A-Z
-      url: /
+      url: /index
     - title: Blog
-      url: /blog/
+      url: /blog
     - title: Project(s)
-      url: /pages/project/
+      url: /pages/project
     - title: Sandbox
-      url: /sandbox/sandbox/
+      url: /sandbox/sandbox
     - title: Contact
       children:
         - title: Networking
-          url: /pages/networking/
+          url: /pages/networking
         - title: Social Media
-          url: /pages/social/
+          url: /pages/social
     - title: Other(s)
-      url: /pages/others/
+      url: /pages/others
   options:
     logo: logo.png
     logo_dark: logo.png
