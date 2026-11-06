@@ -1096,10 +1096,14 @@ site:
       url: /blog
     - title: Contact
       children:
-        - title: Networking
-          url: /pages/networking
+        - title: Forum
+          url: /pages/forum       
+        - title: Email
+          url: /pages/email
+        - title: Phone
+          url: /pages/phone        
         - title: Social Media
-          url: /pages/social      
+          url: /pages/social
     - title: Database
       url: /pages/part01/database.md
     - title: Sandbox
