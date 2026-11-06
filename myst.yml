@@ -1094,18 +1094,19 @@ site:
       url: https://indexbox.com/
     - title: Blog
       url: /blog
-    - title: Project(s)
-      url: /pages/project
-    - title: Sandbox
-      url: /sandbox/sandbox
     - title: Contact
       children:
         - title: Networking
           url: /pages/networking
         - title: Social Media
-          url: /pages/social
+          url: /pages/social      
+    - title: Database
+      url: /pages/page01/database.md
+    - title: Sandbox
+      url: /sandbox/sandbox
     - title: Other(s)
       url: /pages/others
+      url: /pages/language
   options:
     logo: logo.png
     logo_dark: logo.png
