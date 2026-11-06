@@ -1083,22 +1083,22 @@ site:
     - title: Home
       url: /
     - title: A-Z
-      url: I/Index.md    
+      url: /index.md    
     - title: Blog
-      url: /blog
+      url: /pages/blog
     - title: Project(s)
-      url: /P/Project.md
+      url: /pages/Project.md
     - title: Sandbox
-      url: /S/Sandbox.md
+      url: /sandbox/Sandbox.md
     - title: Contact
       children:
         - title: Networking
-          url: /N/Networking.md
+          url: /pages/Networking.md
         - title: Social Media
           url: /#social-media
-          #url: /S/Social.md
+          #url: /pages/Social.md
     - title: Other(s)
-      url: /O/Others.md
+      url: /pages/Others.md
   options:
     logo: logo.png
     logo_dark: logo.png
