@@ -1101,12 +1101,12 @@ site:
         - title: Social Media
           url: /pages/social      
     - title: Database
-      url: /pages/page01/database.md
+      url: /pages/part01/database.md
     - title: Sandbox
       url: /sandbox/sandbox
     - title: Other(s)
       url: /pages/others
-      url: /pages/page01/world-language.md
+      url: /pages/part01/world_language.md
   options:
     logo: logo.png
     logo_dark: logo.png
