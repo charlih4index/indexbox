@@ -1091,7 +1091,7 @@ site:
     - title: Home
       url: /
     - title: A-Z
-      url: /index
+      url: https://indexbox.com/
     - title: Blog
       url: /blog
     - title: Project(s)
