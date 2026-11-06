@@ -1106,7 +1106,7 @@ site:
       url: /sandbox/sandbox
     - title: Other(s)
       url: /pages/others
-      url: /pages/language
+      url: /pages/page01/world-language.md
   options:
     logo: logo.png
     logo_dark: logo.png
