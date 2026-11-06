@@ -1079,6 +1079,26 @@ project:
     - pattern: posts/*.md
       hidden: true
 site:
+  nav:
+    - title: Home
+      url: /
+    - title: A-Z
+      url: I/Index.md    
+    - title: Blog
+      url: /blog
+    - title: Project(s)
+      url: /P/Project.md
+    - title: Sandbox
+      url: /S/Sandbox.md
+    - title: Contact
+      children:
+        - title: Networking
+          url: /N/Networking.md
+        - title: Social Media
+          url: /#social-media
+          #url: /S/Social.md
+    - title: Other(s)
+      url: /O/Others.md
   options:
     logo: logo.png
     logo_dark: logo.png
