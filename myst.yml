@@ -28,6 +28,14 @@ project:
   toc:
     - file: index.md
     - file: others.md
+    - file: pages/Project.md
+      hidden: true
+    - file: pages/Networking.md
+      hidden: true
+    - file: pages/Social.md
+      hidden: true
+    - file: pages/Others.md
+      hidden: true
     - title: Preface
       children:
         - file: pages/preface.md
@@ -1069,7 +1077,7 @@ project:
           hidden: true
     - title: Sandbox
       children:
-        - file: sandbox/sandbox.md          
+        - file: sandbox/Sandbox.md
         - file: sandbox/category.md
     - file: blog.md
       children:
@@ -1083,21 +1091,21 @@ site:
     - title: Home
       url: /
     - title: A-Z
-      url: /index.md    
+      url: /
     - title: Blog
-      url: /blog.md
+      url: /blog/
     - title: Project(s)
-      url: /pages/Project.md
+      url: /pages/project/
     - title: Sandbox
-      url: /sandbox/Sandbox.md
+      url: /sandbox/sandbox/
     - title: Contact
       children:
         - title: Networking
-          url: /pages/Networking.md
+          url: /pages/networking/
         - title: Social Media
-          url: /pages/Social.md
+          url: /pages/social/
     - title: Other(s)
-      url: /pages/Others.md
+      url: /pages/others/
   options:
     logo: logo.png
     logo_dark: logo.png
