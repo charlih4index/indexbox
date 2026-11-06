@@ -1085,7 +1085,7 @@ site:
     - title: A-Z
       url: /index.md    
     - title: Blog
-      url: /pages/blog
+      url: /blog.md
     - title: Project(s)
       url: /pages/Project.md
     - title: Sandbox
@@ -1095,8 +1095,7 @@ site:
         - title: Networking
           url: /pages/Networking.md
         - title: Social Media
-          url: /#social-media
-          #url: /pages/Social.md
+          url: /pages/Social.md
     - title: Other(s)
       url: /pages/Others.md
   options:
