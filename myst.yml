@@ -1111,3 +1111,7 @@ site:
   template: book-theme
   parts:
     primary_sidebar_footer: ''
+    #banner: Updates will be released soon!
+    # footer: footer.md
+    footer: indexbox.com (c) 2026
+    # style: ./css/footer.css
