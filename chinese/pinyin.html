@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pinyin</title>
+<style>
+  body { font-family: -apple-system, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; margin: 2em auto; max-width: 960px; padding: 0 1em; color: #222; }
+  h1 { font-weight: bold; font-size: 3em; margin: 0 0 0.2em; }
+  hr { border: none; border-top: 2px solid #222; margin: 1em 0; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; white-space: nowrap; }
+  td:nth-child(4) { font-size: 1.5em; white-space: nowrap; }
+  #status { color: #666; }
+  #search { margin: 0 0 1em; }
+  #search input { font-size: 1.1em; padding: 6px 10px; width: 10em; }
+  #search button { font-size: 1.1em; padding: 6px 14px; margin-left: 6px; cursor: pointer; }
+  td a.contrib { display: inline-block; border: 1.5px solid #1663c7; color: #1663c7; border-radius: 8px; padding: 2px 10px; text-decoration: none; font-weight: 600; white-space: nowrap; }
+</style>
+</head>
+<body>
+<h1 id="title"></h1>
+<hr>
+<form id="search">
+  <input id="q" type="text" placeholder="輸入一個拼音" aria-label="Pinyin to look up" autocomplete="off">
+  <button type="submit">Search</button>
+</form>
+<div id="status">Loading…</div>
+<div id="content"></div>
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var py = params.get('pinyin') || '';
+  document.title = py || 'Pinyin';
+  document.getElementById('title').textContent = py;
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  document.getElementById('search').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var v = document.getElementById('q').value.trim();
+    if (!v) return;
+    window.location.search = '?pinyin=' + encodeURIComponent(v);
+  });
+  // A PinyinTable cell holds the toneless syllable (e.g. "pa", "a"); the
+  // dictionary stores toned forms (e.g. "pā", "pá", "pǎ", "pà", "pa").
+  // A query matches every tone of its toneless spelling.
+  var TONE_STRIP = {'ā':'a','á':'a','ǎ':'a','à':'a','ē':'e','é':'e','ě':'e','è':'e','ī':'i','í':'i','ǐ':'i','ì':'i','ō':'o','ó':'o','ǒ':'o','ò':'o','ū':'u','ú':'u','ǔ':'u','ù':'u','ǖ':'ü','ǘ':'ü','ǚ':'ü','ǜ':'ü'};
+  function toneless(s) {
+    return String(s || '').toLowerCase().split('').map(function (ch) { return TONE_STRIP[ch] || ch; }).join('');
+  }
+  // The table spells zero-initial syllables as y/w + final ("yia", "wua",
+  // "yü"), while the dictionary spells them the standard way ("ya", "wa",
+  // "yu"); j/q/x + ü is written "u" in the dictionary ("ju", not "jü").
+  var STANDARDIZE = {'yia':'ya','yiao':'yao','yie':'ye','yiu':'you','yian':'yan','yiang':'yang','yiong':'yong','wua':'wa','wuo':'wo','wui':'wei','wuai':'wai','wuan':'wan','wun':'wen','wuang':'wang','wueng':'weng','yü':'yu','yüe':'yue','yüan':'yuan','yün':'yun'};
+  function standardize(s) {
+    if (STANDARDIZE[s]) return STANDARDIZE[s];
+    return s.replace(/([jqxy])ü/g, '$1u');
+  }
+  if (!py) {
+    document.getElementById('status').textContent = 'Enter a pinyin above to look up.';
+    return;
+  }
+  var target = standardize(toneless(py));
+  fetch('chinese_word.json')
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (data) {
+      var rows = data.filter(function (r) { return toneless(r.pinyin) === target; });
+      var status = document.getElementById('status');
+      if (!rows.length) {
+        status.textContent = 'No entries found for "' + py + '".';
+        return;
+      }
+      status.textContent = rows.length + ' entr' + (rows.length === 1 ? 'y' : 'ies') + ' found.';
+      var cols = ['pinyin', 'zhuyin', 'zhuyin2', 'character', 'type', 'definitions'];
+      var html = '<table><thead><tr>' + cols.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join('') + '<th>A=B</th></tr></thead><tbody>';
+      rows.forEach(function (r) {
+        html += '<tr>' + cols.map(function (c) {
+          if (c === 'character') {
+            return '<td><a href="/chinese/character.html?char=' + esc(r[c]) + '" target="_blank">' + esc(r[c]) + '</a></td>';
+          }
+          return '<td>' + esc(r[c]) + '</td>';
+        }).join('') + '<td><a class="contrib" href="/a=b.html?a=' + encodeURIComponent(r.character) + '" target="_blank">Contribute A=B</a></td></tr>';
+      });
+      html += '</tbody></table>';
+      document.getElementById('content').innerHTML = html;
+    })
+    .catch(function (e) {
+      document.getElementById('status').textContent = 'Failed to load data: ' + e.message;
+    });
+})();
+</script>
+</body>
+</html>
