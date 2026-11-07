@@ -1121,7 +1121,7 @@ site:
     # analytics_google: G-XXX
   actions:
     - title: RSS
-      url: https://opengeos.org/myst-website-template/rss.xml
+      url: https://indexbox.com/rss.xml
   template: book-theme
   parts:
     primary_sidebar_footer: ''
