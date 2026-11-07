@@ -1,0 +1,2 @@
+cd C:\Apps\WWW\indexbox.com
+git clone https://github.com/charlih4index/indexbox.git
