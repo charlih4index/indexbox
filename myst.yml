@@ -1111,7 +1111,7 @@ site:
     - title: Other(s)
       url: /pages/others
     - title: World Language
-      url: /pages/part01/world_language
+      url: /pages/part01/world-language
   options:
     logo: logo.png
     logo_dark: logo.png
