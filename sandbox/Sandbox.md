@@ -30,6 +30,11 @@ https://uptogo.com.tw/文化/最近有什麼流行用語？/
 
 ## test2
 
+- https://indexbox.com/indexdatabase/sandbox/sandbox.md
+- ../indexdatabase/sandbox/sandbox.md
+- https://github.com/charlih4index/indexdatabase/sandbox/sandbox.md
+- https://github.com/charlih4index/indexdatabase/blob/main/sandbox/sandbox.md
+
 ### 美股熱門ETF排行榜
 
 | 股票代號 | 股票名稱 | 2026/10/6 收盤價 | 報酬率:月至今 | 報酬率:季至今 | 報酬率:年至今 |
