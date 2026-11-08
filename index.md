@@ -167,6 +167,18 @@ As separate bar / line / divider : Do the similar as Time square news, newest bl
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [Α](greek/u0391.md) | [Β](greek/u0392.md) | [Γ](greek/u0393.md) | [Δ](greek/u0394.md) | [Ε](greek/u0395.md) | [Ζ](greek/u0396.md) | [Η](greek/u0397.md) | [Θ](greek/u0398.md) | [Ι](greek/u0399.md) | [Κ](greek/u039a.md) | [Λ](greek/u039b.md) | [Μ](greek/u039c.md) | [Ν](greek/u039d.md) | [Ξ](greek/u039e.md) | [Ο](greek/u039f.md) | [Π](greek/u03a0.md) | [Ρ](greek/u03a1.md) | [Σ](greek/u03a3.md) | [Τ](greek/u03a4.md) | [Υ](greek/u03a5.md) | [Φ](greek/u03a6.md) | [Χ](greek/u03a7.md) | [Ψ](greek/u03a8.md) | [Ω](greek/u03a9.md) |
 
+**Vietnamese vowels**
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| [a](vietnamese/a.md) | [e](vietnamese/e.md) | [i](vietnamese/i.md) | [o](vietnamese/o.md) | [u](vietnamese/u.md) | [y](vietnamese/y.md) | [ă](vietnamese/ă.md) | [â](vietnamese/â.md) | [ê](vietnamese/ê.md) | [ô](vietnamese/ô.md) | [ơ](vietnamese/ơ.md) | [ư](vietnamese/ư.md) |
+
+**Vietnamese consonants**
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| [b](vietnamese/b.md) | [c](vietnamese/c.md) | [d](vietnamese/d.md) | [đ](vietnamese/đ.md) | [g](vietnamese/g.md) | [h](vietnamese/h.md) | [k](vietnamese/k.md) | [l](vietnamese/l.md) | [m](vietnamese/m.md) | [n](vietnamese/n.md) | [p](vietnamese/p.md) | [q](vietnamese/q.md) | [r](vietnamese/r.md) | [s](vietnamese/s.md) | [t](vietnamese/t.md) | [v](vietnamese/v.md) | [x](vietnamese/x.md) | 
+
 ## Sub-Bookmarks AKA. Category
 
 Newest post: [newest.md](newest/newest.md)
