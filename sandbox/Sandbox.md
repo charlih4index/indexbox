@@ -252,7 +252,7 @@ https://arielhsu.tw/easy-to-remember-name/
 
 ##### 梗圖
 
-https://www.reddit.com/r/China_irl/comments/1d2fwss/台灣最新梗圖/
+[台灣最新梗圖](https://www.reddit.com/search/?q=%E5%8F%B0%E7%81%A3%E6%9C%80%E6%96%B0%E6%A2%97%E5%9C%96&cId=6b8b11db-2b59-4758-9c22-fd740839f417&iId=2be61c13-9b76-4dbd-9edc-77cef47488bb)
 
 Source: [梗圖倉庫](https://memes.tw/)
 
