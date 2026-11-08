@@ -1075,6 +1075,65 @@ project:
           hidden: true
         - file: greek/u03a9.md
           hidden: true
+    - title: Vietnamese
+      children:
+        - file: vietnamese/vietnamese.md
+        - file: vietnamese/A.md
+          hidden: true
+        - file: vietnamese/Ă.md
+          hidden: true
+        - file: vietnamese/Â.md
+          hidden: true
+        - file: vietnamese/B.md
+          hidden: true
+        - file: vietnamese/C.md
+          hidden: true
+        - file: vietnamese/D.md
+          hidden: true
+        - file: vietnamese/Đ.md
+          hidden: true
+        - file: vietnamese/E.md
+          hidden: true
+        - file: vietnamese/Ê.md
+          hidden: true
+        - file: vietnamese/G.md
+          hidden: true
+        - file: vietnamese/H.md
+          hidden: true
+        - file: vietnamese/I.md
+          hidden: true
+        - file: vietnamese/K.md
+          hidden: true
+        - file: vietnamese/L.md
+          hidden: true
+        - file: vietnamese/M.md
+          hidden: true
+        - file: vietnamese/N.md
+          hidden: true
+        - file: vietnamese/O.md
+          hidden: true
+        - file: vietnamese/Ô.md
+          hidden: true
+        - file: vietnamese/Ơ.md
+          hidden: true
+        - file: vietnamese/P.md
+          hidden: true
+        - file: vietnamese/Q.md
+          hidden: true
+        - file: vietnamese/S.md
+          hidden: true
+        - file: vietnamese/T.md
+          hidden: true
+        - file: vietnamese/U.md
+          hidden: true
+        - file: vietnamese/Ư.md
+          hidden: true
+        - file: vietnamese/V.md
+          hidden: true
+        - file: vietnamese/X.md
+          hidden: true
+        - file: vietnamese/Y.md
+          hidden: true
     - title: Sandbox
       children:
         - file: sandbox/Sandbox.md
