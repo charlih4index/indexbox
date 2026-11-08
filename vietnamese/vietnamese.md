@@ -62,3 +62,6 @@ SOURCE: https://xueyuenanyu.com/zh-TW/pronunciation
 
 ă、â、ê、ô、ơ、ư 是獨立字母，不是 a/e/o/u 的「裝飾版」！在字典排序中，它們被視為完全不同的字母，發音也各不相同。
 
+## Vietnamese table
+
+[VietnameseTable.md](VietnameseTable.md) vs. [VietnameseTable.html](VietnameseTable.html) vs. [VietnameseTable.xlsx](VietnameseTable.xlsx)
