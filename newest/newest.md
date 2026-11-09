@@ -81,5 +81,13 @@ vs.
 | **Cline**       | Open Source  | Free               | Yes             | Yes         | CLI-first AI agent, script automation             |
 | **Gemini CLI**  | Proprietary  | Freemium           | Partial         | Yes         | Google AI integration, strong code reasoning      |
 
+### 12
+
+| :mouse: | :cow: | :tiger: | :rabbit: | :dragon: | :snake: | :horse: | :sheep: | :monkey: | :rooster: | :dog: | :pig: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 鼠 | 牛 | 虎 | 兔 | 龍 | 蛇 | 馬 | 羊 | 猴 | 雞 | 狗 | 豬 |
+| mouse | cow | tiger | rabbit | dragon | snake | horse | sheep | monkey | rooster | dog | pig |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+
 
 
