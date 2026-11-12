@@ -28,4 +28,6 @@ exports:
 - https://www.networkworld.com/news/
 - https://www.itpro.com/
 - https://campustechnology.com/articles/list/news.aspx
+- https://townhall.com/news
+- https://www.eweek.com/news/
 - 
