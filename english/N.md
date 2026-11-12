@@ -30,4 +30,5 @@ exports:
 - https://campustechnology.com/articles/list/news.aspx
 - https://townhall.com/news
 - https://www.eweek.com/news/
+- https://themarketsadvisor.com/category/latest-news/
 - 
