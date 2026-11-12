@@ -52,4 +52,6 @@ exports:
 - https://www.networkworld.com/search/?q=webinar
 - https://campustechnology.com/calendar/events-calendar.aspx
 - https://www.itpro.com/tag/webinar
+- https://www.eweek.com/events/
+- https://themarketsadvisor.com/?s=webinar
 - 
