@@ -26,4 +26,6 @@ exports:
 
 - https://www.makeuseof.com/category/news/
 - https://www.networkworld.com/news/
+- https://www.itpro.com/
+- https://campustechnology.com/articles/list/news.aspx
 - 
