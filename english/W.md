@@ -22,3 +22,23 @@ exports:
 
 <a href="W.html">Open the W dictionary page</a>
 
+## webinar
+
+- https://securityboulevard.com/webinar-thank-you/
+- https://teneo.ai/ai-webinars-events/
+- https://tenex.ai/events
+- https://www.ibm.com/think/webinars
+- https://www.eventbrite.com/d/online/webinar/
+- https://www.searchable.com/events
+- https://awsinsider.net/home.aspx
+- https://pages.lenovo.com/aiciowebinar2024.html
+- https://www.redhat.com/en/search?search=webinar&f[0]=hybrid_type:Event
+- https://www.avetta.com/webinar
+- https://www.cnet.com/?s=webinar
+- https://www.destinationcrm.com/Webinars/
+- https://acronis.events/
+- https://horizon3.ai/
+- https://www.nice.com/search?q=webinar
+- https://www.pcmatic.com/blog/
+- https://www.semperis.com/?s=webinar
+- 
