@@ -50,4 +50,6 @@ exports:
 - https://www.spiceworks.com/?s=webinar
 - https://www.infotech.com/search?q=webinar
 - https://www.networkworld.com/search/?q=webinar
+- https://campustechnology.com/calendar/events-calendar.aspx
+- https://www.itpro.com/tag/webinar
 - 
