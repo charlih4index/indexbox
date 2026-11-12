@@ -41,4 +41,12 @@ exports:
 - https://www.nice.com/search?q=webinar
 - https://www.pcmatic.com/blog/
 - https://www.semperis.com/?s=webinar
+- https://www.eweek.com/events/
+- https://www.dbta.com/Events/
+- https://www.microsoft.com/en-us/search/explore?q=webinar
+- https://events.actualtechmedia.com/
+- https://erstudio.com/?s=webinar
+- https://www.barco.com/en/search#q=webinar
+- https://www.spiceworks.com/?s=webinar
+- https://www.infotech.com/search?q=webinar
 - 
