@@ -54,4 +54,5 @@ exports:
 - https://www.itpro.com/tag/webinar
 - https://www.eweek.com/events/
 - https://themarketsadvisor.com/?s=webinar
+- https://idtechwire.com/events/
 - 
