@@ -22,3 +22,8 @@ exports:
 
 <a href="N.html">Open the N dictionary page</a>
 
+## news
+
+- https://www.makeuseof.com/category/news/
+- https://www.networkworld.com/news/
+- 
