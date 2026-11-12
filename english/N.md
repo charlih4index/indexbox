@@ -33,4 +33,5 @@ exports:
 - https://themarketsadvisor.com/category/latest-news/
 - https://tradingpulsenetwork.com/
 - https://www.howtogeek.com/news/
+- https://idtechwire.com/news/
 - 
