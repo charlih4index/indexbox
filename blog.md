@@ -28,13 +28,6 @@ November 12, 2026 - World Countries list.
 
 ::::{grid} 1 1 2 2
 
-:::{card} World Countries list
-:link: /sandbox/c/country.html
-:header: ![thumbnail](https://images.unsplash.com/photo-1495149905644-c9f27692c2c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)
-
-November 12, 2026 - World Countries list.
-:::
-
 :::{card} Write Journal Articles with MyST Markdown: Auto-Generate PDFs and Websites
 :link: /posts/myst-article-template
 :header: ![thumbnail](https://img.youtube.com/vi/iwL-s7aPNYQ/maxresdefault.jpg)
@@ -53,6 +46,13 @@ April 10, 2026 - A step-by-step tutorial on building a personal CV website with 
 ### 2025
 
 ::::{grid} 1 1 2 2
+
+:::{card} Pokemon Go list
+:link: sandbox/p/pokemon.html
+:header: ![thumbnail](https://images.unsplash.com/photo-1637158881671-f6e4331887e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)
+
+November 12, 2025 - Pokemon Go list.
+:::
 
 :::{card} A Reusable Template for Building Websites with MyST Markdown
 :link: /posts/myst-website-template
