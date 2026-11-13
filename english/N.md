@@ -45,4 +45,5 @@ exports:
 - https://mariadb.com/search-results/?q=news
 - https://adtmag.com/articles/list/news.aspx
 - https://www.harness.io/blog
+- https://www.gadgetreview.com/
 - 
