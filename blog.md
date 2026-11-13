@@ -20,7 +20,7 @@ description: A blog about data science, open-source software, and teaching, powe
 ::::{grid} 1 1 2 2
 
 :::{card} World Countries list
-:link: /Sandbox/C/
+:link: /sandbox/c/country.html
 :header: ![thumbnail](https://img.youtube.com/vi/iwL-s7aPNYQ/maxresdefault.jpg)
 November 12, 2026 - World Countries list.
 :::
