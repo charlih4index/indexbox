@@ -62,4 +62,6 @@ exports:
 - https://www.harness.io/events#webinar
 - https://www.keysight.com/us/en/learn/events.html?area=Americas
 - https://www.ezurio.com/search?keywords=webinar
+- https://securitytoday.com/webcasts/list/all-webinars.aspx
+- https://www.tdsynnex.com/na/us/dell/webinars/
 - 
