@@ -58,5 +58,5 @@ exports:
 - https://www.omnissa.com/search/?q=webinar
 - https://www.stickyminds.com/web-seminars
 - https://www.infotech.com/events
-- 
+- https://cybersecurity.opentext.com/resources/webinars/
 - 
