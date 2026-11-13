@@ -48,7 +48,7 @@ April 10, 2026 - A step-by-step tutorial on building a personal CV website with 
 ::::{grid} 1 1 2 2
 
 :::{card} Pokemon Go list
-:link: sandbox/p/pokemon.html
+:link: /sandbox/p/pokemon.html
 :header: ![thumbnail](https://images.unsplash.com/photo-1637158881671-f6e4331887e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)
 
 November 12, 2025 - Pokemon Go list.
