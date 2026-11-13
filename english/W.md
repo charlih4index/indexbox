@@ -55,4 +55,7 @@ exports:
 - https://themarketsadvisor.com/?s=webinar
 - https://idtechwire.com/events/
 - https://webinarfocustrade.com/
+- https://www.omnissa.com/search/?q=webinar
+- https://www.stickyminds.com/web-seminars
+- https://www.infotech.com/events
 - 
