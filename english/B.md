@@ -27,3 +27,5 @@ exports:
 - https://www.keytos.io/blog/
 - https://www.blogorama.com/
 - https://detailed.com/50/
+- https://medium.com/blog
+- 
