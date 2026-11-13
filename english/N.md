@@ -34,4 +34,7 @@ exports:
 - https://tradingpulsenetwork.com/
 - https://www.howtogeek.com/news/
 - https://idtechwire.com/news/
+- https://webinarfocustrade.com/
+- https://themarketsadvisor.com/
+- https://snyk.io/blog/
 - 
