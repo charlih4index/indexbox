@@ -19,6 +19,12 @@ description: A blog about data science, open-source software, and teaching, powe
 
 ::::{grid} 1 1 2 2
 
+:::{card} World Countries list
+:link: /Sandbox/C/
+:header: ![thumbnail](https://img.youtube.com/vi/iwL-s7aPNYQ/maxresdefault.jpg)
+November 12, 2026 - World Countries list.
+:::
+
 :::{card} Write Journal Articles with MyST Markdown: Auto-Generate PDFs and Websites
 :link: /posts/myst-article-template
 :header: ![thumbnail](https://img.youtube.com/vi/iwL-s7aPNYQ/maxresdefault.jpg)
