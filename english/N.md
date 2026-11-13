@@ -41,4 +41,8 @@ exports:
 - https://evolv.com/resources/blog/
 - https://www.dbta.com/Editorial/News-Flashes/
 - https://www.howtogeek.com/
+- https://www.spiceworks.com/
+- https://mariadb.com/search-results/?q=news
+- https://adtmag.com/articles/list/news.aspx
+- https://www.harness.io/blog
 - 
