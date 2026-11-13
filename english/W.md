@@ -59,4 +59,7 @@ exports:
 - https://www.stickyminds.com/web-seminars
 - https://www.infotech.com/events
 - https://cybersecurity.opentext.com/resources/webinars/
+- https://www.harness.io/events#webinar
+- https://www.keysight.com/us/en/learn/events.html?area=Americas
+- https://www.ezurio.com/search?keywords=webinar
 - 
