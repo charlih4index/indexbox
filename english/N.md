@@ -37,4 +37,7 @@ exports:
 - https://webinarfocustrade.com/
 - https://themarketsadvisor.com/
 - https://snyk.io/blog/
+- https://www.arcserve.com/blog?hsLang=en
+- https://evolv.com/resources/blog/
+- https://www.dbta.com/Editorial/News-Flashes/
 - 
