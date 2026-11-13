@@ -22,3 +22,9 @@ exports:
 
 <a href="B.html">Open the B dictionary page</a>
 
+## Blog
+
+- https://www.keytos.io/blog/
+- https://www.blogorama.com/
+- https://detailed.com/50/
+- 
