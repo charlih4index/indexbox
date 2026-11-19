@@ -4,6 +4,11 @@ project:
   # authors:
   #   - name: Author Name
   copyright: '©2026 indexbox.com All rights reserved.'
+  static_files:
+    - a=b.html
+    - japanese/jdict.html
+    - japanese/jdict.json
+    - japanese/jdict_index.html
   exclude:
     - _build
     - Thumbs.db
@@ -1081,6 +1086,28 @@ project:
       children:
         - file: sandbox/Sandbox.md
         - file: sandbox/category.md
+    - title: Index Tables
+      hidden: true
+      children:
+        - file: tables/numbers.md
+        - file: tables/english-uppercase-letter.md
+        - file: tables/english-lowercase-letter.md
+        - file: tables/chinese-zhuyin.md
+        - file: tables/korean-jamo.md
+        - file: tables/korean-basic-jamo.md
+        - file: tables/japanese-hiragana.md
+        - file: tables/japanese-katakana.md
+        - file: tables/spanish-alphabet.md
+        - file: tables/french-alphabet.md
+        - file: tables/german-alphabet.md
+        - file: tables/russian-alphabet.md
+        - file: tables/arabic-alphabet.md
+        - file: tables/hindi-vowels.md
+        - file: tables/hindi-consonants.md
+        - file: tables/thai-consonants.md
+        - file: tables/greek-alphabet.md
+        - file: tables/vietnamese-vowels.md
+        - file: tables/vietnamese-consonants.md
     - file: blog.md
       children:
         - file: tags/myst-markdown.md
@@ -1112,8 +1139,6 @@ site:
       url: /sandbox/sandbox
     - title: Other(s)
       url: /pages/others
-    - title: World Language
-      url: /pages/part01/world-language
   options:
     logo: logo.png
     logo_dark: logo.png

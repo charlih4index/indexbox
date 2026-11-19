@@ -1,0 +1,62 @@
+Hallmark audit — indexbox.com redesign (Grid, draw 2fefc7) + professional finish + table pages
+===============================================================================================
+
+Method
+  before: node sloplint.mjs --url <8 live URLs> --genre editorial --render --before
+  after:  node sloplint.mjs custom.css --url <local-build URLs> --genre editorial --render
+  CSS file passed on the after run so the stamp and waivers apply.
+
+Baseline (live, 8 routes)
+  sloplint: 28 FAIL, 58 REFLEX, 30 WARN
+  Top FAILs: 26a focus rings (14), 34 mobile scroll (5), 44c/44d fold (2),
+             49a control wrap (2), 58 word budget (4), 72 crowd (1)
+  Top REFLEX: 49b link wrap (50), 79 fold gap (5), 44c (1), 44c/39b (1), 58 (1)
+
+After (local build)
+  batch 1 (/, /blog, /pages/others, /numbers/0, /tables/numbers/, /tables/chinese-zhuyin/)
+    0 FAIL, 4 REFLEX, 19 WARN, 2 NOTE
+  batch 2 (database, world-language, sandbox, /english/A)
+    1 FAIL, 46 REFLEX, 13 WARN, 1 NOTE
+
+The single remaining FAIL
+  render — Minified React error #418 on /english/A/
+  Pre-existing and local-only: MyST builds english/A.md into a React page at
+  /english/A/ and the raw <a href="A.html"> in that Markdown triggers a
+  hydration mismatch. The live site serves the standalone english/A.html
+  instead, and that page has no React. Unrelated to custom.css.
+
+Fixes from the original Grid redesign
+  26a focus rings, 34 mobile scroll, 40 warning text, 44c/44d fold,
+  49a control wrap, 58 word budget (NOTE under redesign: full), F3 balance.
+
+Professional finish pass
+  Brand lockup, 60px nav, breadcrumb, restrained masthead, tinted table heads,
+  card hairlines, 38px colophon, cooler paper/ink palette.
+
+Home index reorganization (latest change)
+  The two long index sections on the home page were restructured:
+    - "Bookmarks AKA. Indexer" is now a responsive grid of 19 cards. Each card
+      links to its own full-width table page under /tables/<slug>/.
+    - All 19 alphabet tables moved verbatim into 19 new MyST pages in tables/
+      (paths adjusted with ../ so their links still resolve). 20 tables total
+      because the Chinese zhuyin page holds two. 662 links preserved.
+    - The Vietnamese consonants separator row had a pre-existing 19-vs-17 column
+      mismatch that made MyST render it as plain text; corrected to 17.
+    - "Sub-Bookmarks AKA. Category" remains a responsive card grid.
+    - "Top menu" and "In between" were moved from index.md to sandbox/Sandbox.md.
+  All 19 new table pages return 200 and every card href points to a real page.
+  The hidden "Index Tables" TOC section builds the pages without adding nav noise.
+
+Remaining REFLEX / WARN (advisory)
+  49b long labels wrap rather than clip; 77 no marketing section bands;
+  F18 MyST icon slot; F19 font weight count; F20 last grid row; F25 table
+  columns scroll inside their own frame.
+
+Waiver
+  79 recorded in the custom.css stamp: inner pages keep their title and first
+  table in the first screen instead of a full-height hero.
+
+Preservation
+  No content was deleted: sections were moved, tables were moved to their own
+  pages, and every link target is retained. No images, logo, favicon, or deploy
+  workflow were changed. Local only — no commit, push, or deploy.

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A=B Database — Prototype</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin: 0; background: #f6f7f9; color: #1c2330; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 20px 16px 60px; }
+  h1 { font-size: 26px; margin: 8px 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 10px; border-bottom: 2px solid #d8dde6; padding-bottom: 4px; }
+  .badge { display: inline-block; background: #b45309; color: #fff; border-radius: 4px; padding: 2px 8px; font-size: 12.5px; font-weight: 600; vertical-align: middle; }
+  .note { background: #fff7e6; border: 1px solid #f0d48a; border-radius: 6px; padding: 10px 12px; font-size: 14px; }
+  .card { background: #fff; border: 1px solid #d8dde6; border-radius: 8px; padding: 14px 16px; margin: 12px 0; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 10px 0 3px; color: #39445c; }
+  input[type=text], input[type=email] { width: 100%; box-sizing: border-box; padding: 8px 9px; border: 1px solid #b9c2d0; border-radius: 5px; font-size: 15px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+  button { background: #1663c7; color: #fff; border: 0; border-radius: 6px; padding: 9px 18px; font-size: 15px; cursor: pointer; margin-top: 14px; }
+  button:hover { background: #0f4f9f; }
+  button.small { padding: 5px 12px; font-size: 13.5px; margin-top: 8px; }
+  button.gray { background: #5b6577; }
+  .msg { margin-top: 12px; font-size: 14.5px; display: none; }
+  .msg.ok { color: #137333; } .msg.err { color: #b3261e; }
+  .ab { font-size: 18px; font-weight: 700; }
+  .tags { color: #39445c; font-size: 14px; margin-top: 3px; }
+  .tags span { background: #eef1f6; border-radius: 10px; padding: 1px 9px; margin-right: 5px; white-space: nowrap; display: inline-block; margin-top: 3px; }
+  .meta { color: #5b6577; font-size: 13.5px; margin-top: 6px; }
+  .rate { display: inline-block; min-width: 26px; text-align: center; border-radius: 4px; color: #fff; font-weight: 700; padding: 1px 0; margin-right: 7px; }
+  .rneg { background: #b3261e; } .rzero { background: #80868b; } .rpos { background: #137333; }
+  .ratingline { font-size: 14px; margin: 5px 0 5px 10px; }
+  .score { font-weight: 700; }
+  .rateform { border-top: 1px dashed #d8dde6; margin-top: 10px; padding-top: 4px; }
+  .radios label { display: inline-block; font-weight: 400; margin: 6px 14px 0 0; font-size: 14.5px; }
+  pre { background: #111827; color: #d1e7ff; border-radius: 6px; padding: 10px 12px; overflow-x: auto; font-size: 13px; max-height: 300px; overflow-y: auto; }
+  details { margin: 10px 0; } summary { cursor: pointer; font-weight: 600; font-size: 15px; }
+  table.users { border-collapse: collapse; font-size: 14px; } table.users td, table.users th { border: 1px solid #d8dde6; padding: 4px 10px; }
+  table.preview { border-collapse: collapse; font-size: 14px; width: 100%; }
+  table.preview td, table.preview th { border: 1px solid #d8dde6; padding: 5px 8px; vertical-align: top; text-align: left; }
+  table.preview input[type=text], table.preview input[type=email] { width: 150px; padding: 5px 6px; font-size: 13.5px; margin-top: 4px; }
+  table.preview .ab { font-size: 15.5px; }
+  tr.exact td { background: #fdf3e3; }
+  .hidden { display: none; }
+  button.big { background: #137333; font-size: 16.5px; padding: 12px 22px; }
+  button.big:hover { background: #0e5c27; }
+  button:disabled { opacity: .55; cursor: default; }
+  .flash { animation: pvflash 1.1s ease-out; }
+  @keyframes pvflash { 0% { box-shadow: 0 0 0 3px #f0d48a; } 100% { box-shadow: 0 0 0 0 rgba(240,212,138,0); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>A=B Database <span class="badge">PROTOTYPE</span></h1>
+<p class="note">This page follows the A=B database concept in <b>indexdatabase / sandbox / sandbox.md</b>. Saving is <b>real</b>: submissions and ratings are stored in the <b>TiDB Cloud</b> database and shared with every visitor. Submitting is two steps: <b>“Check existing entries”</b> shows what already exists for your A; the green button under the table then saves your entry. The starting data was the seed in the repo files <b>A.json</b>, <b>Email.json</b>, <b>SubmitDate.json</b> and <b>Rating.json</b>.</p>
+
+<h2>1. Submit an A=B record</h2>
+<div class="card">
+  <div class="grid">
+    <div><label for="fA">A</label><input type="text" id="fA" placeholder="e.g. Chinese"></div>
+    <div><label for="fB">eq2(B) — B, equal to A</label><input type="text" id="fB" placeholder="e.g. 中文"></div>
+    <div><label for="ft1">tag1</label><input type="text" id="ft1" placeholder="e.g. English to Chinese"></div>
+    <div><label for="ft2">tag2</label><input type="text" id="ft2" placeholder="e.g. 英中翻譯"></div>
+    <div><label for="ft3">tag3</label><input type="text" id="ft3" placeholder="e.g. dictionary"></div>
+    <div><label for="ft4">tag4</label><input type="text" id="ft4" placeholder="e.g. 字典"></div>
+    <div><label for="ft5">tag5</label><input type="text" id="ft5" placeholder="e.g. noun"></div>
+  </div>
+
+  <label for="fEmail">Your email</label>
+  <input type="email" id="fEmail" placeholder="e.g. jdoe@email.com">
+  <div class="meta" id="emailStatus"></div>
+
+  <div id="registerBox" class="hidden">
+    <div class="grid">
+      <div><label for="fUser">Username (register)</label><input type="text" id="fUser" placeholder="e.g. jdoe"></div>
+      <div><label for="fFirst">First name</label><input type="text" id="fFirst" placeholder="e.g. John"></div>
+      <div><label for="fLast">Last name</label><input type="text" id="fLast" placeholder="e.g. Doe"></div>
+    </div>
+  </div>
+
+  <label style="font-weight:400"><input type="checkbox" id="fAnon"> Submit as anonymous (no email recorded)</label>
+  <br>
+  <button id="submitBtn" type="button">Check existing entries</button>
+  <div class="msg" id="submitMsg"></div>
+  <div id="previewBox" class="hidden">
+    <p id="staleWarn" class="note hidden" style="border-color:#b3261e;margin:10px 0"></p>
+    <h3 id="previewTitle" style="margin:16px 0 6px"></h3>
+    <div id="preview"></div>
+    <button id="confirmBtn" type="button" class="big">Click the button to contribute your A=B definition to database</button>
+    <button id="startOverBtn" type="button" class="gray">Start over</button>
+    <div class="msg" id="previewMsg"></div>
+  </div>
+</div>
+
+<h2>2. Registered users</h2>
+<div id="users"></div>
+
+<h2>3. The database (TiDB Cloud)</h2>
+<div id="dataPanel"></div>
+<button class="gray" id="resetBtn" type="button">Start over</button>
+</div>
+<script>
+/* ===== TiDB Cloud Data Service configuration =====
+   Paste the API keys of the "abdb-api" Data App between the quotes below.
+   Find/create them in the TiDB Cloud console: Data Service -> abdb-api ->
+   Authentication -> Create API Key (role: ReadAndWrite). */
+const API_BASE = 'https://us-west-2.data.tidbcloud.com/api/v1beta/app/dataapp-YUTuxYIM/endpoint';
+const PUBLIC_KEY = 'PASTE_PUBLIC_KEY_HERE';
+const PRIVATE_KEY = 'PASTE_PRIVATE_KEY_HERE';
+const KEYS_READY = PUBLIC_KEY.indexOf('PASTE_') !== 0 && PRIVATE_KEY.indexOf('PASTE_') !== 0;
+
+const $ = id => document.getElementById(id);
+function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+function todayStr() { const d = new Date(); const p = n => String(n).padStart(2, '0'); return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); }
+function showMsg(el, text, ok) { el.textContent = text; el.className = 'msg ' + (ok ? 'ok' : 'err'); el.style.display = 'block'; }
+function hideMsg(el) { el.style.display = 'none'; }
+
+/* ----- API layer ----- */
+async function api(path, options) {
+  options = options || {};
+  const res = await fetch(API_BASE + path, {
+    method: options.method || 'GET',
+    headers: { 'Authorization': 'Basic ' + btoa(PUBLIC_KEY + ':' + PRIVATE_KEY), 'Content-Type': 'application/json' },
+    body: options.body ? JSON.stringify(options.body) : undefined
+  });
+  let payload = null;
+  try { payload = await res.json(); } catch (e) { /* non-JSON response */ }
+  if (!res.ok) {
+    let detail = '';
+    if (payload) detail = payload.message || (payload.error && payload.error.message) || '';
+    throw new Error('HTTP ' + res.status + (detail ? ' — ' + detail : ''));
+  }
+  return payload;
+}
+function rowsOf(payload) {
+  const data = payload && payload.data !== undefined ? payload.data : payload;
+  if (!data) return [];
+  const rows = data.rows || data.result || [];
+  if (!Array.isArray(rows)) return [];
+  const cols = data.columns || [];
+  return rows.map(r => {
+    if (Array.isArray(r)) { const o = {}; cols.forEach((c, i) => { o[(c && c.name) || c] = r[i]; }); return o; }
+    return r;
+  });
+}
+function num(v) { const n = Number(v); return isNaN(n) ? 0 : n; }
+function normRow(r) {
+  const o = Object.assign({}, r);
+  o.is_exact = num(o.is_exact); o.score = num(o.score);
+  o.rating_count = num(o.rating_count); o.total_rows = num(o.total_rows);
+  if (typeof o.submit_date === 'string' && o.submit_date.indexOf('T') > 0) o.submit_date = o.submit_date.slice(0, 10);
+  o.ratings = [];
+  if (typeof o.ratings_json === 'string') { try { o.ratings = JSON.parse(o.ratings_json) || []; } catch (e) { o.ratings = []; } }
+  o.ratings.forEach(x => { x.rating = num(x.rating); });
+  return o;
+}
+async function lookup(a) { const p = await api('/lookup?a=' + encodeURIComponent(a)); return rowsOf(p).map(normRow); }
+async function findUser(email) { const p = await api('/user?email=' + encodeURIComponent(email)); const rows = rowsOf(p); return rows.length ? rows[0] : null; }
+
+/* ----- State ----- */
+let displayRows = [];   // all rows returned by the last lookup (exact + prefix)
+let shownRows = [];     // rows actually shown (exact only, when any exact exist)
+let lookupSeq = 0;
+let userCache = { email: null, user: undefined };  // user: undefined = unknown, null = not registered
+let previewFor = { a: '', b: '' };   // the A/B values the shown table was loaded for
+let checkedOK = false;               // the form passed validation via the Check button
+
+/* ----- Anti-foolproofing helpers ----- */
+function scrollToEl(el) { try { el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); } catch (e) { /* older browsers */ } }
+function syncCheckBtn() {
+  $('submitBtn').disabled = checkedOK;
+  $('submitBtn').textContent = checkedOK ? '✓ Checked — confirm below ↓' : 'Check existing entries';
+}
+function isStale() {
+  if ($('previewBox').classList.contains('hidden')) return false;
+  const a = $('fA').value.trim();
+  if (!a) return false;
+  return a !== previewFor.a || $('fB').value.trim() !== previewFor.b;
+}
+function updateStaleBanner() {
+  const w = $('staleWarn');
+  if (!w) return;
+  if (isStale()) {
+    w.textContent = '⚠ You changed A or B — this table was loaded for A = "' + previewFor.a + '" and may not match your current input. The save button will refresh the table first.';
+    w.classList.remove('hidden');
+  } else w.classList.add('hidden');
+}
+function onFormEdit() {
+  if (checkedOK) { checkedOK = false; syncCheckBtn(); }
+  updateStaleBanner();
+}
+
+/* ----- Registration status next to the email field ----- */
+let emailSeq = 0;
+function applyUserUI(email, u) {
+  if (u) {
+    $('registerBox').classList.add('hidden');
+    $('emailStatus').textContent = 'Registered as ' + u.username + ' (' + u.first_name + ' ' + u.last_name + ') — no need to register again.';
+  } else {
+    $('registerBox').classList.remove('hidden');
+    $('emailStatus').textContent = 'This email is not registered yet — fill in the registration fields; it will be registered with your first submission.';
+  }
+}
+async function updateEmailUI() {
+  const email = $('fEmail').value.trim();
+  if ($('fAnon').checked) {
+    $('registerBox').classList.add('hidden');
+    $('emailStatus').textContent = 'You will submit with By = anonymous.';
+    userCache = { email: null, user: undefined };
+    return;
+  }
+  if (!email) {
+    $('registerBox').classList.add('hidden');
+    $('emailStatus').textContent = 'Enter your email, or check "Submit as anonymous" to submit as anonymous.';
+    userCache = { email: null, user: undefined };
+    return;
+  }
+  if (userCache.email === email && userCache.user !== undefined) { applyUserUI(email, userCache.user); return; }
+  $('emailStatus').textContent = 'Checking registration…';
+  const seq = ++emailSeq;
+  try {
+    const u = await findUser(email);
+    if (seq !== emailSeq) return;
+    userCache = { email: email, user: u };
+    applyUserUI(email, u);
+  } catch (e) {
+    if (seq !== emailSeq) return;
+    $('emailStatus').textContent = 'Could not check registration (' + e.message + ').';
+  }
+}
+
+/* ----- Read + validate the submit form ----- */
+async function readSubmitter() {
+  const rec = {
+    A: $('fA').value.trim(), B: $('fB').value.trim(),
+    tags: [1, 2, 3, 4, 5].map(i => $('ft' + i).value.trim())
+  };
+  if (!rec.A || !rec.B) { showMsg($('submitMsg'), 'Please fill in both A and eq2(B).', false); return null; }
+  if ($('fAnon').checked) return { rec: rec, by: 'anonymous', newUser: null };
+  const email = $('fEmail').value.trim();
+  if (!email || email.indexOf('@') < 1) { showMsg($('submitMsg'), 'A valid email is required, or check "Submit as anonymous".', false); return null; }
+  let user;
+  if (userCache.email === email && userCache.user !== undefined) user = userCache.user;
+  else {
+    try { user = await findUser(email); userCache = { email: email, user: user }; }
+    catch (e) { showMsg($('submitMsg'), 'Could not check registration (' + e.message + ').', false); return null; }
+  }
+  if (user) return { rec: rec, by: email, newUser: null };
+  const nu = { email: email, username: $('fUser').value.trim(), first_name: $('fFirst').value.trim(), last_name: $('fLast').value.trim() };
+  if (!nu.username || !nu.first_name || !nu.last_name) {
+    showMsg($('submitMsg'), 'This email is not registered yet — fill in Username, First name and Last name so it can be registered with your submission.', false);
+    $('registerBox').classList.remove('hidden');
+    return null;
+  }
+  return { rec: rec, by: email, newUser: nu };
+}
+
+/* ----- Preview table ----- */
+function renderPreview(a) {
+  const box = $('previewBox');
+  if (!a) { box.classList.add('hidden'); shownRows = []; return; }
+  box.classList.remove('hidden');
+  const exact = displayRows.filter(r => r.is_exact === 1);
+  shownRows = exact.length ? exact : displayRows;
+  if (!displayRows.length) {
+    $('previewTitle').textContent = '';
+    $('preview').innerHTML = '<p class="meta">No existing A=B for "' + esc(a) + '" yet — yours can be the first entry.</p>';
+    return;
+  }
+  const typedB = $('fB').value.trim();
+  $('previewTitle').textContent = 'Existing A=B entries for "' + a + '" — ' + shownRows.length +
+    (shownRows.length === 1 ? ' entry' : ' entries') + (shownRows.length === 50 ? ' (showing first 50)' : '');
+  let h = '<table class="preview"><tr><th>A</th><th>eq2(B)</th><th>Tags</th><th>Submitted by</th><th>Score &amp; ratings</th><th>Rate it</th></tr>';
+  shownRows.forEach((r, i) => {
+    const isExactPair = typedB !== '' && r.a === a && r.b === typedB;
+    const tags = [r.tag1, r.tag2, r.tag3, r.tag4, r.tag5].filter(t => t);
+    let ratingsHtml = '<span class="score">Score: ' + r.score + '</span> (' + r.rating_count + (r.rating_count === 1 ? ' rating' : ' ratings') + ')';
+    r.ratings.forEach(x => {
+      const cls = x.rating < 0 ? 'rneg' : (x.rating > 0 ? 'rpos' : 'rzero');
+      const sym = x.rating < 0 ? '−1' : (x.rating > 0 ? '+1' : '0');
+      ratingsHtml += '<div class="ratingline"><span class="rate ' + cls + '">' + sym + '</span><b>' + esc(x.by) + '</b>' + (x.note ? ': ' + esc(x.note) : '') + '</div>';
+    });
+    h += '<tr class="rec' + (isExactPair ? ' exact' : '') + '" data-i="' + i + '">'
+      + '<td><span class="ab">' + esc(r.a) + '</span>' + (isExactPair ? ' <span class="badge">exact match</span>' : '') + '</td>'
+      + '<td>' + esc(r.b) + '</td>'
+      + '<td><div class="tags">' + tags.map(t => '<span>' + esc(t) + '</span>').join('') + '</div></td>'
+      + '<td>' + esc(r.submitted_by) + '<br>' + esc(r.submit_date) + '</td>'
+      + '<td>' + ratingsHtml + '</td>'
+      + '<td><div class="rateform"><div class="radios">'
+      + '<label><input type="radio" name="rating_' + i + '" value="-1"> −1 Wrong</label>'
+      + '<label><input type="radio" name="rating_' + i + '" value="0"> 0 No comment</label>'
+      + '<label><input type="radio" name="rating_' + i + '" value="1"> +1 Correct</label></div>'
+      + '<input type="email" id="rate-email_' + i + '" placeholder="Your email (optional)">'
+      + '<input type="text" id="rate-note_' + i + '" placeholder="Note for the AB">'
+      + '<button type="button" class="small" data-rate="' + i + '">Rate this A=B</button>'
+      + '<div class="msg" id="rateMsg_' + i + '"></div></div></td></tr>';
+  });
+  h += '</table>';
+  $('preview').innerHTML = h;
+}
+async function refreshPreview() {
+  const a = $('fA').value.trim();
+  const b = $('fB').value.trim();
+  if (!a) { displayRows = []; previewFor = { a: '', b: '' }; renderPreview(''); updateStaleBanner(); return; }
+  const seq = ++lookupSeq;
+  try {
+    const rows = await lookup(a);
+    if (seq !== lookupSeq) return;
+    displayRows = rows;
+    previewFor = { a: a, b: b };
+    renderPreview(a);
+    updateStaleBanner();
+  } catch (e) {
+    if (seq !== lookupSeq) return;
+    $('previewBox').classList.remove('hidden');
+    $('previewTitle').textContent = '';
+    $('preview').innerHTML = '<p class="meta">Could not load existing entries (' + esc(e.message) + ').</p>';
+  }
+}
+let previewTimer = null;
+function schedulePreview() { clearTimeout(previewTimer); previewTimer = setTimeout(refreshPreview, 350); }
+
+/* ----- Submit (step 1: validate + show the table) ----- */
+$('submitBtn').addEventListener('click', async () => {
+  hideMsg($('previewMsg'));
+  const s = await readSubmitter();
+  if (!s) { scrollToEl($('submitMsg')); return; }
+  hideMsg($('submitMsg'));
+  await refreshPreview();
+  checkedOK = true; syncCheckBtn();
+  showMsg($('previewMsg'), 'Check the table — if your A=B is already there, you can rate it instead. Otherwise use the button below the table to save yours.', true);
+  scrollToEl($('previewBox'));
+  const box = $('previewBox');
+  box.classList.remove('flash'); void box.offsetWidth; box.classList.add('flash');
+  setTimeout(() => box.classList.remove('flash'), 1200);
+});
+
+/* ----- Confirm (step 2: actually write to TiDB) ----- */
+$('confirmBtn').addEventListener('click', async () => {
+  const s = await readSubmitter();
+  if (!s) { $('previewBox').classList.remove('hidden'); showMsg($('previewMsg'), 'Please fix the problem above first.', false); scrollToEl($('submitMsg')); return; }
+  if (isStale()) {
+    await refreshPreview();
+    showMsg($('previewMsg'), 'Table updated for your current A/B — please check it, then click the button again to save your A=B.', true);
+    scrollToEl($('previewBox'));
+    return;
+  }
+  const btn = $('confirmBtn');
+  const btnText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Saving…';
+  $('submitBtn').disabled = true; $('startOverBtn').disabled = true; $('resetBtn').disabled = true;
+  try {
+    if (s.newUser) {
+      await api('/register', { method: 'POST', body: s.newUser });
+      userCache = { email: s.newUser.email, user: { email: s.newUser.email, username: s.newUser.username, first_name: s.newUser.first_name, last_name: s.newUser.last_name } };
+      updateEmailUI();
+    }
+    const body = {
+      a: s.rec.A, b: s.rec.B,
+      tag1: s.rec.tags[0], tag2: s.rec.tags[1], tag3: s.rec.tags[2], tag4: s.rec.tags[3], tag5: s.rec.tags[4],
+      by: s.by, submit_date: todayStr()
+    };
+    await api('/submit', { method: 'POST', body: body });
+    let key = s.rec.A + ' & ' + s.rec.B + ' & ' + s.by + ' & ' + body.submit_date;
+    try {
+      const rows = await lookup(s.rec.A);
+      const mine = rows.filter(r => r.a === s.rec.A && r.b === s.rec.B && r.submitted_by === s.by && r.submit_date === body.submit_date);
+      if (mine.length) key = mine[mine.length - 1].submission_key;
+    } catch (e) { /* keep the computed key */ }
+    ['fA', 'fB', 'ft1', 'ft2', 'ft3', 'ft4', 'ft5'].forEach(id => { $(id).value = ''; });
+    displayRows = [];
+    previewFor = { a: '', b: '' };
+    renderPreview('');
+    checkedOK = false;
+    showMsg($('submitMsg'), 'Saved: "' + key + '" added to the TiDB database' + (s.newUser ? ', and ' + s.by + ' registered as a user' : '') + '.', true);
+    scrollToEl($('submitMsg'));
+  } catch (e) {
+    showMsg($('previewMsg'), 'Saving failed (' + e.message + '). Nothing was written — please try again.', false);
+  } finally {
+    btn.disabled = false; btn.textContent = btnText;
+    $('startOverBtn').disabled = false; $('resetBtn').disabled = false;
+    syncCheckBtn();
+  }
+});
+
+/* ----- Rating from a preview row ----- */
+$('preview').addEventListener('click', async (ev) => {
+  const btn = ev.target.closest('button[data-rate]');
+  if (!btn) return;
+  const i = Number(btn.getAttribute('data-rate'));
+  const r = shownRows[i];
+  if (!r) return;
+  const msgEl = $('rateMsg_' + i);
+  const checked = document.querySelector('input[name="rating_' + i + '"]:checked');
+  if (!checked) { showMsg(msgEl, 'Choose −1, 0 or +1 first.', false); return; }
+  const rating = Number(checked.value);
+  let by = $('rate-email_' + i).value.trim();
+  const note = $('rate-note_' + i).value.trim();
+  if (by && by.indexOf('@') < 1) { showMsg(msgEl, 'Please enter a valid email, or leave it empty to rate as anonymous.', false); return; }
+  if (!by) by = 'anonymous';
+  if (rating === -1 && !note) { showMsg(msgEl, 'A rating of −1 (Wrong) needs a note — please write in "Note for the AB" how it should be corrected.', false); $('rate-note_' + i).focus(); return; }
+  btn.disabled = true;
+  try {
+    try { await api('/rate', { method: 'POST', body: { submission_key: r.submission_key, rating: rating, by: by, note: note } }); }
+    catch (e1) { await api('/rate', { method: 'POST', body: { submission_key: r.submission_key, rating: String(rating), by: by, note: note } }); }
+    await refreshPreview();
+    showMsg($('previewMsg'), 'Rating saved for "' + r.submission_key + '" ✓', true);
+  } catch (e) {
+    showMsg(msgEl, 'Rating failed (' + e.message + ').', false);
+  } finally { btn.disabled = false; }
+});
+
+/* ----- Start over (clears the form; saved records are unaffected) ----- */
+function startOver() {
+  const dirty = ['fA', 'fB', 'ft1', 'ft2', 'ft3', 'ft4', 'ft5', 'fEmail', 'fUser', 'fFirst', 'fLast'].some(id => $(id).value.trim() !== '') || $('fAnon').checked;
+  if (dirty && !window.confirm('Clear the form? Your typed input will be lost.')) return;
+  ['fA', 'fB', 'ft1', 'ft2', 'ft3', 'ft4', 'ft5', 'fEmail', 'fUser', 'fFirst', 'fLast'].forEach(id => { $(id).value = ''; });
+  $('fAnon').checked = false;
+  userCache = { email: null, user: undefined };
+  checkedOK = false; syncCheckBtn();
+  previewFor = { a: '', b: '' };
+  hideMsg($('previewMsg'));
+  displayRows = [];
+  renderPreview('');
+  updateEmailUI();
+  showMsg($('submitMsg'), 'Started over: the form is cleared. Records already saved in the database are not affected.', true);
+}
+$('startOverBtn').addEventListener('click', startOver);
+$('resetBtn').addEventListener('click', startOver);
+
+/* ----- Section 2: registration check ----- */
+function renderUsers() {
+  $('users').innerHTML = '<div class="card"><label for="uEmail">Check whether an email is registered</label>'
+    + '<input type="email" id="uEmail" placeholder="e.g. jdoe@email.com">'
+    + '<button type="button" class="small" id="uCheck">Check</button>'
+    + '<div class="meta" id="uResult"></div></div>';
+  $('uCheck').addEventListener('click', async () => {
+    const email = $('uEmail').value.trim();
+    const out = $('uResult');
+    if (!email || email.indexOf('@') < 1) { out.textContent = 'Enter a valid email address.'; return; }
+    out.textContent = 'Checking…';
+    try {
+      const u = await findUser(email);
+      out.innerHTML = u
+        ? '✓ <b>' + esc(email) + '</b> is registered as <b>' + esc(u.username) + '</b> (' + esc(u.first_name) + ' ' + esc(u.last_name) + ').'
+        : '<b>' + esc(email) + '</b> is not registered yet — it will be registered with its first submission.';
+    } catch (e) { out.textContent = 'Could not check (' + e.message + ').'; }
+  });
+}
+
+/* ----- Section 3: live database status ----- */
+async function renderData() {
+  const el = $('dataPanel');
+  if (!KEYS_READY) {
+    el.innerHTML = '<div class="card">This page is not connected yet: the TiDB Data App API keys have not been pasted into the configuration at the top of this page\'s script.</div>';
+    return;
+  }
+  el.innerHTML = '<div class="card">Loading the live count…</div>';
+  try {
+    const p = await api('/lookup?a=');
+    const rows = rowsOf(p).map(normRow);
+    const total = rows.length ? rows[0].total_rows : 0;
+    el.innerHTML = '<div class="card">Live database: <b>TiDB Cloud</b>, database <b>abdb</b> — currently <b>' + total + '</b> submissions. '
+      + 'Submissions and ratings made on this page are written to it immediately and are visible to every visitor. '
+      + 'The starting seed came from <b>A.json</b>, <b>Email.json</b>, <b>SubmitDate.json</b> and <b>Rating.json</b> in this repo.</div>';
+  } catch (e) {
+    el.innerHTML = '<div class="card">Could not reach the database API (' + esc(e.message) + ').</div>';
+  }
+}
+
+/* ----- Wiring ----- */
+let emailTimer = null;
+$('fEmail').addEventListener('input', () => { clearTimeout(emailTimer); emailTimer = setTimeout(updateEmailUI, 400); });
+$('fAnon').addEventListener('change', updateEmailUI);
+$('fA').addEventListener('input', schedulePreview);
+$('fB').addEventListener('input', schedulePreview);
+['fA', 'fB', 'ft1', 'ft2', 'ft3', 'ft4', 'ft5', 'fUser', 'fFirst', 'fLast'].forEach(id => { $(id).addEventListener('input', onFormEdit); });
+$('fEmail').addEventListener('input', onFormEdit);
+$('fAnon').addEventListener('change', onFormEdit);
+
+try { localStorage.removeItem('abdb_proto_v3'); } catch (e) { /* the old simulated data is obsolete */ }
+if (!KEYS_READY) {
+  const warn = document.createElement('p');
+  warn.className = 'note';
+  warn.style.borderColor = '#b3261e';
+  warn.innerHTML = '<b>Setup needed:</b> this page cannot reach the database until the TiDB Data App API keys are pasted into the configuration at the top of this page\'s script (search for <b>PASTE_PUBLIC_KEY_HERE</b>).';
+  document.querySelector('.wrap').insertBefore(warn, document.querySelector('h2'));
+}
+renderUsers();
+renderData();
+updateEmailUI();
+
+/* Arriving from a "Contribute A=B" button on a dictionary page: prefill A and run the check. */
+const urlA = new URLSearchParams(window.location.search).get('a');
+if (urlA) {
+  $('fA').value = urlA;
+  refreshPreview().then(function () { scrollToEl($('previewBox')); });
+}
+
+</script>
+</body>
+</html>

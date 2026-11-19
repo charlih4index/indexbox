@@ -22,7 +22,7 @@
 <body>
 <h1 id="title"></h1>
 <hr>
-<p><a href="jdict_index.html">&larr; Pre-index</a></p>
+<p><a href="/jdict_index.html">&larr; Pre-index</a></p>
 <form id="search">
   <input id="q" type="text" placeholder="Enter a Japanese word" aria-label="Word to look up" autocomplete="off">
   <button type="submit">Search</button>
@@ -55,7 +55,7 @@
     document.getElementById('status').textContent = 'Enter a word above to look up, or pick a prefix from the pre-index.';
     return;
   }
-  fetch('jdict.json')
+  fetch('/jdict.json')
     .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function (data) {
       var rows, status = document.getElementById('status');

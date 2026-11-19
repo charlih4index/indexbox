@@ -20,6 +20,24 @@ exports:
 
 # Sandbox
 
+---
+
+## Top menu
+
+All | Search | Images | Videos | Maps | News | Shopping | More
+
+Home | About | Blog | Contact | Product | Search
+
+Home | A-Z | Blog | Sandbox | Search | More...
+
+## In between
+
+As separate bar / line / divider : Do the similar as Time square news, newest blog, or stock ticker scrolling display between Top menu and below main content page.
+
+## World Language
+
+Kept here for future use: [World Language](../pages/part01/world_language.md)
+
 ## test1
 
 https://github.com/MonloHua/geng-skill
