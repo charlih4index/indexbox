@@ -32,7 +32,7 @@ fig-self8.
 <!-- <img width="476" height="114" alt="image" src="https://github.com/user-attachments/assets/9a55a951-6f7c-443d-ab05-4f6a01d6885c" /> -->
 
 ---
-## Bookmarks AKA. Indexer
+## Indexer AKA. Bookmark. 
 
 ::::{grid} 2 3 4 4
 
@@ -58,6 +58,12 @@ fig-self8.
 :link: /tables/chinese-zhuyin
 
 **Chinese zhuyin**
+:::
+
+:::{card}
+:link: /tables/chinese-pinyin
+
+**Chinese pinyin**
 :::
 
 :::{card}
@@ -152,7 +158,7 @@ fig-self8.
 
 ::::
 
-## Sub-Bookmarks AKA. Category
+## Category AKA. Sub-Bookmark
 
 Newest post: [newest.md](newest/newest.md)
 
