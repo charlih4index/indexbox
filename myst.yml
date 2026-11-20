@@ -180,6 +180,7 @@ project:
       children:
         - file: chinese/chinese.md
         - file: chinese/ZhuyinTable.md
+        - file: chinese/PinyinTable.md
           hidden: true
         - file: chinese/u3105.md
           hidden: true
