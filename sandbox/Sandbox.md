@@ -38,6 +38,16 @@ As separate bar / line / divider : Do the similar as Time square news, newest bl
 
 Kept here for future use: [World Language](../pages/part01/world_language.md)
 
+## Chinese character
+
+https://indexbox.com/chinese/Chinese.md
+
+- [URL1](chinese/ChineseCharacter.html)
+- [URL2](chinese/ChineseCharacter.md)
+''' # Chinese Character '''
+- https://indexbox.com/chinese/ChineseCharacter.html
+- https://indexbox.com/chinese/character.html
+
 ## test1
 
 https://github.com/MonloHua/geng-skill
