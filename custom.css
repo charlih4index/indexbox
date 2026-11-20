@@ -125,7 +125,7 @@ article.article-grid > .myst-fm-block { grid-column: 1 / 9; grid-row: 1; align-s
 /* Inner pages have no actions to fill a full-height masthead; keep them compact. */
 article.article-grid:not(:has(.hallmark-actions)) > .myst-fm-block { min-height: 0 !important; padding: var(--space-sm) 0 var(--space-sm) !important; justify-content: flex-start; }
 article.article-grid > picture:first-of-type { grid-column: 9 / 13; grid-row: 1; align-self: end; margin: 0; }
-article.article-grid > picture:first-of-type img { width: 100%; aspect-ratio: 1; object-fit: contain; filter: grayscale(1) contrast(1.12); mix-blend-mode: multiply; }
+article.article-grid > picture:first-of-type img { width: 100%; aspect-ratio: 1; object-fit: contain; }
 /* Restore the breadcrumb as a quiet wayfinding line; drop the template download control. */
 .myst-fm-block-header { display: flex !important; align-items: center; margin-bottom: var(--space-sm) !important; min-height: 20px; }
 .myst-breadcrumbs ol { gap: var(--space-xs) !important; }
@@ -176,7 +176,7 @@ article.article-grid .overflow-auto { max-width: 100%; }
 article.article-grid .myst-grid { gap: var(--gap-columns) !important; margin-top: var(--space-lg) !important; }
 article.article-grid .myst-card { border: 0 !important; border-radius: 0 !important; box-shadow: none !important; background: transparent !important; padding: 0 !important; }
 article.article-grid .myst-card-header, article.article-grid .myst-card-footer { border: 0 !important; background: transparent !important; padding: 0 !important; }
-article.article-grid .myst-card-header img { width: 100% !important; aspect-ratio: 12 / 5; object-fit: cover; filter: grayscale(1) contrast(1.12); mix-blend-mode: multiply; border: 0 !important; border-radius: 0 !important; margin: 0 !important; }
+article.article-grid .myst-card-header img { width: 100% !important; aspect-ratio: 12 / 5; object-fit: cover; border: 0 !important; border-radius: 0 !important; margin: 0 !important; }
 .myst-card-title, .myst-card-footer { display: block !important; text-align: start !important; white-space: normal !important; padding: var(--space-md) 0 0 !important; }
 .myst-card-title a, .myst-card-footer a { font-family: var(--font-display) !important; font-size: var(--text-title) !important; font-weight: 700 !important; line-height: 1.2 !important; color: var(--color-ink) !important; text-align: start !important; white-space: normal !important; }
 .myst-card-title a:hover, .myst-card-footer a:hover { color: var(--color-mark); }
@@ -212,7 +212,7 @@ article.article-grid a:focus-visible { outline: 3px solid var(--color-focus); ou
 article.article-grid pre, article.article-grid code { background: var(--color-paper-2) !important; color: var(--color-ink) !important; border: 0 !important; }
 article.article-grid figure { margin: var(--space-2xl) 0; }
 article.article-grid figcaption { font-family: var(--font-body); font-size: var(--text-sm); color: var(--color-muted); }
-article.article-grid img { filter: grayscale(1) contrast(1.12); mix-blend-mode: multiply; }
+article.article-grid img { }
 /* Long link labels stay on one line where they fit; elsewhere they wrap anywhere. */
 article.article-grid a.link, article.article-grid a.link .link-text { white-space: nowrap !important; overflow-wrap: normal !important; word-break: normal !important; }
 #giscus-comments { max-width: 100% !important; padding: 0 !important; }
