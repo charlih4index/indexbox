@@ -39,6 +39,14 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
+  // Link English words in the meaning column to the English dictionary.
+  // Capitalize the first letter so "abandon" points at "Abandon" in endict.json.
+  function englishLinks(s) {
+    return String(s == null ? '' : s).replace(/[A-Za-z][A-Za-z'-]*/g, function (word) {
+      var cap = word.charAt(0).toUpperCase() + word.slice(1);
+      return '<a href="/english/endict.html?english=' + encodeURIComponent(cap).replace(/'/g, '%27') + '" target="_blank">' + esc(word) + '</a>';
+    });
+  }
   document.getElementById('search').addEventListener('submit', function (e) {
     e.preventDefault();
     var v = document.getElementById('q').value.trim();
@@ -80,6 +88,9 @@
       var html = '<table><thead><tr>' + cols.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join('') + '<th>A=B</th></tr></thead><tbody>';
       rows.forEach(function (r) {
         html += '<tr>' + cols.map(function (c) {
+          if (c === 'meaning') {
+            return '<td>' + englishLinks(r[c]) + '</td>';
+          }
           return '<td>' + esc(r[c]) + '</td>';
         }).join('') + '<td><a class="contrib" href="/a=b.html?a=' + encodeURIComponent(r.hangul) + '" target="_blank">Contribute A=B</a></td></tr>';
       });
