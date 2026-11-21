@@ -1094,6 +1094,7 @@ project:
         - file: tables/english-uppercase-letter.md
         - file: tables/english-lowercase-letter.md
         - file: tables/chinese-zhuyin.md
+        - file: tables/chinese-pinyin.md
         - file: tables/korean-jamo.md
         - file: tables/korean-basic-jamo.md
         - file: tables/japanese-hiragana.md
