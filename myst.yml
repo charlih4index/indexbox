@@ -178,7 +178,7 @@ project:
           hidden: true
     - title: Chinese
       children:
-        - file: chinese/chinese.md
+        - file: chinese/Chinese.md
         - file: chinese/ZhuyinTable.md
         - file: chinese/PinyinTable.md
           hidden: true

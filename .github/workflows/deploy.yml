@@ -54,11 +54,13 @@ jobs:
       #- run: cp chinese/character.html chinese/chinese_word.json _build/html/chinese/
       - run: cp chinese/character.html chinese/zhuyin.html chinese/pinyin.html chinese/chinese_word.json _build/html/chinese/
       - run: |
-          cp chinese/Chinese.md _build/html/chinese/Chinese.md
           cp chinese/character.html _build/html/chinese/ChineseCharacter.html
+          mkdir -p _build/html/chinese/Chinese.md
+          printf '%s\n' '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/chinese/chinese/"></head><body><a href="/chinese/chinese/">Chinese</a></body></html>' > _build/html/chinese/Chinese.md/index.html
           mkdir -p _build/html/sandbox/sandbox/chinese
           cp chinese/character.html _build/html/sandbox/sandbox/chinese/ChineseCharacter.html
-          cp chinese/Chinese.md _build/html/sandbox/sandbox/chinese/ChineseCharacter.md
+          mkdir -p _build/html/sandbox/sandbox/chinese/ChineseCharacter.md
+          printf '%s\n' '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/chinese/chinese/"></head><body><a href="/chinese/chinese/">Chinese</a></body></html>' > _build/html/sandbox/sandbox/chinese/ChineseCharacter.md/index.html
           cp chinese/chinese_word.json _build/html/sandbox/sandbox/chinese/chinese_word.json
       #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html _build/html/korean/ 
       #- run: mkdir -p _build/html/korean && cp korean/hangul_table.html korean/hangul.html korean/hangul.json _build/html/korean/
