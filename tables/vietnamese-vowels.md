@@ -16,6 +16,6 @@ title: Vietnamese vowels
 
 Total possible Vietnamese pronunciation = 12x18x6 = 1296
 
-Clickable [vietnamese.md](vietnamese/vietnamese.md) vs. [VietnameseTable.html](vietnamese/VietnameseTable.html) vs. [VietnameseTable.xlsx](vietnamese/VietnameseTable.xlsx)
+Clickable [vietnamese.md](../vietnamese/vietnamese.md) vs. [VietnameseTable.html](../vietnamese/VietnameseTable.html) vs. [VietnameseTable.xlsx](../vietnamese/VietnameseTable.xlsx)
 
 https://indexbox.com/vietnamese/VietnameseTable.html
