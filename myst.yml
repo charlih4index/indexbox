@@ -39,8 +39,6 @@ project:
       hidden: true
     - file: pages/Social.md
       hidden: true
-    - file: pages/Others.md
-      hidden: true
     - title: Preface
       children:
         - file: pages/preface.md
