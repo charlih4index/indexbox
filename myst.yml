@@ -1140,7 +1140,7 @@ site:
     #- title: Sandbox
     #  url: /sandbox/sandbox
     - title: Other(s)
-      url: /others.md
+      url: /others
   options:
     logo: logo.png
     logo_dark: logo.png
