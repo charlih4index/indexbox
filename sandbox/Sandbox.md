@@ -38,6 +38,8 @@ As separate bar / line / divider : Do the similar as Time square news, newest bl
 
 Kept here for future use: [World Language](../pages/part01/world_language.md)
 
+[language](sandbox/language/language.html)
+
 ## Chinese character
 
 https://indexbox.com/chinese/Chinese.md
