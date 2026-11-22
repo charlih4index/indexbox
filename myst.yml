@@ -1137,10 +1137,10 @@ site:
           url: /pages/social
     - title: Database
       url: /pages/part01/database
-    - title: Sandbox
-      url: /sandbox/sandbox
+    #- title: Sandbox
+    #  url: /sandbox/sandbox
     - title: Other(s)
-      url: /pages/others
+      url: /others.md
   options:
     logo: logo.png
     logo_dark: logo.png
