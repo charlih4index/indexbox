@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="copyright" content="Charlih Chen" />
+<meta name="author" content="Charlih Chen" />
+<title>Indexing by language</title>
+<style>
+/**
+ * Tabs
+ */
+.tabs {
+	display: flex;
+	flex-wrap: wrap; // make sure it wraps
+}
+.tabs label {
+	order: 1; // Put the labels first
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #90CAF9;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+/**
+ * Generic Styling
+*/
+body {
+  background: #eee;
+  min-height: 100vh;
+	box-sizing: border-box;
+	padding-top: 10vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 112%;
+}
+</style>
+</head>
+<body>
+<div class="tabs">
+  <input name="tabs" type="radio" id="tab-1"  class="input"/>
+  <label for="tab-1" class="label">Arabic</label>
+  <div class="tab">
+    <h1>Arabic</h1>
+    <p><a href="https://web.uvic.ca/hrd/hist455/consonants/consonants_pres.htm">https://web.uvic.ca/hrd/hist455/consonants/consonants_pres.htm</a></p>
+ </div>
+ 
+  <input name="tabs" type="radio" id="tab-2" class="input"/>
+  <label for="tab-2" class="label">Chinese</label>
+  <div class="tab">
+    <h1>Chinese</h1>
+    <p>[ <a data-title="Zhuyin table" data-type="url" data-url="http://www.indexbox.com/chinese/ZhuyinTable.html" href="http://www.indexbox.com/index/language/chinese/zhuyin/ZhuyinTable.html" title="Zhuyin table">zhuyin table</a> ]</p>
+  </div>
+ 
+ <input name="tabs" type="radio" id="tab-3"  class="input"/>
+  <label for="tab-3" class="label">Dutche</label>
+  <div class="tab">
+    <h1>Dutch</h1>
+    <p>The list go here.</p>
+  </div>
+
+ <input name="tabs" type="radio" id="tab-4"  class="input"/>
+  <label for="tab-4" class="label">Danish</label>
+  <div class="tab">
+    <h1>Danish</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet">https://en.wikipedia.org/wiki/Danish_and_Norwegian_alphabet</a></p>
+  </div>
+ 
+  <input name="tabs" type="radio" id="tab-5" checked="checked" class="input"/>
+  <label for="tab-5" class="label">English</label>
+  <div class="tab">
+    <h1>English</h1>
+    <p>[ <a data-title="index_a" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/a.txt" href="http://www.indexbox.com/index/language/english/lowercase/a.txt" title="index_a">a</a> ] [ <a data-title="index_b" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/b.txt" href="http://www.indexbox.com/index/language/english/lowercase/b.txt" title="index_b">b</a> ] [ <a data-title="index_c" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/c.txt" href="http://www.indexbox.com/index/language/english/lowercase/c.txt" title="index_c">c</a> ] [ <a data-title="index_d" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/d.txt" href="http://www.indexbox.com/index/language/english/lowercase/d.txt" title="index_d">d</a> ] [ <a data-title="index_e" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/e.txt" href="http://www.indexbox.com/index/language/english/lowercase/e.txt" title="index_e">e</a> ] [ <a data-title="index_f" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/f.txt" href="http://www.indexbox.com/index/language/english/lowercase/f.txt" title="index_f">f</a> ] [ <a data-title="index_g" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/g.txt" href="http://www.indexbox.com/index/language/english/lowercase/g.txt" title="index_g">g</a> ] [ <a data-title="index_h" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/h.txt" href="http://www.indexbox.com/index/language/english/lowercase/h.txt" title="index_h">h</a> ] [ <a data-title="index_i" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/i.txt" href="http://www.indexbox.com/index/language/english/lowercase/i.txt" title="index_i">i</a> ] [ <a data-title="index_j" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/j.txt" href="http://www.indexbox.com/index/language/english/lowercase/j.txt" title="index_j">j</a> ] [ <a data-title="index_k" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/k.txt" href="http://www.indexbox.com/index/language/english/lowercase/k.txt" title="index_k">k</a> ] [ <a data-title="index_l" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/l.txt" href="http://www.indexbox.com/index/language/english/lowercase/l.txt" title="index_l">l</a> ] [ <a data-title="index_m" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/m.txt" href="http://www.indexbox.com/index/language/english/lowercase/m.txt" title="index_m">m</a> ] [ <a data-title="index_n" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/n.txt" href="http://www.indexbox.com/index/language/english/lowercase/n.txt" title="index_n">n</a> ] [ <a data-title="index_o" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/o.txt" href="http://www.indexbox.com/index/language/english/lowercase/o.txt" title="index_o">o</a> ] [ <a data-title="index_p" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/p.txt" href="http://www.indexbox.com/index/language/english/lowercase/p.txt" title="index_p">p</a> ] [ <a data-title="index_q" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/q.txt" href="http://www.indexbox.com/index/language/english/lowercase/q.txt" title="index_q">q</a> ] [ <a data-title="index_r" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/r.txt" href="http://www.indexbox.com/index/language/english/lowercase/r.txt" title="index_r">r</a> ] [ <a data-title="index_s" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/s.txt" href="http://www.indexbox.com/index/language/english/lowercase/s.txt" title="index_s">s</a> ] [ <a data-title="index_t" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/t.txt" href="http://www.indexbox.com/index/language/english/lowercase/t.txt" title="index_t">t</a> ] [ <a data-title="index_u" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/u.txt" href="http://www.indexbox.com/index/language/english/lowercase/u.txt" title="index_u">u</a> ] [ <a data-title="index_v" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/v.txt" href="http://www.indexbox.com/index/language/english/lowercase/v.txt" title="index_v">v</a> ] [ <a data-title="index_w" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/w.txt" href="http://www.indexbox.com/index/w.txt" title="index_w">w</a> ] [ <a data-title="index_x" data-type="url" data-url="http://www.indexbox.com/index/x.txt" href="http://www.indexbox.com/index/x.txt" title="index_x">x</a><span style="background-color: transparent;"> ] [ <a data-title="index_y" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/y.txt" href="http://www.indexbox.com/index/language/english/lowercase/y.txt" title="index_y">y</a> ] [ <a data-title="index_z" data-type="url" data-url="http://www.indexbox.com/index/language/english/lowercase/z.txt" href="http://www.indexbox.com/index/language/english/lowercase/z.txt" title="index_z">z</a> ]</span></p>
+	<p>[ <a data-title="index_A" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/A.txt" href="http://www.indexbox.com/index/language/english/uppercase/A.txt" title="index_a">A</a> ] [ <a data-title="index_B" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/B.txt" href="http://www.indexbox.com/index/language/english/uppercase/B.txt" title="index_b">B</a> ] [ <a data-title="index_C" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/C.txt" href="http://www.indexbox.com/index/language/english/uppercase/C.txt" title="index_C">C</a> ] [ <a data-title="index_D" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/D.txt" href="http://www.indexbox.com/index/language/english/uppercase/D.txt" title="index_d">D</a> ] [ <a data-title="index_E" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/E.txt" href="http://www.indexbox.com/index/language/english/uppercase/E.txt" title="index_E">E</a> ] [ <a data-title="index_F" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/F.txt" href="http://www.indexbox.com/index/language/english/uppercase/F.txt" title="index_F">F</a> ] [ <a data-title="index_G" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/G.txt" href="http://www.indexbox.com/index/language/english/uppercase/G.txt" title="index_G">G</a> ] [ <a data-title="index_H" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/H.txt" href="http://www.indexbox.com/index/language/english/uppercase/H.txt" title="index_H">H</a> ] [ <a data-title="index_I" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/I.txt" href="http://www.indexbox.com/index/language/english/uppercase/I.txt" title="index_I">I</a> ] [ <a data-title="index_J" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/J.txt" href="http://www.indexbox.com/index/language/english/uppercase/J.txt" title="index_J">J</a> ] [ <a data-title="index_K" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/K.txt" href="http://www.indexbox.com/index/language/english/uppercase/K.txt" title="index_K">K</a> ] [ <a data-title="index_L" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/L.txt" href="http://www.indexbox.com/index/language/english/uppercase/L.txt" title="index_L">L</a> ] [ <a data-title="index_M" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/M.txt" href="http://www.indexbox.com/index/language/english/uppercase/M.txt" title="index_M">M</a> ] [ <a data-title="index_N" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/N.txt" href="http://www.indexbox.com/index/language/english/uppercase/N.txt" title="index_N">N</a> ] [ <a data-title="index_O" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/O.txt" href="http://www.indexbox.com/index/language/english/uppercase/O.txt" title="index_O">O</a> ] [ <a data-title="index_P" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/P.txt" href="http://www.indexbox.com/index/language/english/uppercase/P.txt" title="index_P">P</a> ] [ <a data-title="index_Q" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/Q.txt" href="http://www.indexbox.com/index/language/english/uppercase/Q.txt" title="index_Q">Q</a> ] [ <a data-title="index_R" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/R.txt" href="http://www.indexbox.com/index/language/english/uppercase/R.txt" title="index_R">R</a> ] [ <a data-title="index_S" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/S.txt" href="http://www.indexbox.com/index/language/english/uppercase/S.txt" title="index_S">S</a> ] [ <a data-title="index_T" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/T.txt" href="http://www.indexbox.com/index/language/english/uppercase/T.txt" title="index_T">T</a> ] [ <a data-title="index_U" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/U.txt" href="http://www.indexbox.com/index/language/english/uppercase/U.txt" title="index_U">U</a> ] [ <a data-title="index_V" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/V.txt" href="http://www.indexbox.com/index/language/english/uppercase/V.txt" title="index_V">V</a> ] [ <a data-title="index_W" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/W.txt" href="http://www.indexbox.com/index/W.txt" title="index_W">W</a> ] [ <a data-title="index_X" data-type="url" data-url="http://www.indexbox.com/index/X.txt" href="http://www.indexbox.com/index/X.txt" title="index_X">X</a><span style="background-color: transparent;"> ] [ <a data-title="index_Y" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/Y.txt" href="http://www.indexbox.com/index/language/english/uppercase/Y.txt" title="index_Y">Y</a> ] [ <a data-title="index_Z" data-type="url" data-url="http://www.indexbox.com/index/language/english/uppercase/Z.txt" href="http://www.indexbox.com/index/language/english/uppercase/Z.txt" title="index_Z">Z</a> ]</span></p>
+  </div>
+
+ <input name="tabs" type="radio" id="tab-6"  class="input"/>
+  <label for="tab-6" class="label">French</label>
+  <div class="tab">
+    <h1>French</h1>
+    <p><a href="https://en.wikipedia.org/wiki/French_orthographyl">https://en.wikipedia.org/wiki/French_orthography</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-7"  class="input"/>
+  <label for="tab-7" class="label">German</label>
+  <div class="tab">
+    <h1>German</h1>
+    <p><a href="https://learn-german-easily.com/alphabet">https://learn-german-easily.com/alphabet</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-8"  class="input"/>
+  <label for="tab-8" class="label">Greek</label>
+  <div class="tab">
+    <h1>Greek</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Greek_alphabet">https://en.wikipedia.org/wiki/Greek_alphabet</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-9"  class="input"/>
+  <label for="tab-9" class="label">Hindi</label>
+  <div class="tab">
+    <h1>Hindi</h1>
+    <p><a href="https://learningmole.com/hindi-alphabet-letters-pronunciation-guide/">https://learningmole.com/hindi-alphabet-letters-pronunciation-guide/</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-10"  class="input"/>
+  <label for="tab-10" class="label">India</label>
+  <div class="tab">
+    <h1>India</h1>
+    <p><a href="http://www.ukindia.com/zalph.htm">http://www.ukindia.com/zalph.htm</a></p>
+  </div>
+  
+   <input name="tabs" type="radio" id="tab-11"  class="input"/>
+  <label for="tab-11" class="label">Italian</label>
+  <div class="tab">
+    <h1>Italian</h1>
+    <p><a href="https://www.thinkinitalian.com/the-italian-alphabet/m">https://www.thinkinitalian.com/the-italian-alphabet/</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-12"  class="input"/>
+  <label for="tab-12" class="label">Japanese</label>
+  <div class="tab">
+    <h1>Japanese</h1>
+    <p>[ <a data-title="t0-sounder table" data-type="url" data-url="http://www.indexbox.com/index/language/japanese/50-sounder_table.html" href="http://www.indexbox.com/index/language/japanese/50-sounder_table.html" title="50-sounder table">50-sounder table</a> ] </p>
+	<p>ぁあ ぃい ぅう ぇえ ぉお かが きぎ くぐ けげ こご さざ しじ すず せぜ そぞ ただ ちぢ っつ づ てで とど なに ぬね の は ばぱ ひびぴ ふぶぷ 	へべぺ ほぼぽ ま み む め も ゃや ゅゆ ょよ らり る れ ろ ゎわ ゐ ゑ を ん ゔ ゕ ゖ ゙ 	゚ 	゛ ゜ ゝ ゞ ゟ</p>
+   </div>
+   
+  <input name="tabs" type="radio" id="tab-13"  class="input"/>
+  <label for="tab-13" class="label">Korean</label>
+  <div class="tab">
+    <h1>Korean</h1>
+	<p>[ <a data-title="Hangul table" data-type="url" data-url="http://www.indexbox.com/index/language/korean/hangul_table.html" href="http://www.indexbox.com/index/language/korean/hangul_table.html" title="Hangul table">hangul table</a> ] </p>
+	<p>[ <a data-title="index_ㄱ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㄱ.txt" href="http://www.indexbox.com/index/language/korean/ㄱ.txt" title="index_ㄱ">ㄱ</a> ] 
+[ <a data-title="index_ㄲ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㄲ.txt" href="http://www.indexbox.com/index/language/korean/ㄲ.txt" title="index_ㄲ">ㄲ</a> ] 
+[ <a data-title="index_ㄴ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㄴ.txt" href="http://www.indexbox.com/index/language/korean/ㄴ.txt" title="index_ㄴ">ㄴ</a> ] 
+[ <a data-title="index_ㄷ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㄷ.txt" href="http://www.indexbox.com/index/language/korean/ㄷ.txt" title="index_ㄷ">ㄷ</a> ] 
+[ <a data-title="index_ㄸ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㄸ.txt" href="http://www.indexbox.com/index/language/korean/ㄸ.txt" title="index_ㄸ">ㄸ</a> ] 
+[ <a data-title="index_ㄹ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㄹ.txt" href="http://www.indexbox.com/index/language/korean/ㄹ.txt" title="index_ㄹ">ㄹ</a> ] 
+[ <a data-title="index_ㅁ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅁ.txt" href="http://www.indexbox.com/index/language/korean/ㅁ.txt" title="index_ㅁ">ㅁ</a> ] 
+[ <a data-title="index_ㅂ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅂ.txt" href="http://www.indexbox.com/index/language/korean/ㅂ.txt" title="index_ㅂ">ㅂ</a> ] 
+[ <a data-title="index_ㅃ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅃ.txt" href="http://www.indexbox.com/index/language/korean/ㅃ.txt" title="index_ㅃ">ㅃ</a> ] 
+[ <a data-title="index_ㅅ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅅ.txt" href="http://www.indexbox.com/index/language/korean/ㅅ.txt" title="index_ㅅ">ㅅ</a> ] 
+[ <a data-title="index_ㅆ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅆ.txt" href="http://www.indexbox.com/index/language/korean/ㅆ.txt" title="index_ㅆ">ㅆ</a> ] 
+[ <a data-title="index_ㅇ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅇ.txt" href="http://www.indexbox.com/index/language/korean/ㅇ.txt" title="index_ㅇ">ㅇ</a> ] 
+[ <a data-title="index_ㅈ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅈ.txt" href="http://www.indexbox.com/index/language/korean/ㅈ.txt" title="index_ㅈ">ㅈ</a> ] 
+[ <a data-title="index_ㅉ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅉ.txt" href="http://www.indexbox.com/index/language/korean/ㅉ.txt" title="index_ㅉ">ㅉ</a> ] 
+[ <a data-title="index_ㅊ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅊ.txt" href="http://www.indexbox.com/index/language/korean/ㅊ.txt" title="index_ㅊ">ㅊ</a> ] 
+[ <a data-title="index_ㅋ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅋ.txt" href="http://www.indexbox.com/index/language/korean/ㅋ.txt" title="index_ㅋ">ㅋ</a> ] 
+[ <a data-title="index_ㅌ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅌ.txt" href="http://www.indexbox.com/index/language/korean/ㅌ.txt" title="index_ㅌ">ㅌ</a> ] 
+[ <a data-title="index_ㅍ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅍ.txt" href="http://www.indexbox.com/index/language/korean/ㅍ.txt" title="index_ㅍ">ㅍ</a> ] 
+[ <a data-title="index_ㅎ" data-type="url" data-url="http://www.indexbox.com/index/language/korean/ㅎ.txt" href="http://www.indexbox.com/index/language/korean/ㅎ.txt" title="index_ㅎ">ㅎ</a> ] 
+	</p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-14"  class="input"/>
+  <label for="tab-14" class="label">Latin</label>
+  <div class="tab">
+    <h1>Latin</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Latin_alphabet">https://en.wikipedia.org/wiki/Latin_alphabet</a></p>
+  </div>
+ 
+  <input name="tabs" type="radio" id="tab-15"  class="input"/>
+  <label for="tab-15" class="label">Norwegian</label>
+  <div class="tab">
+    <h1>Norwegian</h1>
+    <p><a href="https://www.lifeinnorway.net/norwegian-alphabet/">https://www.lifeinnorway.net/norwegian-alphabet/</a></p>
+  </div>
+
+ <input name="tabs" type="radio" id="tab-16"  class="input"/>
+  <label for="tab-16" class="label">Filipino</label>
+  <div class="tab">
+    <h1>Filipino</h1>
+    <p><a href="https://learningfilipino.com/language/filipino-alphabet/">https://learningfilipino.com/language/filipino-alphabet/</a></p>
+  </div>
+ 
+ <input name="tabs" type="radio" id="tab-17"  class="input"/>
+  <label for="tab-17" class="label">Portuguese</label>
+  <div class="tab">
+    <h1>Portuguese</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Portuguese_orthography/">https://en.wikipedia.org/wiki/Portuguese_orthography</a></p>
+  </div>
+ 
+  <input name="tabs" type="radio" id="tab-18"  class="input"/>
+  <label for="tab-18" class="label">Russian</label>
+  <div class="tab">
+    <h1>Russian</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Russian_alphabet">https://en.wikipedia.org/wiki/Russian_alphabet</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-19"  class="input"/>
+  <label for="tab-19" class="label">Spanish</label>
+  <div class="tab">
+    <h1>Spanish</h1>
+    <p><a href="https://spanish411.net/Spanish-Alphabet.asp">https://spanish411.net/Spanish-Alphabet.asp</a></p>
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-20"  class="input"/>
+  <label for="tab-20" class="label">Thai</label>
+  <div class="tab">
+    <h1>Thai</h1>
+    <p><a href="https://omniglot.com/writing/thai.htm">https://omniglot.com/writing/thai.htm</a></p>    
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-21"  class="input"/>
+  <label for="tab-21" class="label">Turkish</label>
+  <div class="tab">
+    <h1>Turkish</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Turkish_alphabet">https://en.wikipedia.org/wiki/Turkish_alphabet</a></p> 
+  </div>
+  
+  <input name="tabs" type="radio" id="tab-22"  class="input"/>
+  <label for="tab-22" class="label">Ukrainian</label>
+  <div class="tab">
+    <h1>Ukrainian</h1>
+    <p><a href="https://en.wikipedia.org/wiki/Ukrainian_alphabet">https://en.wikipedia.org/wiki/Ukrainian_alphabet</a></p> 
+   </div>
+   
+  <input name="tabs" type="radio" id="tab-23"  class="input"/>
+  <label for="tab-23" class="label">Vietnamese</label>
+  <div class="tab">
+    <h1>Vietnamese</h1>
+    <p>29 Upper case letter: A,Ă,Â,B,C,D,Đ,E,Ê,G,H,I,K,L,M,N,O,Ô,Ơ,P,Q,R,S,T,U,Ư,V,X,Y</p>
+	<p>29 Lower case letter: c,ă,â,b,c,d,đ,e,ê,g,h,i,k,l,m,n,o,ô,ơ,p,q,r,s,t,u,ư,v,x,y</p>
+	<p>12 vowel: (A,a)_1,(Ă,ă)_2,(Â,â)_3,(E,e)_4,(Ê,ê)_5,(I,i)_6,(O,o)_7,(Ô,ô)_8,(Ơ,ơ)_9,(U,u)_10,(Ư,ư)_11,(Y,y)_12</p>
+	<p>17 consonant: (B,b)_1,(C,c)_2,(D,d)_3,(Đ,đ)_4,(G,g)_5,(H,h)_6,(K,k)_7,(L,l)_8,(M,m)_9,(N,n)_10,(P,p)_11,(Q,q)_12,(R,r)_13,(S,s)_14,(T,t)_15,(V,v)_16,(X,x)_17</p>
+  </div>
+</div>	
+</body>
