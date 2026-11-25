@@ -1,8 +1,8 @@
 ---
-title: Chinese zhuyin
+title: Chinese Zhuyin
 ---
 
-# Chinese zhuyin
+# Chinese Zhuyin (注音) 37 of them
 
 :::{div}
 :class: index-table-page
