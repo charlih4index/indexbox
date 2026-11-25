@@ -27,9 +27,7 @@ This website contains all the URL featured in the page(s).
 fig-self8.
 ```
 
-<!-- <img width="1262" height="482" alt="image" src="https://github.com/user-attachments/assets/23d02fa1-6b36-41d3-b54c-d6c1c5c02a6c" /> -->
 
-<!-- <img width="476" height="114" alt="image" src="https://github.com/user-attachments/assets/9a55a951-6f7c-443d-ab05-4f6a01d6885c" /> -->
 
 ---
 ## Indexer AKA. Bookmark. 
