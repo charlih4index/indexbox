@@ -34,7 +34,7 @@ fig-self8.
 
 <iframe src="/sandbox/language/language.html" width="100%" height="900" frameborder="0" title="Indexing by language"></iframe>
 
-<a href="/sandbox/language/language.html" target="_blank" rel="noopener">Open the language index in a new tab</a>
+<a href="https://indexbox.com/sandbox/language/language.html" target="_blank" rel="noopener">Open the language index in a new tab</a>
 
 ## Category AKA. Sub-Bookmark
 
