@@ -33,4 +33,5 @@ title: Chinese zhuyin
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [ㄚ](../chinese/u311a.md) | [ㄛ](../chinese/u311b.md) | [ㄜ](../chinese/u311c.md) | [ㄝ](../chinese/u311d.md) | [ㄞ](../chinese/u311e.md) | [ㄟ](../chinese/u311f.md) | [ㄠ](../chinese/u3120.md) | [ㄡ](../chinese/u3121.md) | [ㄢ](../chinese/u3122.md) | [ㄣ](../chinese/u3123.md) | [ㄤ](../chinese/u3124.md) | [ㄥ](../chinese/u3125.md) | [ㄦ](../chinese/u3126.md) | | | | | | | | |
+
 :::
